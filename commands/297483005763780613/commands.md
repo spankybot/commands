@@ -1,90 +1,8 @@
 Bot commands:
 ------
 ### admin 
-**add_admin_role**: &lt;role&gt; - Add role that can run administrative bot commands.
-
-**add_chan_to_chgroup**: &lt;channel channel-group&gt; - Add channel to channel group
-
-**add_channel_group**: &lt;group-name&gt; - Create a group of channels
-
-**add_chgroup_to_cmd**: &lt;channel-group command&gt; - Add a channel-group to a command. The command will only be usable in that channel.
-
-**add_fchgroup_to_cmd**: &lt;command channel-group&gt; - Add a forbidden channel-group to command
-
-**add_owner_to_cmd**: &lt;command user-group&gt; - Add a user-group to own a command
-
-**add_user_group**: &lt;group name&gt; - Create a user group
-
-**add_user_to_ugroup**: &lt;user user-group&gt; - Add user to user group
-
-**clear_default_bot_channel**: &lt;channel&gt; - Configure a channel where any bot command can be used, unless otherwise specified.
-
-**del_chan_from_chgroup**: &lt;channel channel-group&gt; - Delete channel from channel group
-
-**del_channel_group**: &lt;group-name&gt; - Delete a group of channels
-
-**del_chgroup_from_cmd**: &lt;command channel-group&gt; - Delete a user-group from a command&#x27;s ownership
-
-**del_fchgroup_from_cmd**: &lt;command channel-group&gt; - Delete a user-group from a command&#x27;s forbidden list
-
-**del_owner_from_cmd**: &lt;command user-group&gt; - Delete user-group from command ownership list
-
-**del_user_from_ugroup**: &lt;user user-group&gt; - Delete user from user group
-
-**del_user_group**: &lt;group name&gt; - Deletes a user group
-
-**get_admin_roles**: No documentation provided.
-
-**list_channel_groups**: List available groups of channels
-
-**list_chans_in_chgroup**: &lt;channel-group&gt; - List channels in channel-group
-
-**list_chgroups_for_cmd**: &lt;command&gt; - List in what channel-groups command is usable
-
-**list_default_bot_channel**: List the built in bot command channel.
-
-**list_fchgroups_for_cmd**: &lt;command&gt; - List in what channel-groups command is NOT usable
-
-**list_owners_for_cmd**: &lt;command&gt; - List what user-groups own a command
-
-**list_user_groups**: List user groups
-
-**list_users_in_ugroup**: No documentation provided.
-
-**remove_admin_role**: No documentation provided.
-
-**set_default_bot_channel**: &lt;channel&gt; - Configure a channel where any bot command can be used, unless otherwise specified by other rules.
-
 ------
 ### admin_utils 
-**add_join_event**: &lt;&#x27;type&#x27; &#x27;option&#x27;&gt; - Add action to be triggered on user join.
-
-Possible actions:
-
- * message #channel blahblah -&gt; send blahblah to #channel
-
- * role @role -&gt; set @role on join).
-
-The scripted message can contain special words that are replaced when the event is triggered:
-
- * {AGE} - Account age
-
- * {USER} - User that just joined
-
- * {USER_ID} - User ID
-
-
-
-e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x27;John / 12345678910 just joined!&#x27;
-
-**ban**: &lt;user&gt; - Ban someone
-
-**del_join_event**: &lt;event&gt; - delete a join event
-
-**kick**: &lt;user&gt; - Kick someone
-
-**list_join_events**: List on-join events
-
 ------
 ### animal_gifs 
 **doggifs**: - Returns a random dog GIF from http://bestanimations.com/
@@ -165,8 +83,6 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 
 ------
 ### del_messages 
-**delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
-
 ------
 ### dex 
 **dex**: No documentation provided.
@@ -341,8 +257,6 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 
 ------
 ### help 
-**gen_documentation**: No documentation provided.
-
 **help**: Get help for a command or the help document
 
 ------
@@ -397,20 +311,6 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 
 ------
 ### log_events 
-**add_filter_out_channel**: &lt;channel&gt; - Don&#x27;t log events on a certain channel.
-
-**clear_event_log_chan**: &lt;channel&gt; - Clear logging channel and deactivate logging.
-
-**clear_filter_out_channel**: &lt;channel&gt; - Remove channel event filtering.
-
-**get_event_log_chan**: &lt;channel&gt; - Get the event log channel.
-
-**list_filtered_out_channels**: &lt;channel&gt; - List filtered channels.
-
-**set_event_log_chan**: &lt;channel&gt; - Activate event logging and log to channel.
-
-Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
-
 ------
 ### lurve 
 **lurve**: lurves all over &lt;user&gt;
@@ -471,6 +371,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 **fetch_image**: No documentation provided.
 
+**fetish**: No documentation provided.
+
 **force_refresh_porn**: No documentation provided.
 
 **lesbiene**: No documentation provided.
@@ -510,8 +412,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **dealwithit**: &lt;nick&gt; - Tell &lt;nick&gt; in the channel to deal with it. Code located in reactions.py
 
 **facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
-
-**fetish**: &lt;nick&gt; - Did some one just mention what your fetish was? Let &lt;nick&gt; know! Code located in reactions.py
 
 **headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
 
@@ -569,12 +469,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### roddit_intrebati_orice 
-**clear_roddit_channel**: Remove &#x27;intrebati orice&#x27; announcement channel.
-
-**get_roddit_channel**: List &#x27;intrebati orice&#x27; annoucement channel.
-
-**set_roddit_channel**: &lt;channel&gt; - Send &#x27;intrebati orice&#x27; on channel.
-
 ------
 ### rottentomatoes 
 **rottentomatoes**: &lt;title&gt; - gets ratings for &lt;title&gt; from Rotten Tomatoes
@@ -620,8 +514,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **tag**: &lt;tag&gt; - Return a tag.
 
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
-
-**tag_del**: &lt;tag&gt; - delete a tag
 
 ------
 ### thefuckingweather 
