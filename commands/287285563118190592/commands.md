@@ -410,8 +410,52 @@ Bot commands:
 **recipe**: [term] - gets a recipe for [term], or gets a random recipe if no term is specified
 
 ------
+### roddit_admin 
+**bulautime**: Print remaining time in bulau
+
+------
 ### roddit_color 
 **color**: No documentation provided.
+
+------
+### roddit_dex 
+**dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
+
+------
+### roddit_fun 
+**aplauze**: No documentation provided.
+
+**ayy**: No documentation provided.
+
+**bitter**: No documentation provided.
+
+**bluntlee**: No documentation provided.
+
+**brutalistu**: No documentation provided.
+
+**cacat**: No documentation provided.
+
+**cola**: No documentation provided.
+
+**dance**: No documentation provided.
+
+**iazo**: No documentation provided.
+
+**jupi**: No documentation provided.
+
+**mcioran**: No documentation provided.
+
+**mpuric**: No documentation provided.
+
+**mtutea**: No documentation provided.
+
+**muie**: No documentation provided.
+
+**murmuz**: No documentation provided.
+
+**puti**: No documentation provided.
+
+**shrug**: No documentation provided.
 
 ------
 ### rottentomatoes 
