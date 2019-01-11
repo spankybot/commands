@@ -61,17 +61,17 @@ Bot commands:
 
 Possible actions:
 
-    - message #channel blahblah -&gt; send blahblah to #channel
+    * message #channel blahblah -&gt; send blahblah to #channel
 
-    - role @role -&gt; set @role on join).
+    * role @role -&gt; set @role on join).
 
 The scripted message can contain special words that are replaced when the event is triggered:
 
-    - {AGE} - Account age
+    * {AGE} - Account age
 
-    - {USER} - User that just joined
+    * {USER} - User that just joined
 
-    - {USER_ID} - User ID
+    * {USER_ID} - User ID
 
 
 
