@@ -1,9 +1,5 @@
 Bot commands:
 ------
-### admin 
-------
-### admin_utils 
-------
 ### animal_gifs 
 **doggifs**: - Returns a random dog GIF from http://bestanimations.com/
 
@@ -81,8 +77,6 @@ Bot commands:
 
 **decypher**: &lt;pass&gt; &lt;string&gt; - decyphers &lt;string&gt; with &lt;password&gt;
 
-------
-### del_messages 
 ------
 ### dex 
 **dex**: No documentation provided.
@@ -310,8 +304,6 @@ Bot commands:
 **lmgtfy**: [phrase] - gets a lmgtfy.com link for the specified phrase
 
 ------
-### log_events 
-------
 ### lurve 
 **lurve**: lurves all over &lt;user&gt;
 
@@ -467,8 +459,6 @@ Bot commands:
 
 **shrug**: No documentation provided.
 
-------
-### roddit_intrebati_orice 
 ------
 ### rottentomatoes 
 **rottentomatoes**: &lt;title&gt; - gets ratings for &lt;title&gt; from Rotten Tomatoes

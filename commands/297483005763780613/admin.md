@@ -86,85 +86,13 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **list_join_events**: List on-join events
 
 ------
-### animal_gifs 
-------
-### attacks 
-------
-### avatar 
-------
-### bible 
-------
-### books 
-------
-### brainfuck 
-------
-### brew 
-------
-### cats 
-------
-### cb 
-------
-### cryptocurrency 
-------
-### cypher 
-------
 ### del_messages 
 **delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
 
 ------
-### dex 
-------
-### dogpile 
-------
-### domainr 
-------
-### dramatica 
-------
-### drinks 
-------
-### eightball 
-------
-### etymology 
-------
-### fact 
-------
-### flip 
-------
-### fmk 
-------
-### foaas 
-------
-### foods 
-------
-### fortune 
-------
-### gaming 
-------
-### giphy 
-------
-### github 
-------
-### gnomeagainsthumanity 
-------
-### grab 
-------
 ### help 
 **gen_documentation**: No documentation provided.
 
-------
-### imdb 
-------
-### issafe 
-------
-### jokes 
-------
-### kenm 
-------
-### lenny 
-------
-### linux 
-------
-### lmgtfy 
 ------
 ### log_events 
 **add_filter_out_channel**: &lt;channel&gt; - Don&#x27;t log events on a certain channel.
@@ -182,36 +110,6 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
-### lurve 
-------
-### metacritic 
-------
-### metars 
-------
-### mock 
-------
-### name_generator 
-------
-### pagecheck 
-------
-### ping 
-------
-### porn 
-------
-### quran 
-------
-### randomusefulwebsites 
-------
-### reactions 
-------
-### recipe 
-------
-### roddit_bulau 
-------
-### roddit_color 
-------
-### roddit_fun 
-------
 ### roddit_intrebati_orice 
 **clear_roddit_channel**: Remove &#x27;intrebati orice&#x27; announcement channel.
 
@@ -220,44 +118,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **set_roddit_channel**: &lt;channel&gt; - Send &#x27;intrebati orice&#x27; on channel.
 
 ------
-### rottentomatoes 
-------
-### shorten 
-------
-### spank 
-------
-### stock 
-------
-### suggest 
-------
-### system 
-------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
 
-------
-### thefuckingweather 
-------
-### time_plugin 
-------
-### trump 
-------
-### urban 
-------
-### utility 
-------
-### validate 
-------
-### wandbox 
-------
-### watch 
-------
-### weather 
-------
-### whois 
-------
-### wikipedia 
-------
-### xkcd 
-------
-### youtube 
