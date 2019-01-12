@@ -95,6 +95,8 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 
 ------
 ### log_events 
+**add_bad_word**: &lt;word&gt; - remove a message it contains &#x27;word&#x27;
+
 **add_filter_out_channel**: &lt;channel&gt; - Don&#x27;t log events on a certain channel.
 
 **clear_event_log_chan**: &lt;channel&gt; - Clear logging channel and deactivate logging.
@@ -103,7 +105,11 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 
 **get_event_log_chan**: &lt;channel&gt; - Get the event log channel.
 
+**list_bad_words**: List bad words
+
 **list_filtered_out_channels**: &lt;channel&gt; - List filtered channels.
+
+**remove_bad_word**: &lt;word&gt; - Remove a bad word
 
 **set_event_log_chan**: &lt;channel&gt; - Activate event logging and log to channel.
 

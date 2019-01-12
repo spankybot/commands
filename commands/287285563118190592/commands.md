@@ -239,9 +239,9 @@ Bot commands:
 ### grab 
 **grab**: &lt;user&gt; - grab user&#x27;s last message
 
-**grabl**: &lt;user&gt; - List quotes for user.  
+**grabl**: &lt;user&gt; - List quotes for user.
 
-**grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.  
+**grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.
 
 **grabu**: &lt;user&gt; - Grab random quote from user
 
@@ -495,6 +495,8 @@ Bot commands:
 
 ------
 ### system 
+**about**: No documentation provided.
+
 **system**: -- Retrieves information about the host system.
 
 ------
