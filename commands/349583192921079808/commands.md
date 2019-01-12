@@ -32,6 +32,10 @@ Bot commands:
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
 
 ------
+### blackmirror_roles 
+**charlie**: No documentation provided.
+
+------
 ### books 
 **books**: &lt;query&gt; - Searches Google Books for &lt;query&gt;.
 
@@ -352,8 +356,6 @@ Bot commands:
 **dealwithit**: &lt;nick&gt; - Tell &lt;nick&gt; in the channel to deal with it. Code located in reactions.py
 
 **facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
-
-**fetish**: &lt;nick&gt; - Did some one just mention what your fetish was? Let &lt;nick&gt; know! Code located in reactions.py
 
 **headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
 
