@@ -243,9 +243,9 @@ Bot commands:
 ### grab 
 **grab**: &lt;user&gt; - grab user&#x27;s last message
 
-**grabl**: &lt;user&gt; - List quotes for user.  
+**grabl**: &lt;user&gt; - List quotes for user.
 
-**grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.  
+**grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.
 
 **grabu**: &lt;user&gt; - Grab random quote from user
 
@@ -356,6 +356,8 @@ Bot commands:
 **dealwithit**: &lt;nick&gt; - Tell &lt;nick&gt; in the channel to deal with it. Code located in reactions.py
 
 **facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
+
+**fetish**: &lt;nick&gt; - Did some one just mention what your fetish was? Let &lt;nick&gt; know! Code located in reactions.py
 
 **headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
 
