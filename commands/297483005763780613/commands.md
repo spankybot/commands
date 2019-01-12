@@ -340,10 +340,6 @@ Bot commands:
 **ping**: &lt;host&gt; [count] - pings &lt;host&gt; [count] times
 
 ------
-### porn 
-**force_refresh_porn**: No documentation provided.
-
-------
 ### quran 
 **quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
 
