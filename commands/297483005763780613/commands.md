@@ -341,51 +341,7 @@ Bot commands:
 
 ------
 ### porn 
-**amateur**: No documentation provided.
-
-**anal**: No documentation provided.
-
-**aww**: No documentation provided.
-
-**blep**: No documentation provided.
-
-**buci**: No documentation provided.
-
-**capre**: No documentation provided.
-
-**craci**: No documentation provided.
-
-**cutu**: No documentation provided.
-
-**fetch_image**: No documentation provided.
-
-**fetish**: No documentation provided.
-
 **force_refresh_porn**: No documentation provided.
-
-**lesbiene**: No documentation provided.
-
-**milf**: No documentation provided.
-
-**nsfwfunny**: No documentation provided.
-
-**pisi**: No documentation provided.
-
-**roscate**: No documentation provided.
-
-**skinny**: No documentation provided.
-
-**sloboz**: No documentation provided.
-
-**tatuate**: No documentation provided.
-
-**teen**: No documentation provided.
-
-**thicc**: No documentation provided.
-
-**traps**: No documentation provided.
-
-**tzatze**: No documentation provided.
 
 ------
 ### quran 
@@ -408,10 +364,6 @@ Bot commands:
 **dinner**: - TELLS YOU WHAT THE F**K YOU SHOULD MAKE FOR DINNER
 
 **recipe**: [term] - gets a recipe for [term], or gets a random recipe if no term is specified
-
-------
-### roddit_color 
-**color**: No documentation provided.
 
 ------
 ### rottentomatoes 
