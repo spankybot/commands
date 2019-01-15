@@ -60,6 +60,10 @@ Bot commands:
 **coa**: &lt;text&gt; - talk to CleverBot
 
 ------
+### correction 
+**s**: &lt;word replacement&gt; - replace &#x27;word&#x27; with replacement
+
+------
 ### cryptocurrency 
 **bitcoin / btc**: - Returns the current bitcoin value
 
@@ -243,7 +247,9 @@ Bot commands:
 ### grab 
 **grab**: &lt;user&gt; - grab user&#x27;s last message
 
-**grabl**: &lt;user&gt; - List quotes for user.
+**grabl**: &lt;user&gt; - List quotes for user. If no user is specified, it lists everything on the server.
+
+**grabr**: No documentation provided.
 
 **grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.
 
@@ -308,6 +314,10 @@ Bot commands:
 **lurve**: lurves all over &lt;user&gt;
 
 ------
+### magik 
+**magik**: No documentation provided.
+
+------
 ### metacritic 
 **metacritic**: [all|movie|tv|album|x360|ps3|pc|gba|ds|3ds|wii|vita|wiiu|xone|ps4] &lt;title&gt; - gets rating for &lt;title&gt; from
 
@@ -356,8 +366,6 @@ Bot commands:
 **dealwithit**: &lt;nick&gt; - Tell &lt;nick&gt; in the channel to deal with it. Code located in reactions.py
 
 **facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
-
-**fetish**: &lt;nick&gt; - Did some one just mention what your fetish was? Let &lt;nick&gt; know! Code located in reactions.py
 
 **headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
 
