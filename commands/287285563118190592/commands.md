@@ -311,6 +311,8 @@ Bot commands:
 
 ------
 ### magik 
+**gmagik**: No documentation provided.
+
 **magik**: No documentation provided.
 
 ------
@@ -511,7 +513,7 @@ Bot commands:
 
 ------
 ### tag 
-**tag**: &lt;tag&gt; - Return a tag.
+**tag**: &lt;tag&gt; - Return a tag. &#x27;.tag list&#x27; lists tags, &#x27;.tag random&#x27; returns random tag
 
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
 
