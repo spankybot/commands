@@ -116,6 +116,14 @@ Bot commands:
     :type text: str
 
 ------
+### face 
+**glasses**: No documentation provided.
+
+**hat**: No documentation provided.
+
+**moustache**: No documentation provided.
+
+------
 ### fact 
 **fact**: - Gets a random fact about numbers or dates.
 
@@ -315,6 +323,8 @@ Bot commands:
 
 ------
 ### magik 
+**gmagik**: No documentation provided.
+
 **magik**: No documentation provided.
 
 ------
@@ -366,6 +376,8 @@ Bot commands:
 **dealwithit**: &lt;nick&gt; - Tell &lt;nick&gt; in the channel to deal with it. Code located in reactions.py
 
 **facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
+
+**fetish**: &lt;nick&gt; - Did some one just mention what your fetish was? Let &lt;nick&gt; know! Code located in reactions.py
 
 **headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
 
@@ -419,7 +431,7 @@ Bot commands:
 
 ------
 ### tag 
-**tag**: &lt;tag&gt; - Return a tag.
+**tag**: &lt;tag&gt; - Return a tag. &#x27;.tag list&#x27; lists tags, &#x27;.tag random&#x27; returns random tag
 
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
 

@@ -7,7 +7,7 @@ Admin commands:
 
 **add_channel_group**: &lt;group-name&gt; - Create a group of channels
 
-**add_chgroup_to_cmd**: &lt;channel-group command&gt; - Add a channel-group to a command. The command will only be usable in that channel.
+**add_chgroup_to_cmd**: &lt;command channel-group&gt; - Add a channel-group to a command. The command will only be usable in that channel.
 
 **add_fchgroup_to_cmd**: &lt;command channel-group&gt; - Add a forbidden channel-group to command
 
