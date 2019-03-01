@@ -112,7 +112,13 @@ Bot commands:
     :type text: str
 
 ------
+### expand 
+**e**: No documentation provided.
+
+------
 ### face 
+**eyes**: No documentation provided.
+
 **glasses**: No documentation provided.
 
 **hat**: No documentation provided.
@@ -253,7 +259,7 @@ Bot commands:
 
 **grabl**: &lt;user&gt; - List quotes for user. If no user is specified, it lists everything on the server.
 
-**grabr**: No documentation provided.
+**grabr**: Grab random quote
 
 **grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.
 
@@ -406,6 +412,10 @@ Bot commands:
 **tzatze**: No documentation provided.
 
 ------
+### qalc 
+**calc**: &lt;expression&gt; - qalc interface
+
+------
 ### quran 
 **quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
 
@@ -436,6 +446,10 @@ Bot commands:
 ------
 ### roddit_color 
 **color**: No documentation provided.
+
+**joc**: No documentation provided.
+
+**rol**: No documentation provided.
 
 ------
 ### roddit_dex 
