@@ -113,7 +113,7 @@ Bot commands:
 
 ------
 ### expand 
-**e**: No documentation provided.
+**e**: Expand an emoji
 
 ------
 ### face 
@@ -385,6 +385,8 @@ Bot commands:
 
 **fetch_image**: No documentation provided.
 
+**fetish**: No documentation provided.
+
 **force_refresh_porn**: No documentation provided.
 
 **lesbiene**: No documentation provided.
@@ -429,8 +431,6 @@ Bot commands:
 
 **facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
 
-**fetish**: &lt;nick&gt; - Did some one just mention what your fetish was? Let &lt;nick&gt; know! Code located in reactions.py
-
 **headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
 
 ------
@@ -442,14 +442,6 @@ Bot commands:
 ------
 ### roddit_admin 
 **bulautime**: Print remaining time in bulau
-
-------
-### roddit_color 
-**color**: No documentation provided.
-
-**joc**: No documentation provided.
-
-**rol**: No documentation provided.
 
 ------
 ### roddit_dex 
@@ -490,6 +482,14 @@ Bot commands:
 **puti**: No documentation provided.
 
 **shrug**: No documentation provided.
+
+------
+### roddit_roles 
+**color**: No documentation provided.
+
+**joc**: No documentation provided.
+
+**rol**: No documentation provided.
 
 ------
 ### rottentomatoes 
