@@ -235,7 +235,7 @@ Bot commands:
 
     :type text: str
 
-**roll**: &lt;dice roll&gt; - simulates dice rolls. Example: &#x27;dice 2d20-d5+4 roll 2&#x27;: D20s, subtract 1D5, add 4
+**dice**: &lt;dice roll&gt; - simulates dice rolls. Example: &#x27;dice 2d20-d5+4 roll 2&#x27;: D20s, subtract 1D5, add 4
 
     :type text: str
 
@@ -325,9 +325,43 @@ Bot commands:
 
 ------
 ### magik 
+**cat**: No documentation provided.
+
+**crowd**: No documentation provided.
+
+**df**: No documentation provided.
+
+**fried**: No documentation provided.
+
+**ggif**: No documentation provided.
+
 **gmagik**: No documentation provided.
 
+**hue**: No documentation provided.
+
 **magik**: No documentation provided.
+
+**noise**: No documentation provided.
+
+**npc**: No documentation provided.
+
+**pulse**: No documentation provided.
+
+**rain**: No documentation provided.
+
+**roll**: No documentation provided.
+
+**scan**: No documentation provided.
+
+**shake**: No documentation provided.
+
+**tint**: No documentation provided.
+
+**wobble**: No documentation provided.
+
+**woke**: No documentation provided.
+
+**zoom**: No documentation provided.
 
 ------
 ### metacritic 
