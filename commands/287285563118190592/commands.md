@@ -133,7 +133,7 @@ Bot commands:
 ### flip 
 **fix**: &lt;text&gt; - fixes a flipped over table. ┬─┬ノ(ಠ_ಠノ)
 
-**flip**: &lt;text&gt; - Flips &lt;text&gt; over.
+**flip_text**: &lt;text&gt; - Flips &lt;text&gt; over.
 
 **table**: &lt;text&gt; - (╯°□°）╯︵ &lt;ʇxǝʇ&gt;
 
@@ -274,6 +274,50 @@ Bot commands:
 **imdb**: &lt;movie&gt; - gets information about &lt;movie&gt; from IMDb
 
 ------
+### img_manip 
+**cat**: No documentation provided.
+
+**crowd**: No documentation provided.
+
+**df**: Deepfry image
+
+**flip**: Flip image horizontally
+
+**flop**: Flip image vertically
+
+**fried**: No documentation provided.
+
+**hue**: No documentation provided.
+
+**implode**: Implode image
+
+**negate**: Invert colors
+
+**noise**: No documentation provided.
+
+**npc**: No documentation provided.
+
+**pulse**: No documentation provided.
+
+**rain**: No documentation provided.
+
+**resize**: Resize image
+
+**roll**: No documentation provided.
+
+**scan**: No documentation provided.
+
+**shake**: No documentation provided.
+
+**tint**: No documentation provided.
+
+**wobble**: No documentation provided.
+
+**woke**: No documentation provided.
+
+**zoom**: No documentation provided.
+
+------
 ### issafe 
 **issafe**: &lt;website&gt; -- Checks the website against Google&#x27;s Safe Browsing List.
 
@@ -325,43 +369,9 @@ Bot commands:
 
 ------
 ### magik 
-**cat**: No documentation provided.
-
-**crowd**: No documentation provided.
-
-**df**: No documentation provided.
-
-**fried**: No documentation provided.
-
-**ggif**: No documentation provided.
-
 **gmagik**: No documentation provided.
 
-**hue**: No documentation provided.
-
 **magik**: No documentation provided.
-
-**noise**: No documentation provided.
-
-**npc**: No documentation provided.
-
-**pulse**: No documentation provided.
-
-**rain**: No documentation provided.
-
-**roll**: No documentation provided.
-
-**scan**: No documentation provided.
-
-**shake**: No documentation provided.
-
-**tint**: No documentation provided.
-
-**wobble**: No documentation provided.
-
-**woke**: No documentation provided.
-
-**zoom**: No documentation provided.
 
 ------
 ### metacritic 
@@ -419,8 +429,6 @@ Bot commands:
 
 **fetch_image**: No documentation provided.
 
-**fetish**: No documentation provided.
-
 **force_refresh_porn**: No documentation provided.
 
 **lesbiene**: No documentation provided.
@@ -464,6 +472,8 @@ Bot commands:
 **dealwithit**: &lt;nick&gt; - Tell &lt;nick&gt; in the channel to deal with it. Code located in reactions.py
 
 **facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
+
+**fetish**: &lt;nick&gt; - Did some one just mention what your fetish was? Let &lt;nick&gt; know! Code located in reactions.py
 
 **headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
 
@@ -691,7 +701,9 @@ Bot commands:
 
 ------
 ### weather 
-**weather**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
+**weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
+
+**weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
 
 ------
 ### whois 

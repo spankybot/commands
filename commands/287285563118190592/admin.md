@@ -86,12 +86,20 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **list_join_events**: List on-join events
 
 ------
+### avatar 
+**set_avatar**: Set bot avatar
+
+------
 ### del_messages 
 **delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
 
 ------
 ### help 
 **gen_documentation**: No documentation provided.
+
+------
+### log 
+**rip_servers**: No documentation provided.
 
 ------
 ### log_events 
@@ -128,6 +136,14 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **get_roddit_channel**: List &#x27;intrebati orice&#x27; annoucement channel.
 
 **set_roddit_channel**: &lt;channel&gt; - Send &#x27;intrebati orice&#x27; on channel.
+
+------
+### system 
+**mem_snapshot**: No documentation provided.
+
+**start_tracemalloc**: No documentation provided.
+
+**stop_tracemalloc**: No documentation provided.
 
 ------
 ### tag 
