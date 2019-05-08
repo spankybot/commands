@@ -94,6 +94,10 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
 
 ------
+### grab 
+**del_grab**: Delete a grab entry. Specify what the grab message contains or the message ID
+
+------
 ### help 
 **gen_documentation**: No documentation provided.
 
