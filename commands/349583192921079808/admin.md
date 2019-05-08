@@ -86,12 +86,24 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **list_join_events**: List on-join events
 
 ------
+### avatar 
+**set_avatar**: Set bot avatar
+
+------
 ### del_messages 
 **delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
 
 ------
+### grab 
+**del_grab**: Delete a grab entry. Specify what the grab message contains or the message ID
+
+------
 ### help 
 **gen_documentation**: No documentation provided.
+
+------
+### log 
+**rip_servers**: No documentation provided.
 
 ------
 ### log_events 
@@ -114,6 +126,14 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **set_event_log_chan**: &lt;channel&gt; - Activate event logging and log to channel.
 
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
+
+------
+### system 
+**mem_snapshot**: No documentation provided.
+
+**start_tracemalloc**: No documentation provided.
+
+**stop_tracemalloc**: No documentation provided.
 
 ------
 ### tag 

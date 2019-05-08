@@ -116,7 +116,13 @@ Bot commands:
     :type text: str
 
 ------
+### expand 
+**e**: Expand an emoji
+
+------
 ### face 
+**eyes**: No documentation provided.
+
 **glasses**: No documentation provided.
 
 **hat**: No documentation provided.
@@ -131,7 +137,7 @@ Bot commands:
 ### flip 
 **fix**: &lt;text&gt; - fixes a flipped over table. ┬─┬ノ(ಠ_ಠノ)
 
-**flip**: &lt;text&gt; - Flips &lt;text&gt; over.
+**flip_text**: &lt;text&gt; - Flips &lt;text&gt; over.
 
 **table**: &lt;text&gt; - (╯°□°）╯︵ &lt;ʇxǝʇ&gt;
 
@@ -233,7 +239,7 @@ Bot commands:
 
     :type text: str
 
-**roll**: &lt;dice roll&gt; - simulates dice rolls. Example: &#x27;dice 2d20-d5+4 roll 2&#x27;: D20s, subtract 1D5, add 4
+**dice**: &lt;dice roll&gt; - simulates dice rolls. Example: &#x27;dice 2d20-d5+4 roll 2&#x27;: D20s, subtract 1D5, add 4
 
     :type text: str
 
@@ -257,7 +263,7 @@ Bot commands:
 
 **grabl**: &lt;user&gt; - List quotes for user. If no user is specified, it lists everything on the server.
 
-**grabr**: No documentation provided.
+**grabr**: Grab random quote
 
 **grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.
 
@@ -270,6 +276,52 @@ Bot commands:
 ------
 ### imdb 
 **imdb**: &lt;movie&gt; - gets information about &lt;movie&gt; from IMDb
+
+------
+### img_manip 
+**cat**: No documentation provided.
+
+**crowd**: No documentation provided.
+
+**df**: Deepfry image
+
+**flip**: Flip image horizontally
+
+**flop**: Flip image vertically
+
+**fried**: No documentation provided.
+
+**hue**: No documentation provided.
+
+**img_text**: Add text to image
+
+**implode**: Implode image
+
+**negate**: Invert colors
+
+**noise**: No documentation provided.
+
+**npc**: No documentation provided.
+
+**pulse**: No documentation provided.
+
+**rain**: No documentation provided.
+
+**resize**: Resize image
+
+**roll**: No documentation provided.
+
+**scan**: No documentation provided.
+
+**shake**: No documentation provided.
+
+**tint**: No documentation provided.
+
+**wobble**: No documentation provided.
+
+**woke**: No documentation provided.
+
+**zoom**: No documentation provided.
 
 ------
 ### issafe 
@@ -362,6 +414,10 @@ Bot commands:
 ------
 ### ping 
 **ping**: &lt;host&gt; [count] - pings &lt;host&gt; [count] times
+
+------
+### qalc 
+**calc**: &lt;expression&gt; - qalc interface
 
 ------
 ### quran 
@@ -553,7 +609,9 @@ Bot commands:
 
 ------
 ### weather 
-**weather**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
+**weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
+
+**weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
 
 ------
 ### whois 
