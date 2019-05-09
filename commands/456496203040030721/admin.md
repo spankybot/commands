@@ -13,10 +13,6 @@ Admin commands:
 
 **add_owner_to_cmd**: &lt;command user-group&gt; - Add a user-group to own a command
 
-**add_user_group**: &lt;group name&gt; - Create a user group
-
-**add_user_to_ugroup**: &lt;user user-group&gt; - Add user to user group
-
 **clear_default_bot_channel**: &lt;channel&gt; - Configure a channel where any bot command can be used, unless otherwise specified.
 
 **del_chan_from_chgroup**: &lt;channel channel-group&gt; - Delete channel from channel group
@@ -28,10 +24,6 @@ Admin commands:
 **del_fchgroup_from_cmd**: &lt;command channel-group&gt; - Delete a user-group from a command&#x27;s forbidden list
 
 **del_owner_from_cmd**: &lt;command user-group&gt; - Delete user-group from command ownership list
-
-**del_user_from_ugroup**: &lt;user user-group&gt; - Delete user from user group
-
-**del_user_group**: &lt;group name&gt; - Deletes a user group
 
 **get_admin_roles**: No documentation provided.
 
@@ -46,10 +38,6 @@ Admin commands:
 **list_fchgroups_for_cmd**: &lt;command&gt; - List in what channel-groups command is NOT usable
 
 **list_owners_for_cmd**: &lt;command&gt; - List what user-groups own a command
-
-**list_user_groups**: List user groups
-
-**list_users_in_ugroup**: No documentation provided.
 
 **remove_admin_role**: No documentation provided.
 
@@ -126,6 +114,20 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **set_event_log_chan**: &lt;channel&gt; - Activate event logging and log to channel.
 
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
+
+------
+### roddit_admin 
+**bulau**: &lt;user, duration&gt; - assign bulau role for specified time - duration can be seconds, minutes, hours, days. To set a 10 minute 15 seconds timeout for someone, type: &#x27;.bulau @user 10m15s&#x27;. The abbrebiations are: s - seconds, m - minutes, h - hours, d - days.
+
+**ok**: No documentation provided.
+
+------
+### roddit_intrebati_orice 
+**clear_roddit_channel**: Remove &#x27;intrebati orice&#x27; announcement channel.
+
+**get_roddit_channel**: List &#x27;intrebati orice&#x27; annoucement channel.
+
+**set_roddit_channel**: &lt;channel&gt; - Send &#x27;intrebati orice&#x27; on channel.
 
 ------
 ### system 
