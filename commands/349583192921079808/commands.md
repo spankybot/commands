@@ -32,10 +32,6 @@ Bot commands:
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
 
 ------
-### blackmirror_roles 
-**charlie**: No documentation provided.
-
-------
 ### books 
 **books**: &lt;query&gt; - Searches Google Books for &lt;query&gt;.
 
@@ -416,6 +412,54 @@ Bot commands:
 **ping**: &lt;host&gt; [count] - pings &lt;host&gt; [count] times
 
 ------
+### porn 
+**amateur**: No documentation provided.
+
+**anal**: No documentation provided.
+
+**aww**: No documentation provided.
+
+**blep**: No documentation provided.
+
+**buci**: No documentation provided.
+
+**capre**: No documentation provided.
+
+**craci**: No documentation provided.
+
+**cutu**: No documentation provided.
+
+**fetch_image**: No documentation provided.
+
+**fetish**: No documentation provided.
+
+**force_refresh_porn**: No documentation provided.
+
+**lesbiene**: No documentation provided.
+
+**milf**: No documentation provided.
+
+**nsfwfunny**: No documentation provided.
+
+**pisi**: No documentation provided.
+
+**roscate**: No documentation provided.
+
+**skinny**: No documentation provided.
+
+**sloboz**: No documentation provided.
+
+**tatuate**: No documentation provided.
+
+**teen**: No documentation provided.
+
+**thicc**: No documentation provided.
+
+**traps**: No documentation provided.
+
+**tzatze**: No documentation provided.
+
+------
 ### qalc 
 **calc**: &lt;expression&gt; - qalc interface
 
@@ -433,8 +477,6 @@ Bot commands:
 
 **facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
 
-**fetish**: &lt;nick&gt; - Did some one just mention what your fetish was? Let &lt;nick&gt; know! Code located in reactions.py
-
 **headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
 
 ------
@@ -442,6 +484,58 @@ Bot commands:
 **dinner**: - TELLS YOU WHAT THE F**K YOU SHOULD MAKE FOR DINNER
 
 **recipe**: [term] - gets a recipe for [term], or gets a random recipe if no term is specified
+
+------
+### roddit_admin 
+**bulautime**: Print remaining time in bulau
+
+------
+### roddit_dex 
+**dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
+
+------
+### roddit_fun 
+**aplauze**: No documentation provided.
+
+**ayy**: No documentation provided.
+
+**bitter**: No documentation provided.
+
+**bluntlee**: No documentation provided.
+
+**brutalistu**: No documentation provided.
+
+**cacat**: No documentation provided.
+
+**cola**: No documentation provided.
+
+**dance**: No documentation provided.
+
+**iazo**: No documentation provided.
+
+**jupi**: No documentation provided.
+
+**mcioran**: No documentation provided.
+
+**mpuric**: No documentation provided.
+
+**mtutea**: No documentation provided.
+
+**muie**: No documentation provided.
+
+**murmuz**: No documentation provided.
+
+**puti**: No documentation provided.
+
+**shrug**: No documentation provided.
+
+------
+### roddit_roles 
+**color**: No documentation provided.
+
+**joc**: No documentation provided.
+
+**rol**: No documentation provided.
 
 ------
 ### rottentomatoes 
