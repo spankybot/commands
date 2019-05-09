@@ -56,6 +56,10 @@ Bot commands:
 **coa**: &lt;text&gt; - talk to CleverBot
 
 ------
+### correction 
+**s**: &lt;word replacement&gt; - replace &#x27;word&#x27; with replacement
+
+------
 ### cryptocurrency 
 **bitcoin / btc**: - Returns the current bitcoin value
 
@@ -108,6 +112,20 @@ Bot commands:
     :type text: str
 
 ------
+### expand 
+**e**: Expand an emoji
+
+------
+### face 
+**eyes**: No documentation provided.
+
+**glasses**: No documentation provided.
+
+**hat**: No documentation provided.
+
+**moustache**: No documentation provided.
+
+------
 ### fact 
 **fact**: - Gets a random fact about numbers or dates.
 
@@ -115,7 +133,7 @@ Bot commands:
 ### flip 
 **fix**: &lt;text&gt; - fixes a flipped over table. ┬─┬ノ(ಠ_ಠノ)
 
-**flip**: &lt;text&gt; - Flips &lt;text&gt; over.
+**flip_text**: &lt;text&gt; - Flips &lt;text&gt; over.
 
 **table**: &lt;text&gt; - (╯°□°）╯︵ &lt;ʇxǝʇ&gt;
 
@@ -217,7 +235,7 @@ Bot commands:
 
     :type text: str
 
-**roll**: &lt;dice roll&gt; - simulates dice rolls. Example: &#x27;dice 2d20-d5+4 roll 2&#x27;: D20s, subtract 1D5, add 4
+**dice**: &lt;dice roll&gt; - simulates dice rolls. Example: &#x27;dice 2d20-d5+4 roll 2&#x27;: D20s, subtract 1D5, add 4
 
     :type text: str
 
@@ -239,9 +257,11 @@ Bot commands:
 ### grab 
 **grab**: &lt;user&gt; - grab user&#x27;s last message
 
-**grabl**: &lt;user&gt; - List quotes for user.  
+**grabl**: &lt;user&gt; - List quotes for user. If no user is specified, it lists everything on the server.
 
-**grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.  
+**grabr**: Grab random quote
+
+**grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.
 
 **grabu**: &lt;user&gt; - Grab random quote from user
 
@@ -252,6 +272,52 @@ Bot commands:
 ------
 ### imdb 
 **imdb**: &lt;movie&gt; - gets information about &lt;movie&gt; from IMDb
+
+------
+### img_manip 
+**cat**: No documentation provided.
+
+**crowd**: No documentation provided.
+
+**df**: Deepfry image
+
+**flip**: Flip image horizontally
+
+**flop**: Flip image vertically
+
+**fried**: No documentation provided.
+
+**hue**: No documentation provided.
+
+**img_text**: Add text to image
+
+**implode**: Implode image
+
+**negate**: Invert colors
+
+**noise**: No documentation provided.
+
+**npc**: No documentation provided.
+
+**pulse**: No documentation provided.
+
+**rain**: No documentation provided.
+
+**resize**: Resize image
+
+**roll**: No documentation provided.
+
+**scan**: No documentation provided.
+
+**shake**: No documentation provided.
+
+**tint**: No documentation provided.
+
+**wobble**: No documentation provided.
+
+**woke**: No documentation provided.
+
+**zoom**: No documentation provided.
 
 ------
 ### issafe 
@@ -304,6 +370,12 @@ Bot commands:
 **lurve**: lurves all over &lt;user&gt;
 
 ------
+### magik 
+**gmagik**: No documentation provided.
+
+**magik**: No documentation provided.
+
+------
 ### metacritic 
 **metacritic**: [all|movie|tv|album|x360|ps3|pc|gba|ds|3ds|wii|vita|wiiu|xone|ps4] &lt;title&gt; - gets rating for &lt;title&gt; from
 
@@ -340,6 +412,58 @@ Bot commands:
 **ping**: &lt;host&gt; [count] - pings &lt;host&gt; [count] times
 
 ------
+### porn 
+**amateur**: No documentation provided.
+
+**anal**: No documentation provided.
+
+**aww**: No documentation provided.
+
+**blep**: No documentation provided.
+
+**buci**: No documentation provided.
+
+**capre**: No documentation provided.
+
+**craci**: No documentation provided.
+
+**cutu**: No documentation provided.
+
+**fetch_image**: No documentation provided.
+
+**fetish**: No documentation provided.
+
+**force_refresh_porn**: No documentation provided.
+
+**lesbiene**: No documentation provided.
+
+**milf**: No documentation provided.
+
+**nsfwfunny**: No documentation provided.
+
+**pisi**: No documentation provided.
+
+**roscate**: No documentation provided.
+
+**skinny**: No documentation provided.
+
+**sloboz**: No documentation provided.
+
+**tatuate**: No documentation provided.
+
+**teen**: No documentation provided.
+
+**thicc**: No documentation provided.
+
+**traps**: No documentation provided.
+
+**tzatze**: No documentation provided.
+
+------
+### qalc 
+**calc**: &lt;expression&gt; - qalc interface
+
+------
 ### quran 
 **quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
 
@@ -360,6 +484,58 @@ Bot commands:
 **dinner**: - TELLS YOU WHAT THE F**K YOU SHOULD MAKE FOR DINNER
 
 **recipe**: [term] - gets a recipe for [term], or gets a random recipe if no term is specified
+
+------
+### roddit_admin 
+**bulautime**: Print remaining time in bulau
+
+------
+### roddit_dex 
+**dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
+
+------
+### roddit_fun 
+**aplauze**: No documentation provided.
+
+**ayy**: No documentation provided.
+
+**bitter**: No documentation provided.
+
+**bluntlee**: No documentation provided.
+
+**brutalistu**: No documentation provided.
+
+**cacat**: No documentation provided.
+
+**cola**: No documentation provided.
+
+**dance**: No documentation provided.
+
+**iazo**: No documentation provided.
+
+**jupi**: No documentation provided.
+
+**mcioran**: No documentation provided.
+
+**mpuric**: No documentation provided.
+
+**mtutea**: No documentation provided.
+
+**muie**: No documentation provided.
+
+**murmuz**: No documentation provided.
+
+**puti**: No documentation provided.
+
+**shrug**: No documentation provided.
+
+------
+### roddit_roles 
+**color**: No documentation provided.
+
+**joc**: No documentation provided.
+
+**rol**: No documentation provided.
 
 ------
 ### rottentomatoes 
@@ -399,11 +575,13 @@ Bot commands:
 
 ------
 ### system 
+**about**: No documentation provided.
+
 **system**: -- Retrieves information about the host system.
 
 ------
 ### tag 
-**tag**: &lt;tag&gt; - Return a tag.
+**tag**: &lt;tag&gt; - Return a tag. &#x27;.tag list&#x27; lists tags, &#x27;.tag random&#x27; returns random tag
 
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
 
@@ -525,7 +703,9 @@ Bot commands:
 
 ------
 ### weather 
-**weather**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
+**weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
+
+**weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
 
 ------
 ### whois 
