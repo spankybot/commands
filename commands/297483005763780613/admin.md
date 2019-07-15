@@ -27,6 +27,8 @@ Admin commands:
 
 **get_admin_roles**: No documentation provided.
 
+**is_cmd_unrestricted**: &lt;command&gt; - Check if command is channel restricted or not
+
 **list_channel_groups**: List available groups of channels
 
 **list_chans_in_chgroup**: &lt;channel-group&gt; - List channels in channel-group
@@ -40,6 +42,10 @@ Admin commands:
 **list_owners_for_cmd**: &lt;command&gt; - List what user-groups own a command
 
 **remove_admin_role**: No documentation provided.
+
+**remove_restrictions_for_cmd**: &lt;command&gt; - Remove channel restrictions for a command to make it usable on the whole server
+
+**restore_restrictions_for_cmd**: &lt;command user-group&gt; - Restore channel restrictions for command
 
 **set_default_bot_channel**: &lt;channel&gt; - Configure a channel where any bot command can be used, unless otherwise specified by other rules.
 
@@ -61,6 +67,8 @@ The scripted message can contain special words that are replaced when the event 
 
  * {USER_ID} - User ID
 
+ * {SEEN_CNT} - How many times this user has been seen in servers shared with the bot
+
 
 
 e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x27;John / 12345678910 just joined!&#x27;
@@ -72,10 +80,6 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **kick**: &lt;user&gt; - Kick someone
 
 **list_join_events**: List on-join events
-
-------
-### avatar 
-**set_avatar**: Set bot avatar
 
 ------
 ### del_messages 
@@ -118,6 +122,10 @@ Logged events: user join, user leave, message edit, message delete, member updat
 ------
 ### roddit_admin 
 **bulau**: &lt;user, duration&gt; - assign bulau role for specified time - duration can be seconds, minutes, hours, days. To set a 10 minute 15 seconds timeout for someone, type: &#x27;.bulau @user 10m15s&#x27;. The abbrebiations are: s - seconds, m - minutes, h - hours, d - days.
+
+**kick_noobs**: No documentation provided.
+
+**list_noobs**: No documentation provided.
 
 **ok**: No documentation provided.
 
