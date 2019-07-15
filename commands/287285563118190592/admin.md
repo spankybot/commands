@@ -3,6 +3,8 @@ Admin commands:
 ### admin 
 **add_admin_role**: &lt;role&gt; - Add role that can run administrative bot commands.
 
+**add_bot_owner**: No documentation provided.
+
 **add_chan_to_chgroup**: &lt;channel channel-group&gt; - Add channel to channel group
 
 **add_channel_group**: &lt;group-name&gt; - Create a group of channels
@@ -27,6 +29,8 @@ Admin commands:
 
 **get_admin_roles**: No documentation provided.
 
+**get_bot_owners**: No documentation provided.
+
 **is_cmd_unrestricted**: &lt;command&gt; - Check if command is channel restricted or not
 
 **list_channel_groups**: List available groups of channels
@@ -42,6 +46,8 @@ Admin commands:
 **list_owners_for_cmd**: &lt;command&gt; - List what user-groups own a command
 
 **remove_admin_role**: No documentation provided.
+
+**remove_bot_owner**: No documentation provided.
 
 **remove_restrictions_for_cmd**: &lt;command&gt; - Remove channel restrictions for a command to make it usable on the whole server
 
@@ -80,6 +86,10 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **kick**: &lt;user&gt; - Kick someone
 
 **list_join_events**: List on-join events
+
+------
+### avatar 
+**set_avatar**: Set bot avatar
 
 ------
 ### del_messages 

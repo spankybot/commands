@@ -1,13 +1,5 @@
 Bot commands:
 ------
-### admin 
-**add_bot_owner**: No documentation provided.
-
-**get_bot_owners**: No documentation provided.
-
-**remove_bot_owner**: No documentation provided.
-
-------
 ### animal_gifs 
 **doggifs**: - Returns a random dog GIF from http://bestanimations.com/
 
@@ -34,8 +26,6 @@ Bot commands:
 ------
 ### avatar 
 **avatar**: &lt;user or user-id&gt; - Get someones avatar
-
-**set_avatar**: Set bot avatar
 
 ------
 ### bible 
