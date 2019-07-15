@@ -1,5 +1,13 @@
 Bot commands:
 ------
+### admin 
+**add_bot_owner**: No documentation provided.
+
+**get_bot_owners**: No documentation provided.
+
+**remove_bot_owner**: No documentation provided.
+
+------
 ### animal_gifs 
 **doggifs**: - Returns a random dog GIF from http://bestanimations.com/
 
@@ -26,6 +34,8 @@ Bot commands:
 ------
 ### avatar 
 **avatar**: &lt;user or user-id&gt; - Get someones avatar
+
+**set_avatar**: Set bot avatar
 
 ------
 ### bible 
@@ -61,19 +71,15 @@ Bot commands:
 
 ------
 ### cryptocurrency 
-**bitcoin / btc**: - Returns the current bitcoin value
-
-**bitcoin / btc**: - Returns the current bitcoin value
+**btc**: - Returns the current bitcoin value
 
 **crypto**: &lt;ticker&gt; [currency] - Returns current value of a cryptocurrency
 
-**dogecoin / doge**: - Returns the current dogecoin value
+**eth**: - Returns the current ethereum value
 
-**dogecoin / doge**: - Returns the current dogecoin value
+**ltc**: - Returns the current litecoin value
 
-**litecoin / ltc**: - Returns the current litecoin value
-
-**litecoin / ltc**: - Returns the current litecoin value
+**serak**: No documentation provided.
 
 ------
 ### cypher 
@@ -83,9 +89,15 @@ Bot commands:
 
 ------
 ### dogpile 
-**g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+
+**dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
+
+**dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
 ------
 ### domainr 
@@ -366,6 +378,10 @@ Bot commands:
 **lmgtfy**: [phrase] - gets a lmgtfy.com link for the specified phrase
 
 ------
+### log 
+**seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
+
+------
 ### lurve 
 **lurve**: lurves all over &lt;user&gt;
 
@@ -431,8 +447,6 @@ Bot commands:
 
 **fetch_image**: No documentation provided.
 
-**fetish**: No documentation provided.
-
 **force_refresh_porn**: No documentation provided.
 
 **lesbiene**: No documentation provided.
@@ -477,6 +491,8 @@ Bot commands:
 
 **facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
 
+**fetish**: &lt;nick&gt; - Did some one just mention what your fetish was? Let &lt;nick&gt; know! Code located in reactions.py
+
 **headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
 
 ------
@@ -488,6 +504,14 @@ Bot commands:
 ------
 ### roddit_admin 
 **bulautime**: Print remaining time in bulau
+
+**votat**: No documentation provided.
+
+------
+### roddit_bataie 
+**bataie**: No documentation provided.
+
+**end_bataie**: No documentation provided.
 
 ------
 ### roddit_dex 
