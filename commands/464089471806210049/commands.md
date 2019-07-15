@@ -1,13 +1,5 @@
 Bot commands:
 ------
-### admin 
-**add_bot_owner**: No documentation provided.
-
-**get_bot_owners**: No documentation provided.
-
-**remove_bot_owner**: No documentation provided.
-
-------
 ### animal_gifs 
 **doggifs**: - Returns a random dog GIF from http://bestanimations.com/
 
@@ -34,8 +26,6 @@ Bot commands:
 ------
 ### avatar 
 **avatar**: &lt;user or user-id&gt; - Get someones avatar
-
-**set_avatar**: Set bot avatar
 
 ------
 ### bible 
@@ -428,52 +418,6 @@ Bot commands:
 **ping**: &lt;host&gt; [count] - pings &lt;host&gt; [count] times
 
 ------
-### porn 
-**amateur**: No documentation provided.
-
-**anal**: No documentation provided.
-
-**aww**: No documentation provided.
-
-**blep**: No documentation provided.
-
-**buci**: No documentation provided.
-
-**capre**: No documentation provided.
-
-**craci**: No documentation provided.
-
-**cutu**: No documentation provided.
-
-**fetch_image**: No documentation provided.
-
-**force_refresh_porn**: No documentation provided.
-
-**lesbiene**: No documentation provided.
-
-**milf**: No documentation provided.
-
-**nsfwfunny**: No documentation provided.
-
-**pisi**: No documentation provided.
-
-**roscate**: No documentation provided.
-
-**skinny**: No documentation provided.
-
-**sloboz**: No documentation provided.
-
-**tatuate**: No documentation provided.
-
-**teen**: No documentation provided.
-
-**thicc**: No documentation provided.
-
-**traps**: No documentation provided.
-
-**tzatze**: No documentation provided.
-
-------
 ### qalc 
 **calc**: &lt;expression&gt; - qalc interface
 
@@ -503,63 +447,7 @@ Bot commands:
 
 ------
 ### roddit_admin 
-**bulautime**: Print remaining time in bulau
-
 **votat**: No documentation provided.
-
-------
-### roddit_bataie 
-**bataie**: No documentation provided.
-
-**end_bataie**: No documentation provided.
-
-------
-### roddit_dex 
-**dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
-
-------
-### roddit_fun 
-**aplauze**: No documentation provided.
-
-**ayy**: No documentation provided.
-
-**bitter**: No documentation provided.
-
-**bluntlee**: No documentation provided.
-
-**brutalistu**: No documentation provided.
-
-**cacat**: No documentation provided.
-
-**cola**: No documentation provided.
-
-**dance**: No documentation provided.
-
-**iazo**: No documentation provided.
-
-**jupi**: No documentation provided.
-
-**mcioran**: No documentation provided.
-
-**mpuric**: No documentation provided.
-
-**mtutea**: No documentation provided.
-
-**muie**: No documentation provided.
-
-**murmuz**: No documentation provided.
-
-**puti**: No documentation provided.
-
-**shrug**: No documentation provided.
-
-------
-### roddit_roles 
-**color**: No documentation provided.
-
-**joc**: No documentation provided.
-
-**rol**: No documentation provided.
 
 ------
 ### rottentomatoes 
