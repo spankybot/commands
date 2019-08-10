@@ -79,11 +79,11 @@ Bot commands:
 
 ------
 ### dogpile 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
 **dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
@@ -115,6 +115,8 @@ Bot commands:
 
 ------
 ### europe_admin 
+**gulagreasons**: No documentation provided.
+
 **gulagtime**: Print remaining time in gulag
 
 ------
