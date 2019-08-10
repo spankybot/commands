@@ -105,6 +105,8 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 
 ------
 ### log 
+**gen_train_src**: No documentation provided.
+
 **rip_servers**: No documentation provided.
 
 ------
@@ -131,7 +133,7 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### roddit_admin 
-**bulau**: &lt;user, duration&gt; - assign bulau role for specified time - duration can be seconds, minutes, hours, days. To set a 10 minute 15 seconds timeout for someone, type: &#x27;.bulau @user 10m15s&#x27;. The abbrebiations are: s - seconds, m - minutes, h - hours, d - days.
+**bulau**: &lt;user, duration (reason)&gt; - assign bulau role for specified time - duration can be seconds, minutes, hours, days. To set a 10 minute 15 seconds timeout for someone, type: &#x27;.bulau @user 10m15s&#x27;. The abbrebiations are: s - seconds, m - minutes, h - hours, d - days.
 
 **kick_noobs**: No documentation provided.
 
