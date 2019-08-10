@@ -27,8 +27,6 @@ Bot commands:
 ### avatar 
 **avatar**: &lt;user or user-id&gt; - Get someones avatar
 
-**set_avatar**: Set bot avatar
-
 ------
 ### bible 
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
@@ -377,10 +375,6 @@ Bot commands:
 
 ------
 ### log 
-**gen_train_src**: No documentation provided.
-
-**rip_servers**: No documentation provided.
-
 **seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
 
 ------
