@@ -105,6 +105,8 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 
 ------
 ### log 
+**gen_train_src**: No documentation provided.
+
 **rip_servers**: No documentation provided.
 
 ------
