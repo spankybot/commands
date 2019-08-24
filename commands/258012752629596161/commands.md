@@ -115,9 +115,25 @@ Bot commands:
 
 ------
 ### europe_admin 
-**gulagreasons**: &lt;user&gt; - List gulag reasons for user
+**assign**: **.assign**  |  Lists all self-assignable roles
+
+    **.assign** `name`  |  Assigns you the chosen role
+
+    **.unassign** `name` | Unassigns the given role
+
+**country**: **.country**  |  Lists all self-assignable countries (you are limited to one at a time)
+
+    **.country** `name`  |  Assigns you the chosen country (retyping the command with a different country will replace the current one)
+
+    **.nocountry**  |  Removes your country role
 
 **gulagtime**: Print remaining time in gulag
+
+**nocountry**: Remove all country roles
+
+**unassign**: Unassigns a given role
+
+**userhistory**: &lt;user&gt; - List gulag/confine reasons for user
 
 ------
 ### expand 
