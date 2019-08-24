@@ -77,9 +77,13 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 
 **del_join_event**: &lt;event&gt; - delete a join event
 
+**get_timeout_for**: Get timeout for a join event
+
 **kick**: &lt;user&gt; - Kick someone
 
 **list_join_events**: List on-join events
+
+**set_timeout_for**: &lt;join event, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
 
 ------
 ### del_messages 
