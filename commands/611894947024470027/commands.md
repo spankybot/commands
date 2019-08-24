@@ -418,6 +418,10 @@ Bot commands:
 **ping**: &lt;host&gt; [count] - pings &lt;host&gt; [count] times
 
 ------
+### porn 
+**traps**: No documentation provided.
+
+------
 ### qalc 
 **calc**: &lt;expression&gt; - qalc interface
 
