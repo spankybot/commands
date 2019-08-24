@@ -77,9 +77,13 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 
 **del_join_event**: &lt;event&gt; - delete a join event
 
+**get_timeout_for**: Get timeout for a join event
+
 **kick**: &lt;user&gt; - Kick someone
 
 **list_join_events**: List on-join events
+
+**set_timeout_for**: &lt;join event, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
 
 ------
 ### del_messages 
@@ -117,7 +121,7 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### robac_admin 
-**detentie**: &lt;user, duration&gt; - assign bulau role for specified time - duration can be seconds, minutes, hours, days. To set a 10 minute 15 seconds timeout for someone, type: &#x27;.bulau @user 10m15s&#x27;. The abbrebiations are: s - seconds, m - minutes, h - hours, d - days.
+**detentie**: &lt;user, duration&gt; - assign detentie role for specified time - duration can be seconds, minutes, hours, days. To set a 10 minute 15 seconds timeout for someone, type: &#x27;.detentie @user 10m15s&#x27;. The abbrebiations are: s - seconds, m - minutes, h - hours, d - days.
 
 ------
 ### system 
