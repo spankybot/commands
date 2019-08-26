@@ -79,11 +79,11 @@ Bot commands:
 
 ------
 ### dogpile 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
 **dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
@@ -496,6 +496,8 @@ Bot commands:
 ------
 ### system 
 **about**: No documentation provided.
+
+**invite_me**: No documentation provided.
 
 **system**: -- Retrieves information about the host system.
 
