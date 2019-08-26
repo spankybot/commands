@@ -79,11 +79,11 @@ Bot commands:
 
 ------
 ### dogpile 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
 **dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
@@ -547,11 +547,17 @@ Bot commands:
 
 ------
 ### roddit_roles 
-**color**: No documentation provided.
+**nu_vreau_culoare**: No documentation provided.
 
-**joc**: No documentation provided.
+**nu_vreau_joc**: No documentation provided.
 
-**rol**: No documentation provided.
+**nu_vreau_rol**: No documentation provided.
+
+**vreau_culoare**: No documentation provided.
+
+**vreau_joc**: No documentation provided.
+
+**vreau_rol**: No documentation provided.
 
 ------
 ### rottentomatoes 
