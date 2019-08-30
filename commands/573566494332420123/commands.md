@@ -79,11 +79,11 @@ Bot commands:
 
 ------
 ### dogpile 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
 **dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
@@ -419,7 +419,49 @@ Bot commands:
 
 ------
 ### porn 
+**amateur**: No documentation provided.
+
+**anal**: No documentation provided.
+
+**aww**: No documentation provided.
+
+**blep**: No documentation provided.
+
+**buci**: No documentation provided.
+
+**capre**: No documentation provided.
+
+**craci**: No documentation provided.
+
+**cutu**: No documentation provided.
+
+**fetch_image**: No documentation provided.
+
+**force_refresh_porn**: No documentation provided.
+
+**lesbiene**: No documentation provided.
+
+**milf**: No documentation provided.
+
+**nsfwfunny**: No documentation provided.
+
+**pisi**: No documentation provided.
+
+**roscate**: No documentation provided.
+
+**skinny**: No documentation provided.
+
+**sloboz**: No documentation provided.
+
+**tatuate**: No documentation provided.
+
+**teen**: No documentation provided.
+
+**thicc**: No documentation provided.
+
 **traps**: No documentation provided.
+
+**tzatze**: No documentation provided.
 
 ------
 ### qalc 
