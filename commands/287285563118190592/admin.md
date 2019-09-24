@@ -73,17 +73,21 @@ The scripted message can contain special words that are replaced when the event 
 
 e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x27;John / 12345678910 just joined!&#x27;
 
-**ban**: &lt;user&gt; - Ban someone
-
 **del_join_event**: &lt;event&gt; - delete a join event
 
 **get_timeout_for**: Get timeout for a join event
 
-**kick**: &lt;user&gt; - Kick someone
-
 **list_join_events**: List on-join events
 
 **set_timeout_for**: &lt;join event, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
+
+------
+### auto_order 
+**add_chan_to_auto_order**: &lt;channel&gt; -
+
+**del_chan_from_auto_order**: &lt;channel&gt; -
+
+**list_auto_order_chans**: Lists channels that are auto ordered
 
 ------
 ### del_messages 
@@ -121,8 +125,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### roddit_admin 
-**bulau**: &lt;user, duration (reason)&gt; - assign bulau role for specified time - duration can be seconds, minutes, hours, days. To set a 10 minute 15 seconds timeout for someone, type: &#x27;.bulau @user 10m15s&#x27;. The abbrebiations are: s - seconds, m - minutes, h - hours, d - days.
-
 **kick_noobs**: No documentation provided.
 
 **list_noobs**: No documentation provided.
@@ -148,6 +150,26 @@ Logged events: user join, user leave, message edit, message delete, member updat
 ------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
+
+------
+### temp_role 
+**ban**: &lt;user [,time], reason&gt; - ban someone permanently or for a given amount of time (e.g. `.ban @plp 5m` bans plp for 5 minutes).
+
+**clear_mod_log_chan**: No documentation provided.
+
+**create_temp_role_cmd**: &lt;command name, role&gt; - create a command that assigns a temporary role by specifying `command_name role`
+
+**delete_temp_role_cmd**: No documentation provided.
+
+**get_mod_log_chan**: No documentation provided.
+
+**kick**: &lt;user [reason]&gt; - Kick someone with an optional reason
+
+**list_temp_role_cmds**: No documentation provided.
+
+**set_mod_log_chan**: No documentation provided.
+
+**userhistory**: &lt;user&gt; - List confinement reasons for user
 
 ------
 ### watch 
