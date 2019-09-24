@@ -85,11 +85,11 @@ Bot commands:
 
 ------
 ### dogpile 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
 **dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
@@ -493,9 +493,9 @@ Bot commands:
 
 ------
 ### system 
-**about**: No documentation provided.
+**about**: Get about.
 
-**invite_me**: No documentation provided.
+**invite_me**: Get invitation for bot
 
 **system**: -- Retrieves information about the host system.
 
@@ -504,6 +504,10 @@ Bot commands:
 **tag**: &lt;tag&gt; - Return a tag. &#x27;.tag list&#x27; lists tags, &#x27;.tag random&#x27; returns random tag
 
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
+
+------
+### temp_role 
+**close_user_case**: No documentation provided.
 
 ------
 ### thefuckingweather 
