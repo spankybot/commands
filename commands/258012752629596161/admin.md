@@ -73,31 +73,25 @@ The scripted message can contain special words that are replaced when the event 
 
 e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x27;John / 12345678910 just joined!&#x27;
 
-**ban**: &lt;user&gt; - Ban someone
-
 **del_join_event**: &lt;event&gt; - delete a join event
 
 **get_timeout_for**: Get timeout for a join event
-
-**kick**: &lt;user&gt; - Kick someone
 
 **list_join_events**: List on-join events
 
 **set_timeout_for**: &lt;join event, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
 
 ------
-### del_messages 
-**delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
+### auto_order 
+**add_chan_to_auto_order**: &lt;channel&gt; -
+
+**del_chan_from_auto_order**: &lt;channel&gt; -
+
+**list_auto_order_chans**: Lists channels that are auto ordered
 
 ------
-### europe_admin 
-**close_user_case**: &lt;case ID&gt; - Close a case ID
-
-**confine**: &lt;user, duration&gt; - assign confinment role for specified time - duration can be seconds, minutes, hours, days. To set a 10 minute 15 seconds timeout for someone, type: &#x27;.confine @user 10m15s&#x27;. The abbrebiations are: s - seconds, m - minutes, h - hours, d - days.
-
-**furrygulag**: &lt;user, duration&gt; - assign Furry Inmate role for specified time - duration can be seconds, minutes, hours, days. To set a 10 minute 15 seconds timeout for someone, type: &#x27;.furrygulag @user 10m15s&#x27;. The abbrebiations are: s - seconds, m - minutes, h - hours, d - days.
-
-**gulag**: &lt;user, duration&gt; - assign gulag role for specified time - duration can be seconds, minutes, hours, days. To set a 10 minute 15 seconds timeout for someone, type: &#x27;.gulag @user 10m15s&#x27;. The abbrebiations are: s - seconds, m - minutes, h - hours, d - days.
+### del_messages 
+**delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
 
 ------
 ### grab 
@@ -140,6 +134,42 @@ Logged events: user join, user leave, message edit, message delete, member updat
 ------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
+
+------
+### temp_role 
+**ban**: &lt;user [,time], reason&gt; - ban someone permanently or for a given amount of time (e.g. `.ban @plp 5m` bans plp for 5 minutes).
+
+**clear_mod_log_chan**: No documentation provided.
+
+**create_temp_role_cmd**: &lt;command name, role&gt; - create a command that assigns a temporary role by specifying `command_name role`
+
+**delete_temp_role_cmd**: No documentation provided.
+
+**do_cmd / confine**: Temporary role assignment command as defined by server ops.
+
+**do_cmd / confine**: Temporary role assignment command as defined by server ops.
+
+**do_cmd / confine**: Temporary role assignment command as defined by server ops.
+
+**do_cmd / confine**: Temporary role assignment command as defined by server ops.
+
+**do_cmd / confine**: Temporary role assignment command as defined by server ops.
+
+**do_cmd / confine**: Temporary role assignment command as defined by server ops.
+
+**do_cmd / confine**: Temporary role assignment command as defined by server ops.
+
+**do_cmd / confine**: Temporary role assignment command as defined by server ops.
+
+**get_mod_log_chan**: No documentation provided.
+
+**kick**: &lt;user [reason]&gt; - Kick someone with an optional reason
+
+**list_temp_role_cmds**: No documentation provided.
+
+**set_mod_log_chan**: No documentation provided.
+
+**userhistory**: &lt;user&gt; - List confinement reasons for user
 
 ------
 ### watch 
