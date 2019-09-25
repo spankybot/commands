@@ -552,10 +552,6 @@ Bot commands:
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
 
 ------
-### temp_role 
-**close_user_case**: No documentation provided.
-
-------
 ### testosteron_roles 
 **testosteron**: No documentation provided.
 
