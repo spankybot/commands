@@ -139,21 +139,27 @@ Logged events: user join, user leave, message edit, message delete, member updat
 ### temp_role 
 **ban**: &lt;user [,time], reason&gt; - ban someone permanently or for a given amount of time (e.g. `.ban @plp 5m` bans plp for 5 minutes).
 
-**clear_mod_log_chan**: No documentation provided.
+**clear_mod_log_chan**: Clear the moderator actions channel. No moderator actions messages will be sent.
+
+**close_user_case**: &lt;id&gt; - mark user case as closed
 
 **create_temp_role_cmd**: &lt;command name, role&gt; - create a command that assigns a temporary role by specifying `command_name role`
 
-**delete_temp_role_cmd**: No documentation provided.
+**delete_temp_role_cmd**: &lt;command_name&gt; - delete a temporary role command
 
-**get_mod_log_chan**: No documentation provided.
+**get_mod_log_chan**: Return the moderator actions channel
 
 **kick**: &lt;user [reason]&gt; - Kick someone with an optional reason
 
-**list_temp_role_cmds**: No documentation provided.
+**list_temp_role_cmds**: list temporary role commands
 
-**set_mod_log_chan**: No documentation provided.
+**set_mod_log_chan**: &lt;channel&gt; - Set channel for moderator actions. When a moderator action will be done through the bot, details about the action will be logged to this channel.
+
+**show_user_case**: &lt;id&gt; - show details for a given user case
 
 **userhistory**: &lt;user&gt; - List confinement reasons for user
+
+**warn**: &lt;user reason&gt; - Warn a user
 
 ------
 ### watch 
