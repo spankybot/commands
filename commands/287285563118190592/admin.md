@@ -140,14 +140,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **set_roddit_channel**: &lt;channel&gt; - Send &#x27;intrebati orice&#x27; on channel.
 
 ------
-### system 
-**mem_snapshot**: No documentation provided.
-
-**start_tracemalloc**: No documentation provided.
-
-**stop_tracemalloc**: No documentation provided.
-
-------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
 
