@@ -124,14 +124,6 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
-### system 
-**mem_snapshot**: No documentation provided.
-
-**start_tracemalloc**: No documentation provided.
-
-**stop_tracemalloc**: No documentation provided.
-
-------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
 
