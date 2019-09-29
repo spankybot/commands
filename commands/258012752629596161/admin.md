@@ -124,14 +124,6 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
-### system 
-**mem_snapshot**: No documentation provided.
-
-**start_tracemalloc**: No documentation provided.
-
-**stop_tracemalloc**: No documentation provided.
-
-------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
 
@@ -146,22 +138,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **create_temp_role_cmd**: &lt;command name, role&gt; - create a command that assigns a temporary role by specifying `command_name role`
 
 **delete_temp_role_cmd**: &lt;command_name&gt; - delete a temporary role command
-
-**do_cmd / confine**: Temporary role assignment command as defined by server ops.
-
-**do_cmd / confine**: Temporary role assignment command as defined by server ops.
-
-**do_cmd / confine**: Temporary role assignment command as defined by server ops.
-
-**do_cmd / confine**: Temporary role assignment command as defined by server ops.
-
-**do_cmd / confine**: Temporary role assignment command as defined by server ops.
-
-**do_cmd / confine**: Temporary role assignment command as defined by server ops.
-
-**do_cmd / confine**: Temporary role assignment command as defined by server ops.
-
-**do_cmd / confine**: Temporary role assignment command as defined by server ops.
 
 **get_mod_log_chan**: Return the moderator actions channel
 
