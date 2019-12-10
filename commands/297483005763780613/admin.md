@@ -129,7 +129,11 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### temp_role 
+**aaaaa**: Temporary role assignment command as defined by server ops.
+
 **ban**: &lt;user [,time], reason&gt; - ban someone permanently or for a given amount of time (e.g. `.ban @plp 5m` bans plp for 5 minutes).
+
+**bbbbb**: Temporary role assignment command as defined by server ops.
 
 **clear_mod_log_chan**: Clear the moderator actions channel. No moderator actions messages will be sent.
 
