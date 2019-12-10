@@ -139,6 +139,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 **delete_temp_role_cmd**: &lt;command_name&gt; - delete a temporary role command
 
+**detentie**: Temporary role assignment command as defined by server ops.
+
 **get_mod_log_chan**: Return the moderator actions channel
 
 **kick**: &lt;user [reason]&gt; - Kick someone with an optional reason
