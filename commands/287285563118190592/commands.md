@@ -79,11 +79,11 @@ Bot commands:
 
 ------
 ### dogpile 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
 **dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
@@ -527,7 +527,11 @@ Bot commands:
 
 **iazo**: No documentation provided.
 
+**injur**: No documentation provided.
+
 **jupi**: No documentation provided.
+
+**manea**: No documentation provided.
 
 **mcioran**: No documentation provided.
 
@@ -710,6 +714,10 @@ Bot commands:
 **upper**: &lt;string&gt; -- Convert string to uppercase.
 
 **vapor**: &lt;string&gt; -- Converts &lt;string&gt; to full width characters.
+
+------
+### uwu 
+**uwu**: &lt;text&gt; - translate text to UwU
 
 ------
 ### validate 
