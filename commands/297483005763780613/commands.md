@@ -79,11 +79,11 @@ Bot commands:
 
 ------
 ### dogpile 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
 **dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
@@ -448,10 +448,6 @@ Bot commands:
 **votat**: No documentation provided.
 
 ------
-### roddit_cadouri 
-**daruieste**: No documentation provided.
-
-------
 ### rottentomatoes 
 **rottentomatoes**: &lt;title&gt; - gets ratings for &lt;title&gt; from Rotten Tomatoes
 
@@ -604,6 +600,10 @@ Bot commands:
 **upper**: &lt;string&gt; -- Convert string to uppercase.
 
 **vapor**: &lt;string&gt; -- Converts &lt;string&gt; to full width characters.
+
+------
+### uwu 
+**uwu**: &lt;text&gt; - translate text to UwU
 
 ------
 ### validate 
