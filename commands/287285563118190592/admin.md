@@ -82,14 +82,6 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **set_timeout_for**: &lt;join event, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
 
 ------
-### auto_order 
-**add_chan_to_auto_order**: &lt;channel&gt; -
-
-**del_chan_from_auto_order**: &lt;channel&gt; -
-
-**list_auto_order_chans**: Lists channels that are auto ordered
-
-------
 ### del_messages 
 **delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
 
@@ -138,6 +130,18 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **get_roddit_channel**: List &#x27;intrebati orice&#x27; annoucement channel.
 
 **set_roddit_channel**: &lt;channel&gt; - Send &#x27;intrebati orice&#x27; on channel.
+
+------
+### roddit_irc_mode 
+**create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type (either &#x27;public&#x27; or &#x27;private&#x27;) and who is the channel founder
+
+**delete_channel**: &lt;channel&gt; - delete a channel
+
+**make_chan_private**: &lt;channel&gt; - make a channel private
+
+**make_chan_public**: &lt;channel&gt; - make a channel public
+
+**resync_roles**: Go over all channels and set roles according to op/user access procedure
 
 ------
 ### tag 
