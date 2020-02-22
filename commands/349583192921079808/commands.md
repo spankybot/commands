@@ -87,11 +87,11 @@ Bot commands:
 
 ------
 ### dogpile 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
 **dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
@@ -442,8 +442,6 @@ Bot commands:
 **dealwithit**: &lt;nick&gt; - Tell &lt;nick&gt; in the channel to deal with it. Code located in reactions.py
 
 **facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
-
-**fetish**: &lt;nick&gt; - Did some one just mention what your fetish was? Let &lt;nick&gt; know! Code located in reactions.py
 
 **headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
 
