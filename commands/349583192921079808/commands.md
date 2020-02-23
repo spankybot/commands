@@ -81,15 +81,9 @@ Bot commands:
 
 ------
 ### dogpile 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
-
-**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
-
-**dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
-
-**dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
+**gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
 ------
 ### domainr 
