@@ -27,6 +27,8 @@ Bot commands:
 ### avatar 
 **avatar**: &lt;user or user-id&gt; - Get someones avatar
 
+**e**: Expand an emoji
+
 ------
 ### bible 
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
@@ -73,11 +75,11 @@ Bot commands:
 
 ------
 ### dogpile 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
-**dp / dogpile / g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**dp / g / dogpile**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
 
 **dpis / gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
@@ -88,10 +90,6 @@ Bot commands:
 **domain**: &lt;domain&gt; - uses domain.nr&#x27;s API to search for a domain, and similar domains
 
     :type text: str
-
-------
-### expand 
-**e**: Expand an emoji
 
 ------
 ### face 
@@ -228,20 +226,6 @@ Bot commands:
 **yomomma**: &lt;nick&gt; - tells a yo momma joke to &lt;nick&gt;
 
 ------
-### kenm 
-**kenm**: - Wisdom from Ken M.
-
-------
-### lenny 
-**flenny**: flenny is watching.
-
-**lenny**: why the shit not lennyface
-
-------
-### linux 
-**kernel**: - gets a list of linux kernel versions
-
-------
 ### log 
 **seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
 
@@ -268,24 +252,10 @@ Bot commands:
 **taf**: [ICAO station code] - returns the taf information for the specified station. A list of station codes can be found here: http://weather.rap.ucar.edu/surface/stations.txt
 
 ------
-### mock 
-**mock**: &lt;nick&gt; - turn &lt;user&gt;&#x27;s last message in to aLtErNaTiNg cApS
-
-------
 ### name_generator 
 **namegen**: [generator|list] - generates some names using the chosen generator, or lists all generators if &#x27;list&#x27; is specified
 
     :type bot: cloudbot.bot.CloudBot
-
-------
-### pagecheck 
-**down**: &lt;url&gt; - checks if &lt;url&gt; is online or offline
-
-    :type text: str
-
-**isup**: &lt;url&gt; - uses isup.me to check if &lt;url&gt; is online or offline
-
-    :type text: str
 
 ------
 ### ping 
@@ -352,54 +322,6 @@ Bot commands:
 **tag**: &lt;tag&gt; - Return a tag. &#x27;.tag list&#x27; lists tags, &#x27;.tag random&#x27; returns random tag
 
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
-
-------
-### thefuckingweather 
-**tfw**: Retrieves weather and forecast data for a given location.
-
-
-
-    Data is presented in a dict with three main elements: &quot;location&quot; (the
-
-    location presented by TFW), &quot;current&quot; (current weather data) and &quot;forecast&quot;
-
-    (a forecast of the next two days, with highs, lows, and what the weather
-
-    will be like).
-
-
-
-    &quot;current&quot; is a dictionary with three elements: &quot;temperature&quot; (an integer),
-
-    &quot;weather&quot; (a list of descriptive elements about the weather, e.g., &quot;ITS
-
-    FUCKING HOT&quot;, which may be coupled with something such as &quot;AND THUNDERING&quot;)
-
-    and &quot;remark&quot; (a string printed by the server which is meant to be witty but
-
-    is sometimes not. each to their own, I guess).
-
-
-
-    &quot;forecast&quot; is a list of dictionaries, which each contain the keys &quot;day&quot; (a
-
-    three-letter string consisting of the day of week), &quot;high&quot; and &quot;low&quot;
-
-    (integers representing the relative extreme temperature of the day), and
-
-    &quot;weather&quot; (a basic description of the weather, such as &quot;Scattered
-
-    Thunderstorms&quot;).
-
-
-
-    The default is for temperatures to be in Fahrenheit. If you&#x27;re so inclined,
-
-    you can pass True as a second variable and get temperatures in Celsius.
-
-
-
-    If you need a degree symbol, you can use thefuckingweather.DEGREE_SYMBOL.
 
 ------
 ### time_plugin 
