@@ -553,17 +553,13 @@ Bot commands:
 ### roddit_irc_mode 
 **irc_help**: No documentation provided.
 
-**join**: &lt;channel&gt; - join a private channel
+**join**: &lt;channel&gt; - part a channel - both private and public channels can be parted
 
 **list_chans**: Print list of user channels
 
-**make_nsfw**: &lt;topic&gt; - make channel NSFW (only channel OPs can do it)
+**part**: &lt;channel&gt; - part a channel - both private and public channels can be parted
 
-**make_sfw**: &lt;topic&gt; - make channel SFW (only channel OPs can do it)
-
-**part**: &lt;channel&gt; - part a private channel
-
-**request_channel**: &lt;name type&gt; - request a channel by specifying a &#x27;name&#x27;, type (either &#x27;public&#x27; or &#x27;private&#x27;)
+**request_channel**: &lt;name type&gt; - request a channel by specifying a &#x27;name&#x27; and a type (&#x27;public&#x27;, &#x27;private&#x27; or &#x27;invite&#x27;)
 
 **set_topic**: &lt;topic&gt; - set channel topic (only channel OPs can do it)
 

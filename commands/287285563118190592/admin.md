@@ -133,6 +133,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### roddit_irc_mode 
+**check_irc_stuff**: No documentation provided.
+
 **create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type (either &#x27;public&#x27; or &#x27;private&#x27;) and who is the channel founder
 
 **delete_channel**: &lt;channel&gt; - delete a channel
@@ -140,6 +142,10 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **make_chan_private**: &lt;channel&gt; - make a channel private
 
 **make_chan_public**: &lt;channel&gt; - make a channel public
+
+**make_nsfw**: &lt;topic&gt; - make channel NSFW (only channel OPs can do it)
+
+**make_sfw**: &lt;topic&gt; - make channel SFW (only channel OPs can do it)
 
 **resync_roles**: Go over all channels and set roles according to op/user access procedure
 
