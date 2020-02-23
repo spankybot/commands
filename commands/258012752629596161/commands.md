@@ -32,18 +32,10 @@ Bot commands:
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
 
 ------
-### books 
-**books**: &lt;query&gt; - Searches Google Books for &lt;query&gt;.
-
-------
 ### brainfuck 
 **brainfuck**: &lt;prog&gt; - executes &lt;prog&gt; as Brainfuck code
 
     :type text: str
-
-------
-### brew 
-**brew**: &lt;query&gt; - returns the first brewerydb search result for &lt;query&gt;
 
 ------
 ### cats 
@@ -98,24 +90,6 @@ Bot commands:
     :type text: str
 
 ------
-### dramatica 
-**drama**: &lt;phrase&gt; - gets the first paragraph of the Encyclopedia Dramatica article on &lt;phrase&gt;
-
-------
-### drinks 
-**drink**: &lt;nick&gt; - makes the user a random cocktail.
-
-------
-### eightball 
-**8ball**: &lt;question&gt; - asks the all knowing magic electronic eight ball &lt;question&gt;
-
-------
-### etymology 
-**etymology**: &lt;word&gt; - retrieves the etymology of &lt;word&gt;
-
-    :type text: str
-
-------
 ### europe_admin 
 **assign**: **.assign**  |  Lists all self-assignable roles
 
@@ -162,94 +136,6 @@ Bot commands:
 **table**: &lt;text&gt; - (╯°□°）╯︵ &lt;ʇxǝʇ&gt;
 
 ------
-### fmk 
-**fmk**: [nick] - Fuck, Marry, Kill
-
-------
-### foaas 
-**fuckoff**: [name] - tell some one to fuck off or just .fos for a generic fuckoff
-
-------
-### foods 
-**beer**: &lt;user&gt; - gives beer to [user]
-
-**brekkie / brekky**: &lt;user&gt; - gives brekkie to [user]
-
-**brekkie / brekky**: &lt;user&gt; - gives brekkie to [user]
-
-**burger**: &lt;user&gt; - gives a tasty burger to [user]
-
-**cake**: &lt;user&gt; - gives a cake to [user]
-
-**cereal**: &lt;user&gt; - gives cereal to [user]
-
-**cheese**: &lt;user&gt; - gives cheese to [user]
-
-**chicken**: &lt;user&gt; - gives chicken to [user]
-
-**chocolate**: &lt;user&gt; - gives chocolate to [user]
-
-**coffee**: &lt;user&gt; - gives coffee to [user]
-
-**cookie**: &lt;user&gt; - gives a cookie to [user]
-
-**donut**: &lt;user&gt; - gives a donut to [user]
-
-**doobie**: &lt;user&gt; - gives a doobie to [user]
-
-**halal / halaal**: &lt;user&gt; - gives food to [user]
-
-**halal / halaal**: &lt;user&gt; - gives food to [user]
-
-**icecream**: &lt;user&gt; - gives icecream to [user]
-
-**kebab**: &lt;user&gt; - gives a kebab to [user]
-
-**keto**: &lt;user&gt; - gives food to [user]
-
-**kosher**: &lt;user&gt; - gives food to [user]
-
-**milkshake**: &lt;user&gt; - gives a milkshake to [user]
-
-**muffin**: &lt;user&gt; - gives a muffin to [user]
-
-**noodles**: &lt;user&gt; - gives noodles to [user]
-
-**nugget**: &lt;user&gt; - gives nuggets to [user]
-
-**pancake**: &lt;user&gt; - gives pancakes to [user]
-
-**pasta**: &lt;user&gt; - gives pasta to [user]
-
-**pie**: &lt;user&gt; - gives pie to [user]
-
-**pizza**: &lt;user&gt; - gives pizza to [user]
-
-**potato**: &lt;user&gt; - gives a potato to [user]
-
-**rice**: &lt;user&gt; - gives rice to [user]
-
-**sandwich**: &lt;user&gt; - gives a sandwich to [user]
-
-**scone**: &lt;user&gt; - gives a scone to [user]
-
-**soup**: &lt;user&gt; - gives Some Soup to [user]
-
-**steak**: &lt;user&gt; - gives a nice steak dinner to [user]
-
-**sushi**: &lt;user&gt; - gives sushi to [user]
-
-**taco**: &lt;user&gt; - gives a taco to [user]
-
-**tea**: &lt;user&gt; - gives tea to [user]
-
-**wine**: &lt;user&gt; - gives wine to [user]
-
-------
-### fortune 
-**fortune**: - hands out a fortune cookie
-
-------
 ### gaming 
 **choose**: &lt;choice1&gt;, [choice2], [choice3], etc. - randomly picks one of the given choices
 
@@ -270,12 +156,6 @@ Bot commands:
 ------
 ### github 
 **ghissue**: &lt;username|repo&gt; [number] - gets issue [number]&#x27;s summary, or the open issue count if no issue is specified
-
-------
-### gnomeagainsthumanity 
-**cah**: &lt;text&gt; - Submit text to be used as a CAH whitecard
-
-**cahb**: &lt;text&gt; - Submit text with _ for the bot to fill in the rest. You can submit text with multiple _
 
 ------
 ### grab 
@@ -344,10 +224,6 @@ Bot commands:
 **zoom**: No documentation provided.
 
 ------
-### issafe 
-**issafe**: &lt;website&gt; -- Checks the website against Google&#x27;s Safe Browsing List.
-
-------
 ### jokes 
 **awesome**: - Prints a webpage to show &lt;nick&gt; how awesome they are.
 
@@ -384,10 +260,6 @@ Bot commands:
 ------
 ### linux 
 **kernel**: - gets a list of linux kernel versions
-
-------
-### lmgtfy 
-**lmgtfy**: [phrase] - gets a lmgtfy.com link for the specified phrase
 
 ------
 ### log 
@@ -446,24 +318,6 @@ Bot commands:
 ------
 ### quran 
 **quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
-
-------
-### randomusefulwebsites 
-**randomusefulsite**: No documentation provided.
-
-------
-### reactions 
-**dealwithit**: &lt;nick&gt; - Tell &lt;nick&gt; in the channel to deal with it. Code located in reactions.py
-
-**facepalm**: &lt;nick&gt; - Expresses your frustration with &lt;Nick&gt;. Code located in reactions.py
-
-**headdesk**: &lt;nick&gt; - Hit your head against the desk becausae of &lt;nick&gt;. Code located in reactions.py
-
-------
-### recipe 
-**dinner**: - TELLS YOU WHAT THE F**K YOU SHOULD MAKE FOR DINNER
-
-**recipe**: [term] - gets a recipe for [term], or gets a random recipe if no term is specified
 
 ------
 ### roddit_admin 
@@ -572,10 +426,6 @@ Bot commands:
 **beats**: - Gets the current time in .beats (Swatch Internet Time).
 
 **time**: &lt;location&gt; - Gets the current time in &lt;location&gt;.
-
-------
-### trump 
-**trump**: trump a user.
 
 ------
 ### urban 
