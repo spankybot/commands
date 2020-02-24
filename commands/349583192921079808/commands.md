@@ -1,9 +1,5 @@
 Bot commands:
 ------
-### animal_gifs 
-**doggifs**: - Returns a random dog GIF from http://bestanimations.com/
-
-------
 ### attacks 
 **compliment**: &lt;user&gt; -- Makes the bot compliment &lt;user&gt;.
 
@@ -240,12 +236,6 @@ Bot commands:
 **magik**: No documentation provided.
 
 ------
-### metacritic 
-**metacritic**: [all|movie|tv|album|x360|ps3|pc|gba|ds|3ds|wii|vita|wiiu|xone|ps4] &lt;title&gt; - gets rating for &lt;title&gt; from
-
-     metacritic on the specified medium
-
-------
 ### metars 
 **metar**: [ICAO station code] - returns the metars information for the specified station. A list of station codes can be found here: http://weather.rap.ucar.edu/surface/stations.txt
 
@@ -334,6 +324,10 @@ Bot commands:
 **urban**: urban &lt;phrase&gt; [id] -- Looks up &lt;phrase&gt; on urbandictionary.com.
 
 ------
+### userinfo 
+**userinfo**: &lt;mention&gt; - gets various data about the mentioned user
+
+------
 ### utility 
 **base64**: &lt;string&gt; -- Encode &lt;string&gt; with base64.
 
@@ -396,14 +390,6 @@ Bot commands:
 **weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
 
 **weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
-
-------
-### whois 
-**whois**: &lt;domain&gt; - Does a whois query on &lt;domain&gt;.
-
-------
-### wikipedia 
-**wiki**: &lt;phrase&gt; - Gets first sentence of Wikipedia article on &lt;phrase&gt;.
 
 ------
 ### xkcd 
