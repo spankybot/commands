@@ -53,13 +53,13 @@ Bot commands:
 
 ------
 ### cryptocurrency 
-**btc**: - Returns the current bitcoin value
+**btc**: - Returns the current btc value
 
 **crypto**: &lt;ticker&gt; [currency] - Returns current value of a cryptocurrency
 
-**eth**: - Returns the current ethereum value
+**eth**: - Returns the current eth value
 
-**ltc**: - Returns the current litecoin value
+**ltc**: - Returns the current ltc value
 
 **serak**: No documentation provided.
 
@@ -89,15 +89,15 @@ Bot commands:
 
     **.unassign** `name` | Unassigns the given role
 
-**country**: **.country**  |  Lists all self-assignable countries (you are limited to one at a time)
+**country**: **.country**  |  Lists all self-assignable countries
 
-    **.country** `name`  |  Assigns you the chosen country (retyping the command with a different country will replace the current one)
+    **.country** `name`  |  Assigns you the chosen country (retyping the command with a different country will give you another country role)
 
-    **.nocountry**  |  Removes your country role
+    **.nocountry** `name`  |  Removes a country role
 
 **iam**: No documentation provided.
 
-**nocountry**: Remove all country roles
+**nocountry**: **.nocountry** `name` | Remove a given country
 
 **unassign**: Unassigns a given role
 
