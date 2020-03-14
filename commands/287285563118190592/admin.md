@@ -119,6 +119,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 ### roddit_admin 
 **kick_noobs**: No documentation provided.
 
+**list_joins_between**: No documentation provided.
+
 **list_noobs**: No documentation provided.
 
 **ok**: No documentation provided.
@@ -133,6 +135,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### roddit_irc_mode 
+**asd1**: No documentation provided.
+
 **check_irc_stuff**: No documentation provided.
 
 **create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type (either &#x27;public&#x27; or &#x27;private&#x27;) and who is the channel founder

@@ -53,13 +53,13 @@ Bot commands:
 
 ------
 ### cryptocurrency 
-**btc**: - Returns the current bitcoin value
+**btc**: - Returns the current btc value
 
 **crypto**: &lt;ticker&gt; [currency] - Returns current value of a cryptocurrency
 
-**eth**: - Returns the current ethereum value
+**eth**: - Returns the current eth value
 
-**ltc**: - Returns the current litecoin value
+**ltc**: - Returns the current ltc value
 
 **serak**: No documentation provided.
 
@@ -174,6 +174,8 @@ Bot commands:
 **nsfwfunny**: No documentation provided.
 
 **pisi**: No documentation provided.
+
+**plsporn**: pls gib porn
 
 **raton**: No documentation provided.
 
