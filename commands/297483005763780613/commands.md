@@ -46,6 +46,10 @@ Bot commands:
 **coa**: &lt;text&gt; - talk to CleverBot
 
 ------
+### corona 
+**corona**: &lt;option&gt; [country] - available options: [all, country]. If option is country, you must specify a country from &lt;https://worldometers.info/coronavirus#countries&gt;.
+
+------
 ### correction 
 **s**: &lt;word replacement&gt; - replace &#x27;word&#x27; with replacement
 
