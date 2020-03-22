@@ -47,7 +47,11 @@ Bot commands:
 
 ------
 ### corona 
-**corona**: &lt;option&gt; [country] - available options: [all, country]. If option is country, you must specify a country from &lt;https://worldometers.info/coronavirus#countries&gt;.
+**corona**: &lt;option&gt; - available options: [all, &lt;country name&gt;]. If option is &lt;country name&gt;, you must specify a country from &lt;https://worldometers.info/coronavirus#countries&gt;.
+
+**corona_format**: &lt;format&gt; - formats the .corona command for you. Every keyword in [&quot;Cases&quot;, &quot;Recovered&quot;, &quot;Critical&quot;, &quot;Deaths&quot;, &quot;Active&quot;, &quot;C/M&quot;] will be replaced with the appropriate data.
+
+    Use `clear` if you want to clear your format and use the default one
 
 ------
 ### correction 
@@ -314,12 +318,6 @@ Bot commands:
 ------
 ### roddit_admin 
 **votat**: No documentation provided.
-
-------
-### roddit_bataie 
-**bataie**: No documentation provided.
-
-**end_bataie**: No documentation provided.
 
 ------
 ### roddit_dex 
