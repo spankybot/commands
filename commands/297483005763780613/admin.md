@@ -90,10 +90,6 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **del_grab**: Delete a grab entry. Specify what the grab message contains or the message ID
 
 ------
-### help 
-**gen_documentation**: No documentation provided.
-
-------
 ### log_events 
 **add_bad_word**: &lt;word&gt; - remove a message it contains &#x27;word&#x27;
 
