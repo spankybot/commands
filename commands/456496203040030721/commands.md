@@ -84,12 +84,6 @@ Bot commands:
 **gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
 
 ------
-### domainr 
-**domain**: &lt;domain&gt; - uses domain.nr&#x27;s API to search for a domain, and similar domains
-
-    :type text: str
-
-------
 ### face 
 **eyes**: No documentation provided.
 
@@ -248,10 +242,6 @@ Bot commands:
 **namegen**: [generator|list] - generates some names using the chosen generator, or lists all generators if &#x27;list&#x27; is specified
 
     :type bot: cloudbot.bot.CloudBot
-
-------
-### ping 
-**ping**: &lt;host&gt; [count] - pings &lt;host&gt; [count] times
 
 ------
 ### qalc 
