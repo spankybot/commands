@@ -177,6 +177,8 @@ Bot commands:
 
 **pisi**: No documentation provided.
 
+**plsgayporn**: pls gib porn
+
 **plsporn**: pls gib porn
 
 **raton**: No documentation provided.
