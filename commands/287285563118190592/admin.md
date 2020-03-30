@@ -131,7 +131,11 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### roddit_irc_mode 
-**asd1**: No documentation provided.
+**add_bot_category**: &lt;category name or ID, type (managed, unmanaged)&gt; - Add an existing channel category to the bot
+
+    A &#x27;managed&#x27; category will have the permissions managed automatically by inheriting them from the parent category.
+
+    An &#x27;unmanaged&#x27; category will NOT have the permissions managed automatically. Instead, there will still be channel OPs.
 
 **check_irc_stuff**: No documentation provided.
 
