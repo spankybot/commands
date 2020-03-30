@@ -366,10 +366,6 @@ Bot commands:
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
 
 ------
-### testosteron_roles 
-**testosteron**: No documentation provided.
-
-------
 ### time_plugin 
 **beats**: - Gets the current time in .beats (Swatch Internet Time).
 
