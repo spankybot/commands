@@ -366,6 +366,10 @@ Bot commands:
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
 
 ------
+### text 
+**letters**: &lt;text&gt; - text to emoji letters
+
+------
 ### time_plugin 
 **beats**: - Gets the current time in .beats (Swatch Internet Time).
 
