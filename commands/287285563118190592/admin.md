@@ -112,6 +112,20 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
+### roddit_1apr 
+**ach_chans**: No documentation provided.
+
+**ach_users**: No documentation provided.
+
+**ars_chans**: No documentation provided.
+
+**ars_users**: No documentation provided.
+
+**asave_chans**: No documentation provided.
+
+**asave_users**: No documentation provided.
+
+------
 ### roddit_admin 
 **kick_noobs**: No documentation provided.
 
@@ -142,6 +156,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type (either &#x27;public&#x27; or &#x27;private&#x27;) and who is the channel founder
 
 **delete_channel**: &lt;channel&gt; - delete a channel
+
+**list_bot_categories**: No documentation provided.
 
 **make_chan_private**: &lt;channel&gt; - make a channel private
 
