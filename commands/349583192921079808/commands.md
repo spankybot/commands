@@ -55,9 +55,7 @@ Bot commands:
 ### corona 
 **corona**: &lt;option&gt; - available options: [all, &lt;country name&gt;]. If option is &lt;country name&gt;, you must specify a country from &lt;https://worldometers.info/coronavirus#countries&gt;.
 
-**corona_format**: &lt;format&gt; - formats the .corona command for you. Every keyword in [&quot;Cases&quot;, &quot;Recovered&quot;, &quot;Critical&quot;, &quot;Deaths&quot;, &quot;Active&quot;, &quot;C/M&quot;] will be replaced with the appropriate data.
-
-    Use `clear` if you want to clear your format and use the default one
+**corona_format**: &lt;format&gt; - formats the .corona command for you. Every keyword in [&#x27;Cases&#x27;, &#x27;Deaths&#x27;, &#x27;Tests&#x27;, &#x27;CToday&#x27;, &#x27;DToday&#x27;, &#x27;C/M&#x27;, &#x27;D/M&#x27;, &#x27;T/M&#x27;, &#x27;Recovered&#x27;, &#x27;Active&#x27;, &#x27;Critical&#x27;, &#x27;Country&#x27;, &#x27;Continent&#x27;, &#x27;LUpdated&#x27;] will be replaced with the appropriate data. Use `clear` if you want to clear your format and use the default one
 
 ------
 ### correction 
