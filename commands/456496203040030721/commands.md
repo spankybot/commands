@@ -230,6 +230,12 @@ Bot commands:
 **magik**: No documentation provided.
 
 ------
+### markov 
+**markov**: &lt;user channel&gt; - Generate sentence using a markov chain for a user using data from the given channel.
+
+    If no user is specified, a sentence will be generated using all user messages.
+
+------
 ### metars 
 **metar**: [ICAO station code] - returns the metars information for the specified station. A list of station codes can be found here: http://weather.rap.ucar.edu/surface/stations.txt
 
