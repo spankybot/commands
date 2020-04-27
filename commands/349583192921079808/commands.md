@@ -31,7 +31,9 @@ Bot commands:
 
 ------
 ### blackmirror_roles 
-**charlie**: No documentation provided.
+**charlie**: Assign a role
+
+**nocharlie**: Unassign a role
 
 **verified**: Get server access rights
 
