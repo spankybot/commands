@@ -266,6 +266,10 @@ Bot commands:
 **votat**: No documentation provided.
 
 ------
+### roddit_dex 
+**dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
+
+------
 ### rottentomatoes 
 **rottentomatoes**: &lt;title&gt; - gets ratings for &lt;title&gt; from Rotten Tomatoes
 
