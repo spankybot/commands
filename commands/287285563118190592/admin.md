@@ -112,21 +112,11 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
-### roddit_1apr 
-**ach_chans**: No documentation provided.
-
-**ach_users**: No documentation provided.
-
-**ars_chans**: No documentation provided.
-
-**ars_users**: No documentation provided.
-
-**asave_chans**: No documentation provided.
-
-**asave_users**: No documentation provided.
-
-------
 ### roddit_admin 
+**get_auto_bulau**: No documentation provided.
+
+**get_auto_valoare**: No documentation provided.
+
 **kick_noobs**: No documentation provided.
 
 **list_joins_between**: No documentation provided.
@@ -134,6 +124,10 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **list_noobs**: No documentation provided.
 
 **ok**: No documentation provided.
+
+**set_auto_bulau**: Set auto bulau to a timeout value (e.g. 10h - 10 hours, 100d - 100 days, etc.).
+
+**set_auto_valoare**: Set auto valoare to a timeout value (e.g. 10h - 10 hours, 100d - 100 days, etc.).
 
 ------
 ### roddit_intrebati_orice 
@@ -145,7 +139,7 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### roddit_irc_mode 
-**add_bot_category**: &lt;category name or ID, type (managed, unmanaged)&gt; - Add an existing channel category to the bot
+**add_chan_category**: &lt;category name or ID, type (managed, unmanaged)&gt; - Add an existing channel category to the bot
 
     A &#x27;managed&#x27; category will have the permissions managed automatically by inheriting them from the parent category.
 
@@ -155,9 +149,11 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 **create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type (either &#x27;public&#x27; or &#x27;private&#x27;) and who is the channel founder
 
+**del_chan_category**: &lt;category name or ID&gt; - Delete an existing channel category
+
 **delete_channel**: &lt;channel&gt; - delete a channel
 
-**list_bot_categories**: No documentation provided.
+**list_chan_categories**: List channel categories
 
 **make_chan_private**: &lt;channel&gt; - make a channel private
 
@@ -168,6 +164,16 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **make_sfw**: &lt;topic&gt; - make channel SFW (only channel OPs can do it)
 
 **resync_roles**: Go over all channels and set roles according to op/user access procedure
+
+**sort_chans**: Sort channels alphabetically
+
+**sort_roles**: Sort roles alphabetically
+
+------
+### selector 
+**permanent_selector**: &lt;message link/ID&gt; - makes a generated selector permanent (e.g. the bot will always listen for reacts on the given message).
+
+    This command is useful for pinning selectors on channels.
 
 ------
 ### tag 

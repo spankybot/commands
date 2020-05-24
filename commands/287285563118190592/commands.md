@@ -77,9 +77,9 @@ Bot commands:
 
 ------
 ### dogpile 
-**g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**g**: &lt;query&gt; - Search for a link.
 
-**gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
+**gis**: &lt;query&gt; - Search for a image.
 
 ------
 ### face 
@@ -375,6 +375,10 @@ Bot commands:
 
 ------
 ### roddit_roles 
+**gibcolor**: No documentation provided.
+
+**gibrole**: No documentation provided.
+
 **nu_vreau_culoare**: No documentation provided.
 
 **nu_vreau_joc**: No documentation provided.
