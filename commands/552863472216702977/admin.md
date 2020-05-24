@@ -112,6 +112,12 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
+### selector 
+**permanent_selector**: &lt;message link/ID&gt; - makes a generated selector permanent (e.g. the bot will always listen for reacts on the given message).
+
+    This command is useful for pinning selectors on channels.
+
+------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
 
