@@ -85,9 +85,9 @@ Bot commands:
 
 ------
 ### dogpile 
-**g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**g**: &lt;query&gt; - Search for a link.
 
-**gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
+**gis**: &lt;query&gt; - Search for a image.
 
 ------
 ### face 
@@ -262,10 +262,6 @@ Bot commands:
 ------
 ### quran 
 **quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
-
-------
-### roddit_admin 
-**votat**: No documentation provided.
 
 ------
 ### rottentomatoes 
