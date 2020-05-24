@@ -112,6 +112,44 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
+### roddit_irc_mode 
+**add_chan_category**: &lt;category name or ID, type (managed, unmanaged)&gt; - Add an existing channel category to the bot
+
+    A &#x27;managed&#x27; category will have the permissions managed automatically by inheriting them from the parent category.
+
+    An &#x27;unmanaged&#x27; category will NOT have the permissions managed automatically. Instead, there will still be channel OPs.
+
+**check_irc_stuff**: No documentation provided.
+
+**create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type (either &#x27;public&#x27; or &#x27;private&#x27;) and who is the channel founder
+
+**del_chan_category**: &lt;category name or ID&gt; - Delete an existing channel category
+
+**delete_channel**: &lt;channel&gt; - delete a channel
+
+**list_chan_categories**: List channel categories
+
+**make_chan_private**: &lt;channel&gt; - make a channel private
+
+**make_chan_public**: &lt;channel&gt; - make a channel public
+
+**make_nsfw**: &lt;topic&gt; - make channel NSFW (only channel OPs can do it)
+
+**make_sfw**: &lt;topic&gt; - make channel SFW (only channel OPs can do it)
+
+**resync_roles**: Go over all channels and set roles according to op/user access procedure
+
+**sort_chans**: Sort channels alphabetically
+
+**sort_roles**: Sort roles alphabetically
+
+------
+### selector 
+**permanent_selector**: &lt;message link/ID&gt; - makes a generated selector permanent (e.g. the bot will always listen for reacts on the given message).
+
+    This command is useful for pinning selectors on channels.
+
+------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
 

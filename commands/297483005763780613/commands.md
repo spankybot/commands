@@ -77,9 +77,9 @@ Bot commands:
 
 ------
 ### dogpile 
-**g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**g**: &lt;query&gt; - Search for a link.
 
-**gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
+**gis**: &lt;query&gt; - Search for a image.
 
 ------
 ### face 
@@ -256,8 +256,18 @@ Bot commands:
 **quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
 
 ------
-### roddit_admin 
-**votat**: No documentation provided.
+### roddit_irc_mode 
+**irc_help**: No documentation provided.
+
+**join**: &lt;channel&gt; - part a channel - both private and public channels can be parted
+
+**list_chans**: Print list of user channels
+
+**part**: &lt;channel&gt; - part a channel - both private and public channels can be parted
+
+**request_channel**: &lt;name type&gt; - request a channel by specifying a &#x27;name&#x27; and a type (&#x27;public&#x27;, &#x27;private&#x27; or &#x27;invite&#x27;)
+
+**set_topic**: &lt;topic&gt; - set channel topic (only channel OPs can do it)
 
 ------
 ### rottentomatoes 
