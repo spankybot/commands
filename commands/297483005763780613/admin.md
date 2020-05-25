@@ -144,7 +144,31 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **sort_roles**: Sort roles alphabetically
 
 ------
+### role_selector 
+**add_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
+
+**add_selector_roles**: &lt;selector&gt; &lt;roles&gt; - adds the specified roles to the selector
+
+**create_selector**: &lt;selector name&gt; - create a selector that assigns a role
+
+**delete_selector**: &lt;command_name&gt; - delete a temporary selector command
+
+**remove_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - removes the roles in the specified interval from the selector.
+
+    NOTE: THIS REMOVES THE ROLE INTERVAL FROM THE ROLE LIST, NOT FROM THE SELECTOR LIST.
+
+**remove_selector_roles**: &lt;selector&gt; &lt;roles&gt; - removes the specified roles from the selector
+
+**set_selector_description**: &lt;selector&gt; &lt;description&gt; - sets a description for the selector documentation
+
+**set_selector_max_selectable**: &lt;selector&gt; &lt;maxSelectable (int)&gt; - sets the number of max selectable options for the selector. If maxSelectable &lt;= 0, then the number of max selectable options is unlimited
+
+**set_selector_title**: &lt;selector&gt; &lt;title&gt; - sets a title for the selector
+
+------
 ### selector 
+**list_permanent_selectors**: No documentation provided.
+
 **permanent_selector**: &lt;message link/ID&gt; - makes a generated selector permanent (e.g. the bot will always listen for reacts on the given message).
 
     This command is useful for pinning selectors on channels.

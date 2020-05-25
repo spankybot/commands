@@ -270,6 +270,10 @@ Bot commands:
 **set_topic**: &lt;topic&gt; - set channel topic (only channel OPs can do it)
 
 ------
+### role_selector 
+**list_selectors**: list selector commands
+
+------
 ### rottentomatoes 
 **rottentomatoes**: &lt;title&gt; - gets ratings for &lt;title&gt; from Rotten Tomatoes
 
