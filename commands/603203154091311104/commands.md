@@ -256,6 +256,12 @@ Bot commands:
 **quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
 
 ------
+### role_selector 
+**distro**: selector command as defined by server ops.
+
+**list_selectors**: list selector commands
+
+------
 ### rottentomatoes 
 **rottentomatoes**: &lt;title&gt; - gets ratings for &lt;title&gt; from Rotten Tomatoes
 
