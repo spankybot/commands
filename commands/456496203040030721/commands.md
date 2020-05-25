@@ -266,6 +266,10 @@ Bot commands:
 **dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
 
 ------
+### role_selector 
+**list_selectors**: list selector commands
+
+------
 ### rottentomatoes 
 **rottentomatoes**: &lt;title&gt; - gets ratings for &lt;title&gt; from Rotten Tomatoes
 
