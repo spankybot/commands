@@ -392,6 +392,10 @@ Bot commands:
 **vreau_rol**: No documentation provided.
 
 ------
+### role_selector 
+**list_selectors**: list selector commands
+
+------
 ### rottentomatoes 
 **rottentomatoes**: &lt;title&gt; - gets ratings for &lt;title&gt; from Rotten Tomatoes
 
