@@ -361,13 +361,9 @@ Bot commands:
 
 ------
 ### roddit_irc_mode 
+**gibchan**: No documentation provided.
+
 **irc_help**: No documentation provided.
-
-**join**: &lt;channel&gt; - part a channel - both private and public channels can be parted
-
-**list_chans**: Print list of user channels
-
-**part**: &lt;channel&gt; - part a channel - both private and public channels can be parted
 
 **request_channel**: &lt;name type&gt; - request a channel by specifying a &#x27;name&#x27; and a type (&#x27;public&#x27;, &#x27;private&#x27; or &#x27;invite&#x27;)
 
@@ -375,19 +371,7 @@ Bot commands:
 
 ------
 ### roddit_roles 
-**gibcolor**: No documentation provided.
-
-**gibrole**: No documentation provided.
-
-**nu_vreau_culoare**: No documentation provided.
-
-**nu_vreau_joc**: No documentation provided.
-
-**nu_vreau_rol**: No documentation provided.
-
 **vreau_culoare**: No documentation provided.
-
-**vreau_joc**: No documentation provided.
 
 **vreau_rol**: No documentation provided.
 

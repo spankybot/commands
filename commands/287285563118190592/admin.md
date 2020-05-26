@@ -193,6 +193,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### selector 
+**del_permanent_selector**: Remove a permanent selector.
+
 **list_permanent_selectors**: No documentation provided.
 
 **permanent_selector**: &lt;message link/ID&gt; - makes a generated selector permanent (e.g. the bot will always listen for reacts on the given message).
