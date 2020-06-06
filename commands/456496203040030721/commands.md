@@ -257,9 +257,13 @@ Bot commands:
 
 ------
 ### robac_roles 
-**am_luat**: No documentation provided.
+**am_luat**: Selecteaza bac luat
 
-**tara**: No documentation provided.
+**culoare**: Selecteaza culoare
+
+**facultate**: Selecteaza facultate
+
+**tara**: Selecteaza tara
 
 ------
 ### roddit_dex 
@@ -267,6 +271,10 @@ Bot commands:
 
 ------
 ### role_selector 
+**bacalaureat**: selector command as defined by server ops.
+
+**colors**: selector command as defined by server ops.
+
 **list_selectors**: list selector commands
 
 ------
