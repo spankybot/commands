@@ -89,11 +89,15 @@ Bot commands:
 
     **.unassign** `name` | Unassigns the given role
 
+**assign2**: No documentation provided.
+
 **country**: **.country**  |  Lists all self-assignable countries
 
     **.country** `name`  |  Assigns you the chosen country (retyping the command with a different country will give you another country role)
 
     **.nocountry** `name`  |  Removes a country role
+
+**country2**: No documentation provided.
 
 **iam**: No documentation provided.
 
