@@ -361,13 +361,33 @@ Bot commands:
 
 ------
 ### roddit_irc_mode 
-**gibchan**: No documentation provided.
+**add_op**: &lt;name&gt; - Add an operator
+
+**ban_member**: &lt;name/ID&gt; - ban a member
+
+**get_associated_role**: Get the role name associated to the channel
 
 **irc_help**: No documentation provided.
 
-**request_channel**: &lt;name type&gt; - request a channel by specifying a &#x27;name&#x27; and a type (&#x27;public&#x27;, &#x27;private&#x27; or &#x27;invite&#x27;)
+**kick_member**: &lt;name/ID&gt; - kick a member
 
-**set_topic**: &lt;topic&gt; - set channel topic (only channel OPs can do it)
+**list_bans**: List channel bans
+
+**list_members**: List members
+
+**list_ops**: List operators
+
+**remove_op**: &lt;name&gt; - Remove an operator
+
+**request_channel**: &lt;name&gt; - request a channel by specifying a name
+
+**set_associated_role_name**: Set the role name associated to the channel
+
+**set_topic**: &lt;topic&gt; - set channel topic
+
+**unban_member**: &lt;name/ID&gt; - unban a member
+
+**vreau_canal**: Generate channel selector
 
 ------
 ### roddit_roles 

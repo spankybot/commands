@@ -139,35 +139,47 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### roddit_irc_mode 
-**add_chan_category**: &lt;category name or ID, type (managed, unmanaged)&gt; - Add an existing channel category to the bot
+**add_chan_category**: &lt;category name or ID, type, privacy&gt; - Add an existing channel category to the bot
 
-    A &#x27;managed&#x27; category will have the permissions managed automatically by inheriting them from the parent category.
+    Types:
 
-    An &#x27;unmanaged&#x27; category will NOT have the permissions managed automatically. Instead, there will still be channel OPs.
+    - &#x27;managed&#x27; category will have the permissions managed automatically by inheriting them from the parent category.
+
+    - &#x27;unmanaged&#x27; category will NOT have the permissions managed automatically.
+
+    - &#x27;archive&#x27; holds archived channels
+
+
+
+    Privacy (only needed for managed and unmanaged types):
+
+    - &#x27;public&#x27; channels are joined/parted through the channel access list
+
+    - &#x27;private&#x27; channels are joined/parted through a channel specific role
+
+    - &#x27;invite&#x27; tbd
 
 **check_irc_stuff**: No documentation provided.
 
-**create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type (either &#x27;public&#x27; or &#x27;private&#x27;) and who is the channel founder
+**create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type and who is the channel founder
 
 **del_chan_category**: &lt;category name or ID&gt; - Delete an existing channel category
 
-**delete_channel**: &lt;channel&gt; - delete a channel
+**get_orphan_chans**: Get channels without ops
 
 **list_chan_categories**: List channel categories
 
-**make_chan_private**: &lt;channel&gt; - make a channel private
-
-**make_chan_public**: &lt;channel&gt; - make a channel public
-
 **make_nsfw**: &lt;topic&gt; - make channel NSFW (only channel OPs can do it)
+
+**make_permission_based**: Instead of managing access through roles, it uses channel permissions
+
+**make_role_based**: Instead of managing access through permissions, it uses role access
 
 **make_sfw**: &lt;topic&gt; - make channel SFW (only channel OPs can do it)
 
-**resync_roles**: Go over all channels and set roles according to op/user access procedure
+**move_to_category**: Move a channel to a category
 
-**sort_chans**: Sort channels alphabetically
-
-**sort_roles**: Sort roles alphabetically
+**save_server_cfg**: No documentation provided.
 
 ------
 ### role_selector 
