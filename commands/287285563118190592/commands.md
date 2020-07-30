@@ -345,6 +345,8 @@ Bot commands:
 
 **manea**: No documentation provided.
 
+**maslina**: No documentation provided.
+
 **mcioran**: No documentation provided.
 
 **mpuric**: No documentation provided.
@@ -359,15 +361,21 @@ Bot commands:
 
 **shrug**: No documentation provided.
 
+**vasile**: No documentation provided.
+
 ------
 ### roddit_irc_mode 
 **add_op**: &lt;name&gt; - Add an operator
+
+**advertise**: &lt;channel [description]&gt; - advertise a channel by optionally specifying a channel description
 
 **ban_member**: &lt;name/ID&gt; - ban a member
 
 **get_associated_role**: Get the role name associated to the channel
 
 **irc_help**: No documentation provided.
+
+**join**: &lt;chname&gt; - join a channel
 
 **kick_member**: &lt;name/ID&gt; - kick a member
 
@@ -376,6 +384,8 @@ Bot commands:
 **list_members**: List members
 
 **list_ops**: List operators
+
+**part**: &lt;chname&gt; - leave a channel
 
 **remove_op**: &lt;name&gt; - Remove an operator
 
