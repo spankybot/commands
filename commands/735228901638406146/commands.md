@@ -261,6 +261,8 @@ Bot commands:
 
 **list_selectors**: list selector commands
 
+**serii**: selector command as defined by server ops.
+
 ------
 ### rottentomatoes 
 **rottentomatoes**: &lt;title&gt; - gets ratings for &lt;title&gt; from Rotten Tomatoes
