@@ -259,6 +259,8 @@ Bot commands:
 ### role_selector 
 **culori**: selector command as defined by server ops.
 
+**iscti**: selector command as defined by server ops.
+
 **list_selectors**: list selector commands
 
 **serii**: selector command as defined by server ops.
