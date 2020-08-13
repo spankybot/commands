@@ -134,6 +134,10 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **set_selector_title**: &lt;selector&gt; &lt;title&gt; - sets a title for the selector
 
 ------
+### say 
+**say**: &lt;channel message&gt; - Send a message to a channel
+
+------
 ### selector 
 **del_permanent_selector**: Remove a permanent selector.
 
