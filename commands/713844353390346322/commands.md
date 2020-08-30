@@ -259,6 +259,8 @@ Bot commands:
 ### role_selector 
 **clase**: selector command as defined by server ops.
 
+**judete**: selector command as defined by server ops.
+
 **list_selectors**: list selector commands
 
 ------
