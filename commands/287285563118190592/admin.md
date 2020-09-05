@@ -115,6 +115,10 @@ Logged events: user join, user leave, message edit, message delete, member updat
 ### poll 
 **close_poll**: &lt;message link&gt; - Closes poll give in message link
 
+**create_poll**: &lt;title %% option1 %% option2 %% ...&gt; - create a poll with a title and multiple options
+
+**list_polls**: Lists active polls
+
 ------
 ### roddit_admin 
 **get_auto_bulau**: No documentation provided.
