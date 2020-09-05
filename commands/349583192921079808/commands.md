@@ -256,12 +256,6 @@ Bot commands:
     :type bot: cloudbot.bot.CloudBot
 
 ------
-### poll 
-**create_poll**: &lt;title %% option1 %% option2 %% ...&gt; - create a poll with a title and multiple options
-
-**list_polls**: Lists active polls
-
-------
 ### qalc 
 **calc**: &lt;expression&gt; - qalc interface
 
