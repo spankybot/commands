@@ -331,6 +331,8 @@ Bot commands:
 
 ------
 ### userinfo 
+**inrole**: [role name] List how many members each role has. Calling it with no role name will list all roles
+
 **userinfo**: &lt;mention&gt; - gets various data about the mentioned user
 
 ------
