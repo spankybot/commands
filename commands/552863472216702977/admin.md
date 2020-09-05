@@ -115,6 +115,10 @@ Logged events: user join, user leave, message edit, message delete, member updat
 ### poll 
 **close_poll**: &lt;message link&gt; - Closes poll give in message link
 
+**create_poll**: &lt;title %% option1 %% option2 %% ...&gt; - create a poll with a title and multiple options
+
+**list_polls**: Lists active polls
+
 ------
 ### role_selector 
 **add_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
