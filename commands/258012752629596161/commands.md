@@ -25,6 +25,8 @@ Bot commands:
 
 **e**: Expand an emoji
 
+**get_server_banner**: Return a link to the server banner
+
 ------
 ### bible 
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
@@ -278,6 +280,10 @@ Bot commands:
 ------
 ### quran 
 **quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
+
+------
+### remind 
+**remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
 ### role_selector 
