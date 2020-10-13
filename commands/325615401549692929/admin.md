@@ -82,6 +82,12 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **set_timeout_for**: &lt;join event, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
 
 ------
+### avatar 
+**set_banner_text**: Sets the server banner text to a given content
+
+**set_server_banner**: Sets the server banner to a given URL
+
+------
 ### del_messages 
 **delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
 
@@ -112,11 +118,57 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
+### poll 
+**close_poll**: &lt;message link&gt; - Closes poll give in message link
+
+**create_poll**: &lt;title %% option1 %% option2 %% ...&gt; - create a poll with a title and multiple options
+
+**list_polls**: Lists active polls
+
+------
+### role_selector 
+**add_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
+
+**add_selector_roles**: &lt;selector&gt; &lt;roles&gt; - adds the specified roles to the selector
+
+**create_selector**: &lt;selector name&gt; - create a selector that assigns a role
+
+**delete_selector**: &lt;command_name&gt; - delete a temporary selector command
+
+**remove_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - removes the roles in the specified interval from the selector.
+
+    NOTE: THIS REMOVES THE ROLE INTERVAL FROM THE ROLE LIST, NOT FROM THE SELECTOR LIST.
+
+**remove_selector_roles**: &lt;selector&gt; &lt;roles&gt; - removes the specified roles from the selector
+
+**set_selector_description**: &lt;selector&gt; &lt;description&gt; - sets a description for the selector documentation
+
+**set_selector_max_selectable**: &lt;selector&gt; &lt;maxSelectable (int)&gt; - sets the number of max selectable options for the selector. If maxSelectable &lt;= 0, then the number of max selectable options is unlimited
+
+**set_selector_title**: &lt;selector&gt; &lt;title&gt; - sets a title for the selector
+
+------
+### say 
+**say**: &lt;channel message&gt; - Send a message to a channel
+
+------
+### selector 
+**del_permanent_selector**: Remove a permanent selector.
+
+**list_permanent_selectors**: No documentation provided.
+
+**permanent_selector**: &lt;message link/ID&gt; - makes a generated selector permanent (e.g. the bot will always listen for reacts on the given message).
+
+    This command is useful for pinning selectors on channels.
+
+------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
 
 ------
 ### temp_role 
+**admin**: Temporary role assignment command as defined by server ops.
+
 **ban**: &lt;user [,time], reason&gt; - ban someone permanently or for a given amount of time (e.g. `.ban @plp 5m` bans plp for 5 minutes).
 
 **clear_mod_log_chan**: Clear the moderator actions channel. No moderator actions messages will be sent.
@@ -128,6 +180,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **delete_temp_role_cmd**: &lt;command_name&gt; - delete a temporary role command
 
 **get_mod_log_chan**: Return the moderator actions channel
+
+**gulagg**: Temporary role assignment command as defined by server ops.
 
 **kick**: &lt;user [reason]&gt; - Kick someone with an optional reason
 

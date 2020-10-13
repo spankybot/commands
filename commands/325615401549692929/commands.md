@@ -25,6 +25,8 @@ Bot commands:
 
 **e**: Expand an emoji
 
+**get_server_banner**: Return a link to the server banner
+
 ------
 ### bible 
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
@@ -49,9 +51,7 @@ Bot commands:
 ### corona 
 **corona**: &lt;option&gt; - available options: [all, &lt;country name&gt;]. If option is &lt;country name&gt;, you must specify a country from &lt;https://worldometers.info/coronavirus#countries&gt;.
 
-**corona_format**: &lt;format&gt; - formats the .corona command for you. Every keyword in [&quot;Cases&quot;, &quot;Recovered&quot;, &quot;Critical&quot;, &quot;Deaths&quot;, &quot;Active&quot;, &quot;C/M&quot;] will be replaced with the appropriate data.
-
-    Use `clear` if you want to clear your format and use the default one
+**corona_format**: &lt;format&gt; - formats the .corona command for you. Every keyword in [&#x27;Cases&#x27;, &#x27;Deaths&#x27;, &#x27;Tests&#x27;, &#x27;CToday&#x27;, &#x27;DToday&#x27;, &#x27;C/M&#x27;, &#x27;D/M&#x27;, &#x27;T/M&#x27;, &#x27;Recovered&#x27;, &#x27;Active&#x27;, &#x27;Critical&#x27;, &#x27;Country&#x27;, &#x27;Continent&#x27;, &#x27;LUpdated&#x27;] will be replaced with the appropriate data. Use `clear` if you want to clear your format and use the default one
 
 ------
 ### correction 
@@ -79,9 +79,9 @@ Bot commands:
 
 ------
 ### dogpile 
-**g**: &lt;query&gt; - Uses the dogpile search engine to find shit on the web.
+**g**: &lt;query&gt; - Search for a link.
 
-**gis**: &lt;query&gt; - Uses the dogpile search engine to search for images.
+**gis**: &lt;query&gt; - Search for a image.
 
 ------
 ### face 
@@ -232,6 +232,12 @@ Bot commands:
 **magik**: No documentation provided.
 
 ------
+### markov 
+**markov**: &lt;user channel&gt; - Generate sentence using a markov chain for a user using data from the given channel.
+
+    If no user is specified, a sentence will be generated using all user messages.
+
+------
 ### metars 
 **metar**: [ICAO station code] - returns the metars information for the specified station. A list of station codes can be found here: http://weather.rap.ucar.edu/surface/stations.txt
 
@@ -252,8 +258,12 @@ Bot commands:
 **quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
 
 ------
-### roddit_admin 
-**votat**: No documentation provided.
+### remind 
+**remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
+
+------
+### role_selector 
+**list_selectors**: list selector commands
 
 ------
 ### rottentomatoes 
@@ -306,6 +316,10 @@ Bot commands:
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
 
 ------
+### text 
+**letters**: &lt;text&gt; - text to emoji letters
+
+------
 ### time_plugin 
 **beats**: - Gets the current time in .beats (Swatch Internet Time).
 
@@ -317,6 +331,8 @@ Bot commands:
 
 ------
 ### userinfo 
+**inrole**: [role name] List how many members each role has. Calling it with no role name will list all roles
+
 **userinfo**: &lt;mention&gt; - gets various data about the mentioned user
 
 ------
