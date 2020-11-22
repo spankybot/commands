@@ -447,7 +447,7 @@ Bot commands:
 
 ------
 ### stock 
-**stock**: &lt;symbol&gt; -- gets stock information
+**stock**: Return stock information
 
 ------
 ### suggest 
@@ -476,6 +476,38 @@ Bot commands:
 **beats**: - Gets the current time in .beats (Swatch Internet Time).
 
 **time**: &lt;location&gt; - Gets the current time in &lt;location&gt;.
+
+------
+### txt2img 
+**text_image**: No documentation provided.
+
+**txt2img**: Generate a image using sent text
+
+    &quot;&lt;option&gt; - available input for custom fonts:
+
+    .image &lt;font name&gt;-&lt;size&gt;-&lt;text color&gt;-&lt;bg color&gt;
+
+    VALID_FONTS=
+
+    &#x27;sofia&#x27;,
+
+    &#x27;ostirch&#x27;,
+
+    &#x27;diso&#x27;,
+
+    &#x27;learning&#x27;,
+
+    &#x27;hotel&#x27;,
+
+    &#x27;plp&#x27;,
+
+    &#x27;default&#x27;
+
+    &#x27;symbols&#x27;
+
+    Example usage of this command :
+
+    .text2img sofia-30-red-yellow the quick brown fox jumps over the lazy dog
 
 ------
 ### urban 
