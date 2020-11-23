@@ -263,6 +263,10 @@ Bot commands:
 
 ------
 ### role_selector 
+**colours**: Alege o culoare din lista de mai jos pentru a îți schimba culoarea numelui.
+
+**facultati**: selector command as defined by server ops.
+
 **list_selectors**: list selector commands
 
 ------

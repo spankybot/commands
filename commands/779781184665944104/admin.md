@@ -169,6 +169,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 ### temp_role 
 **ban**: &lt;user [,time], reason&gt; - ban someone permanently or for a given amount of time (e.g. `.ban @plp 5m` bans plp for 5 minutes).
 
+**bataie**: Temporary role assignment command as defined by server ops.
+
 **clear_mod_log_chan**: Clear the moderator actions channel. No moderator actions messages will be sent.
 
 **close_user_case**: &lt;id&gt; - mark user case as closed
