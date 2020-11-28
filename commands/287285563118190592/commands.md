@@ -370,6 +370,10 @@ Bot commands:
 **vasile**: No documentation provided.
 
 ------
+### roddit_horoscop 
+**horoscop**: horoscop &lt;zodie&gt; - Afișează horoscopul unei zodii
+
+------
 ### roddit_irc_mode 
 **add_op**: &lt;name&gt; - Add an operator
 
