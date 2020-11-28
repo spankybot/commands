@@ -262,6 +262,10 @@ Bot commands:
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
+### roddit_horoscop 
+**horoscop**: horoscop &lt;zodie&gt; - Afișează horoscopul unei zodii
+
+------
 ### role_selector 
 **list_selectors**: list selector commands
 
