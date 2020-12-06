@@ -155,6 +155,8 @@ Bot commands:
 
 **blep**: No documentation provided.
 
+**blonde**: blonde
+
 **buci**: No documentation provided.
 
 **capre**: No documentation provided.
