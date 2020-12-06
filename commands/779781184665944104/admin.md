@@ -73,13 +73,13 @@ The scripted message can contain special words that are replaced when the event 
 
 e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x27;John / 12345678910 just joined!&#x27;
 
-**del_join_event**: &lt;event&gt; - delete a join event
+**del_join_event**: &lt;event id&gt; - delete a join event
 
 **get_timeout_for**: Get timeout for a join event
 
 **list_join_events**: List on-join events
 
-**set_timeout_for**: &lt;join event, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
+**set_timeout_for**: &lt;join event id, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
 
 ------
 ### avatar 
