@@ -73,13 +73,13 @@ The scripted message can contain special words that are replaced when the event 
 
 e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x27;John / 12345678910 just joined!&#x27;
 
-**del_join_event**: &lt;event&gt; - delete a join event
+**del_join_event**: &lt;event id&gt; - delete a join event
 
 **get_timeout_for**: Get timeout for a join event
 
 **list_join_events**: List on-join events
 
-**set_timeout_for**: &lt;join event, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
+**set_timeout_for**: &lt;join event id, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
 
 ------
 ### avatar 
@@ -124,6 +124,36 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **create_poll**: &lt;title %% option1 %% option2 %% ...&gt; - create a poll with a title and multiple options
 
 **list_polls**: Lists active polls
+
+------
+### roddit_christmas 
+**add_emoji**: Adaugă ornamentele de Crăciun ale botului. NOTE: Este o operație lentă, emoji-urile fiind puse unul după altul
+
+**add_unlimited_adder**: Adaugă user care poate adăuga oricâte ornamente vrea el. Comandă făcută pentru testare
+
+**assign_special_user**: Selectați un utilizator special care să încheie evenimentul!
+
+**christmas_info**: Informații utile despre cum merge evenimentul. Nu utilizați într-un canal public
+
+**clear_ornaments**: Șterge toate ornamentele de pe copac. Dacă a fost pusă steaua, evenimentul reîncepe
+
+**end_christmas**: Oprește Crăciunul. Ornamentele rămân salvate pentru când începeți din nou.
+
+**get_tree**: Primește imaginea bradului. Fiindcă e operație intensivă, e limitată doar adminilor
+
+**remove_emoji**: Curățenie de primăvară a emoji-urilor botului.
+
+**remove_unlimited_adder**: Șterge user care poate adăuga oricâte ornamente vrea el. Comandă făcută pentru testare
+
+**restrict_ornaments**: Restrânge lista de ornamente permise la cele adăugate de bot pentru eveniment.
+
+**start_christmas**: Începe Crăciunul. Activează toate comenzile din roddit_christmas.
+
+**toggle_unlimited_adding**: Comută dacă toți userii pot avea mai multe ornamente aplicate pe brad
+
+**toggle_update_christmas_banner**: Comută starea actualizării banner-ului
+
+**unrestrict_ornaments**: Elimină limitarea de ornamente. Recomand să nu o utilizați
 
 ------
 ### roddit_irc_mode 
