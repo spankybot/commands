@@ -155,6 +155,8 @@ Bot commands:
 
 **blep**: No documentation provided.
 
+**blonde**: blonde
+
 **buci**: No documentation provided.
 
 **capre**: No documentation provided.
@@ -320,6 +322,18 @@ Bot commands:
 ------
 ### roddit_admin 
 **votat**: No documentation provided.
+
+------
+### roddit_christmas 
+**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
+
+**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
+
+**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
+
+**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
+
+**ornare_stea**: Finalul evenimentului. Doar un user special poate face asta!
 
 ------
 ### roddit_dex 
