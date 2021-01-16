@@ -276,6 +276,10 @@ Bot commands:
 **dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
 
 ------
+### roddit_irc_mode 
+**accept_invite**: No documentation provided.
+
+------
 ### role_selector 
 **bacalaureat**: selector command as defined by server ops.
 
