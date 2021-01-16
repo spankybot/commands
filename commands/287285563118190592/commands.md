@@ -165,6 +165,8 @@ Bot commands:
 
 **cutu**: No documentation provided.
 
+**femboy**: femboy
+
 **fetch_image**: No documentation provided.
 
 **fetish**: No documentation provided.
@@ -324,18 +326,6 @@ Bot commands:
 **votat**: No documentation provided.
 
 ------
-### roddit_christmas 
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare_stea**: Finalul evenimentului. Doar un user special poate face asta!
-
-------
 ### roddit_dex 
 **dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
 
@@ -365,8 +355,6 @@ Bot commands:
 
 **manea**: No documentation provided.
 
-**maslina**: No documentation provided.
-
 **mcioran**: No documentation provided.
 
 **mpuric**: No documentation provided.
@@ -389,6 +377,8 @@ Bot commands:
 
 ------
 ### roddit_irc_mode 
+**accept_invite**: No documentation provided.
+
 **add_op**: &lt;name&gt; - Add an operator
 
 **advertise**: &lt;channel [description]&gt; - advertise a channel by optionally specifying a channel description
@@ -397,7 +387,27 @@ Bot commands:
 
 **get_associated_role**: Get the role name associated to the channel
 
+**iclear**: Set a channel property. Available properties:
+
+-&gt; motd - Manage channel MOTD
+
+-&gt; test1 - muie dinamo
+
+**iget**: Set a channel property. Available properties:
+
+-&gt; motd - Manage channel MOTD
+
+-&gt; test1 - muie dinamo
+
+**invite_member**: &lt;user&gt; Invite someone to an invite-only channel
+
 **irc_help**: No documentation provided.
+
+**iset**: Set a channel property. Available properties:
+
+-&gt; motd - Manage channel MOTD
+
+-&gt; test1 - muie dinamo
 
 **join**: &lt;chname&gt; - join a channel
 
