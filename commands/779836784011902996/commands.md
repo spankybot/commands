@@ -262,7 +262,13 @@ Bot commands:
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
+### roddit_irc_mode 
+**accept_invite**: No documentation provided.
+
+------
 ### role_selector 
+**alegeti**: alegeti ce va place mai mult
+
 **list_selectors**: list selector commands
 
 ------
