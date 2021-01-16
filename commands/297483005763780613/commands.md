@@ -262,23 +262,13 @@ Bot commands:
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
-### roddit_christmas 
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează bradul. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare_stea**: Finalul evenimentului. Doar un user special poate face asta!
-
-------
 ### roddit_horoscop 
 **horoscop**: horoscop &lt;zodie&gt; - Afișează horoscopul unei zodii
 
 ------
 ### roddit_irc_mode 
+**accept_invite**: No documentation provided.
+
 **add_op**: &lt;name&gt; - Add an operator
 
 **advertise**: &lt;channel [description]&gt; - advertise a channel by optionally specifying a channel description
@@ -287,7 +277,27 @@ Bot commands:
 
 **get_associated_role**: Get the role name associated to the channel
 
+**iclear**: Set a channel property. Available properties:
+
+-&gt; motd - Manage channel MOTD
+
+-&gt; test1 - muie dinamo
+
+**iget**: Set a channel property. Available properties:
+
+-&gt; motd - Manage channel MOTD
+
+-&gt; test1 - muie dinamo
+
+**invite_member**: &lt;user&gt; Invite someone to an invite-only channel
+
 **irc_help**: No documentation provided.
+
+**iset**: Set a channel property. Available properties:
+
+-&gt; motd - Manage channel MOTD
+
+-&gt; test1 - muie dinamo
 
 **join**: &lt;chname&gt; - join a channel
 

@@ -126,36 +126,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **list_polls**: Lists active polls
 
 ------
-### roddit_christmas 
-**add_emoji**: Adaugă ornamentele de Crăciun ale botului. NOTE: Este o operație lentă, emoji-urile fiind puse unul după altul
-
-**add_unlimited_adder**: Adaugă user care poate adăuga oricâte ornamente vrea el. Comandă făcută pentru testare
-
-**assign_special_user**: Selectați un utilizator special care să încheie evenimentul!
-
-**christmas_info**: Informații utile despre cum merge evenimentul. Nu utilizați într-un canal public
-
-**clear_ornaments**: Șterge toate ornamentele de pe copac. Dacă a fost pusă steaua, evenimentul reîncepe
-
-**end_christmas**: Oprește Crăciunul. Ornamentele rămân salvate pentru când începeți din nou.
-
-**get_tree**: Primește imaginea bradului. Fiindcă e operație intensivă, e limitată doar adminilor
-
-**remove_emoji**: Curățenie de primăvară a emoji-urilor botului.
-
-**remove_unlimited_adder**: Șterge user care poate adăuga oricâte ornamente vrea el. Comandă făcută pentru testare
-
-**restrict_ornaments**: Restrânge lista de ornamente permise la cele adăugate de bot pentru eveniment.
-
-**start_christmas**: Începe Crăciunul. Activează toate comenzile din roddit_christmas.
-
-**toggle_unlimited_adding**: Comută dacă toți userii pot avea mai multe ornamente aplicate pe brad
-
-**toggle_update_christmas_banner**: Comută starea actualizării banner-ului
-
-**unrestrict_ornaments**: Elimină limitarea de ornamente. Recomand să nu o utilizați
-
-------
 ### roddit_irc_mode 
 **add_chan_category**: &lt;category name or ID, type, privacy&gt; - Add an existing channel category to the bot
 
@@ -175,13 +145,15 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
     - &#x27;private&#x27; channels are joined/parted through a channel specific role
 
-    - &#x27;invite&#x27; tbd
+    - &#x27;invite&#x27; channels are joined through invite codes
 
 **check_irc_stuff**: No documentation provided.
 
 **create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type and who is the channel founder
 
 **del_chan_category**: &lt;category name or ID&gt; - Delete an existing channel category
+
+**delete_channel**: &lt;channel&gt; - delete a channel
 
 **get_orphan_chans**: Get channels without ops
 
