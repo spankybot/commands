@@ -83,6 +83,8 @@ Bot commands:
 
 **gis**: &lt;query&gt; - Search for a image.
 
+**nsfwgis**: &lt;query&gt; - Search for a image.
+
 ------
 ### europe_admin 
 **assign**: **.assign**  |  Lists all self-assignable roles
@@ -323,7 +325,11 @@ Bot commands:
 
 ------
 ### stock 
-**stock**: Return stock information
+**dquote**: No documentation provided.
+
+**quote**: No documentation provided.
+
+**stock**: No documentation provided.
 
 ------
 ### suggest 
