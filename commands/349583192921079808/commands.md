@@ -91,6 +91,8 @@ Bot commands:
 
 **gis**: &lt;query&gt; - Search for a image.
 
+**nsfwgis**: &lt;query&gt; - Search for a image.
+
 ------
 ### face 
 **eyes**: No documentation provided.
@@ -307,7 +309,11 @@ Bot commands:
 
 ------
 ### stock 
-**stock**: Return stock information
+**dquote**: No documentation provided.
+
+**quote**: No documentation provided.
+
+**stock**: No documentation provided.
 
 ------
 ### suggest 
