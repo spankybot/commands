@@ -221,6 +221,8 @@ Bot commands:
 
 ------
 ### log 
+**asdasdasda**: No documentation provided.
+
 **seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
 
 ------
@@ -262,6 +264,16 @@ Bot commands:
 ------
 ### remind 
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
+
+------
+### roddit_family 
+**accept_adoption**: &lt;id&gt; - Acceptă o ofertă de adopție
+
+**accept_marry**: &lt;id&gt; - Acceptă o ofertă de căsătorie.
+
+**deny_adoption**: &lt;id&gt; - Refuză o ofertă de adopție
+
+**deny_marry**: &lt;id&gt; - Refuză o ofertă de căsătorie
 
 ------
 ### roddit_horoscop 
