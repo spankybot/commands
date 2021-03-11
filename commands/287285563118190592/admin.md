@@ -198,20 +198,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **save_server_cfg**: No documentation provided.
 
 ------
-### roddit_new_year 
-**clear_current_message**: No documentation provided.
-
-**disable_countdown**: No documentation provided.
-
-**enable_countdown**: No documentation provided.
-
-**show_funne**: No documentation provided.
-
-**show_hours**: No documentation provided.
-
-**toggle_banner**: No documentation provided.
-
-------
 ### role_selector 
 **add_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
 

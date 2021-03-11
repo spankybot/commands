@@ -281,6 +281,8 @@ Bot commands:
 
 ------
 ### log 
+**asdasdasda**: No documentation provided.
+
 **seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
 
 ------
@@ -330,6 +332,46 @@ Bot commands:
 ------
 ### roddit_dex 
 **dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
+
+------
+### roddit_family 
+**accept_adoption**: &lt;id&gt; - Acceptă o ofertă de adopție
+
+**accept_marry**: &lt;id&gt; - Acceptă o ofertă de căsătorie.
+
+**adopt**: &lt;user&gt; - Inițiază o cerere de adopție cu user-ul menționat
+
+**bug_report**: &lt;text&gt; - raportează un bug către cel care se ocupă cu această funcționalitate a botului.
+
+**choose_parent**: &lt;părinte&gt; - Alege părintele cu care vrei să rămâi după divorț.
+
+**deny_adoption**: &lt;id&gt; - Refuză o ofertă de adopție
+
+**deny_marry**: &lt;id&gt; - Refuză o ofertă de căsătorie
+
+**disown**: &lt;user&gt; - Dezmoștenește unul din copii
+
+**divorce**: Divorțează cu partenerul tău.
+
+**family_info**: Informații generale despre comenzile legate de familie
+
+**family_support**: Afișează toate comenzile pe care le poate face cineva. Lista se poate schimba după mulți factori. `.family_support full` dezactivează dinamicitatea
+
+**family_tree**: &lt;user&gt; - Afișează arborele genealogic al unei persoane. Dacă nu este menționat cineva, va afișa arborele tău genealogic
+
+**leave_parents**: Nu alege niciun părinte cu care să rămâi. Nu vei mai putea alege un părinte după.
+
+**marry**: &lt;user&gt; - Inițiază o cerere în căsătorie cu persoana menționată
+
+**offer_inbox**: Afișează toate cererile disponibile pe care le-ai primit.
+
+**offer_outbox**: Afișează toate cererile disponibile pe care le-ai trimis.
+
+**revoke_adopt_request**: Dacă te-ai răzgândit și nu vrei să adoptezi pe cineva.
+
+**revoke_marry_request**: Dacă te-ai răzgândit și nu vrei să te căsătorești.
+
+**run_away**: Fugi de acasă. Sunt eliminate toate legăturile cu părinții tăi.
 
 ------
 ### roddit_fun 
