@@ -221,6 +221,8 @@ Bot commands:
 
 ------
 ### log 
+**asdasdasda**: No documentation provided.
+
 **seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
 
 ------
@@ -276,6 +278,16 @@ Bot commands:
 ------
 ### roddit_dex 
 **dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
+
+------
+### roddit_family 
+**accept_adoption**: &lt;id&gt; - Acceptă o ofertă de adopție
+
+**accept_marry**: &lt;id&gt; - Acceptă o ofertă de căsătorie.
+
+**deny_adoption**: &lt;id&gt; - Refuză o ofertă de adopție
+
+**deny_marry**: &lt;id&gt; - Refuză o ofertă de căsătorie
 
 ------
 ### roddit_irc_mode 
