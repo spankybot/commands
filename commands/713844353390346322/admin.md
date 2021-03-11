@@ -181,6 +181,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 **kick**: &lt;user [reason]&gt; - Kick someone with an optional reason
 
+**liniste**: Temporary role assignment command as defined by server ops.
+
 **list_temp_role_cmds**: list temporary role commands
 
 **set_mod_log_chan**: &lt;channel&gt; - Set channel for moderator actions. When a moderator action will be done through the bot, details about the action will be logged to this channel.
