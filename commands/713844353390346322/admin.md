@@ -173,6 +173,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 **close_user_case**: &lt;id&gt; - mark user case as closed
 
+**cooldown**: Temporary role assignment command as defined by server ops.
+
 **create_temp_role_cmd**: &lt;command name, role&gt; - create a command that assigns a temporary role by specifying `command_name role`
 
 **delete_temp_role_cmd**: &lt;command_name&gt; - delete a temporary role command
@@ -180,8 +182,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **get_mod_log_chan**: Return the moderator actions channel
 
 **kick**: &lt;user [reason]&gt; - Kick someone with an optional reason
-
-**liniste**: Temporary role assignment command as defined by server ops.
 
 **list_temp_role_cmds**: list temporary role commands
 
