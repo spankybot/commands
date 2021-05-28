@@ -287,6 +287,10 @@ Bot commands:
 
 **list_selectors**: list selector commands
 
+**vreau_elev**: selector command as defined by server ops.
+
+**vreau_student**: selector command as defined by server ops.
+
 ------
 ### rottentomatoes 
 **rottentomatoes**: &lt;title&gt; - gets ratings for &lt;title&gt; from Rotten Tomatoes
