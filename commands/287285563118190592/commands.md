@@ -431,27 +431,17 @@ Bot commands:
 
 **get_associated_role**: Get the role name associated to the channel
 
-**iclear**: Set a channel property. Available properties:
+**iclear**: Clear a channel property.
 
--&gt; motd - Manage channel MOTD
+**iget**: Get a channel property.
 
--&gt; test1 - muie dinamo
-
-**iget**: Set a channel property. Available properties:
-
--&gt; motd - Manage channel MOTD
-
--&gt; test1 - muie dinamo
+**ilist**: List properties.
 
 **invite_member**: &lt;user&gt; Invite someone to an invite-only channel
 
 **irc_help**: No documentation provided.
 
-**iset**: Set a channel property. Available properties:
-
--&gt; motd - Manage channel MOTD
-
--&gt; test1 - muie dinamo
+**iset**: Set a channel property.
 
 **join**: &lt;chname&gt; - join a channel
 
@@ -479,11 +469,13 @@ Bot commands:
 
 ------
 ### roddit_roles 
-**vreau_culoare**: No documentation provided.
+**vreau_culoare**: Culori
 
-**vreau_joc**: No documentation provided.
+**vreau_eveniment**: Roluri pentru evenimente
 
-**vreau_rol**: No documentation provided.
+**vreau_joc**: Roluri pentru jocuri
+
+**vreau_rol**: Roluri random
 
 ------
 ### role_selector 
