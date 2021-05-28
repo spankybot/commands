@@ -341,6 +341,8 @@ Bot commands:
 
 ------
 ### role_selector 
+**iapula**: selector command as defined by server ops.
+
 **list_selectors**: list selector commands
 
 ------
