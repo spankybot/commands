@@ -92,6 +92,36 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
 
 ------
+### firewall 
+**firewall**: Manage server firewall.
+
+
+
+    Usage:
+
+        - up [expire_time]
+
+        - down
+
+        - status
+
+        - mode autokick|autoban
+
+
+
+    Examples:
+
+        .firewall up -&gt; will raise the firewall indefinitely
+
+        .firewall up 10s -&gt; will raise the firewall for 10 seconds
+
+        .firewall up 1h -&gt; will raise the firewall for one hour
+
+
+
+        .firewall mode autokick -&gt; enables autokick for the firewall.
+
+------
 ### grab 
 **del_grab**: Delete a grab entry. Specify what the grab message contains or the message ID
 
