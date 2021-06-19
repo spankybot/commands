@@ -287,6 +287,10 @@ Bot commands:
 
 **list_selectors**: list selector commands
 
+**predictii**: selector command as defined by server ops.
+
+**vreau_bac**: selector command as defined by server ops.
+
 **vreau_elev**: selector command as defined by server ops.
 
 **vreau_student**: selector command as defined by server ops.
