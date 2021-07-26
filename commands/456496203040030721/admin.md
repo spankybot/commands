@@ -88,6 +88,10 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **set_server_banner**: Sets the server banner to a given URL
 
 ------
+### correction 
+**toggle_correction_msg_del_ability**: enable/disable ability for automatic deletion of command when running .s/.ss
+
+------
 ### del_messages 
 **delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
 
@@ -191,6 +195,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
     This command is useful for pinning selectors on channels.
 
+**rebuild_selectors**: No documentation provided.
+
 ------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
@@ -209,6 +215,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 **detentie**: Temporary role assignment command as defined by server ops.
 
+**export_cases**: No documentation provided.
+
 **get_mod_log_chan**: Return the moderator actions channel
 
 **kick**: &lt;user [reason]&gt; - Kick someone with an optional reason
@@ -216,6 +224,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **list_temp_role_cmds**: list temporary role commands
 
 **set_mod_log_chan**: &lt;channel&gt; - Set channel for moderator actions. When a moderator action will be done through the bot, details about the action will be logged to this channel.
+
+**set_temp_role_cmd_type**: No documentation provided.
 
 **show_user_case**: &lt;id&gt; - show details for a given user case
 

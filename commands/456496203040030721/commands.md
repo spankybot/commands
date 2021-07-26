@@ -28,6 +28,16 @@ Bot commands:
 **get_server_banner**: Return a link to the server banner
 
 ------
+### bacultate_roles 
+**am_luat**: Selecteaza bac luat
+
+**culoare**: Selecteaza culoare
+
+**facultate**: Selecteaza facultate
+
+**tara**: Selecteaza tara
+
+------
 ### bible 
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
 
@@ -58,6 +68,8 @@ Bot commands:
 **s**: &lt;word replacement&gt; - replace &#x27;word&#x27; with replacement
 
 **ss**: &lt;regex replacement&gt; - replace regex with replacement
+
+**toggle_correction_msg_del**: enable/disable automatic deletion of command when running .s/.ss
 
 ------
 ### cryptocurrency 
@@ -131,7 +143,7 @@ Bot commands:
 
 ------
 ### grab 
-**grab**: &lt;user&gt; - grab user&#x27;s last message
+**grab**: &lt;user&gt; - grab user&#x27;s last message. If &lt;user&gt; is empty, it will try to grab the message you&#x27;re replying to
 
 **grabl**: &lt;user&gt; - List quotes for user. If no user is specified, it lists everything on the server.
 
@@ -221,7 +233,7 @@ Bot commands:
 
 ------
 ### log 
-**asdasdasda**: No documentation provided.
+**rip3ws**: No documentation provided.
 
 **seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
 
@@ -264,16 +276,6 @@ Bot commands:
 ------
 ### remind 
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
-
-------
-### robac_roles 
-**am_luat**: Selecteaza bac luat
-
-**culoare**: Selecteaza culoare
-
-**facultate**: Selecteaza facultate
-
-**tara**: Selecteaza tara
 
 ------
 ### roddit_dex 
