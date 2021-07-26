@@ -59,6 +59,8 @@ Bot commands:
 
 **ss**: &lt;regex replacement&gt; - replace regex with replacement
 
+**toggle_correction_msg_del**: enable/disable automatic deletion of command when running .s/.ss
+
 ------
 ### cryptocurrency 
 **btc**: - Returns the current btc value
@@ -131,7 +133,7 @@ Bot commands:
 
 ------
 ### grab 
-**grab**: &lt;user&gt; - grab user&#x27;s last message
+**grab**: &lt;user&gt; - grab user&#x27;s last message. If &lt;user&gt; is empty, it will try to grab the message you&#x27;re replying to
 
 **grabl**: &lt;user&gt; - List quotes for user. If no user is specified, it lists everything on the server.
 
@@ -281,7 +283,7 @@ Bot commands:
 
 ------
 ### log 
-**asdasdasda**: No documentation provided.
+**rip3ws**: No documentation provided.
 
 **seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
 
@@ -476,6 +478,18 @@ Bot commands:
 **vreau_joc**: Roluri pentru jocuri
 
 **vreau_rol**: Roluri random
+
+------
+### roddit_vara 
+**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează plaja. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
+
+**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează plaja. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
+
+**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează plaja. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
+
+**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează plaja. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
+
+**ornare_snoo**: Finalul evenimentului. Doar un user special poate face asta!
 
 ------
 ### role_selector 
