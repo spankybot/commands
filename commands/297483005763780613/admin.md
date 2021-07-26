@@ -88,6 +88,22 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **set_server_banner**: Sets the server banner to a given URL
 
 ------
+### birthday 
+**bday_dbg**: No documentation provided.
+
+**birthday**: Manage birthday announcements.
+
+
+
+    See `.birthday help` for more info
+
+**trigger_check**: No documentation provided.
+
+------
+### correction 
+**toggle_correction_msg_del_ability**: enable/disable ability for automatic deletion of command when running .s/.ss
+
+------
 ### del_messages 
 **delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
 
@@ -202,6 +218,44 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **save_server_cfg**: No documentation provided.
 
 ------
+### roddit_vara 
+**add_emoji**: Adaugă ornamentele de vară ale botului. NOTE: Este o operație lentă, emoji-urile fiind puse unul după altul
+
+**add_unlimited_adder**: Adaugă user care poate adăuga oricâte ornamente vrea el. Comandă făcută pentru testare
+
+**assign_special_user**: Selectați un utilizator special care să încheie evenimentul!
+
+**ban_user_ornation**: No documentation provided.
+
+**clear_ornaments**: Șterge toate ornamentele de pe copac. Dacă a fost pusă steaua, evenimentul reîncepe
+
+**end_summer**: Oprește vara. Ornamentele rămân salvate pentru când începeți din nou.
+
+**get_beach**: Primește imaginea plajei. Fiindcă e operație intensivă, e limitată doar adminilor
+
+**remove_emoji**: Curățenie de primăvară a emoji-urilor botului.
+
+**remove_unlimited_adder**: Șterge user care poate adăuga oricâte ornamente vrea el. Comandă făcută pentru testare
+
+**remove_user_ornaments**: No documentation provided.
+
+**restrict_ornaments**: Restrânge lista de ornamente permise la cele adăugate de bot pentru eveniment.
+
+**start_summer**: Începe vara. Activează toate comenzile din roddit_christmas.
+
+**summer_info**: Informații utile despre cum merge evenimentul. Nu utilizați într-un canal public
+
+**test_ornaments**: No documentation provided.
+
+**toggle_unlimited_adding**: Comută dacă toți userii pot avea mai multe ornamente aplicate pe brad
+
+**toggle_update_summer_banner**: Comută starea actualizării banner-ului
+
+**unban_user_ornation**: No documentation provided.
+
+**unrestrict_ornaments**: Elimină limitarea de ornamente. Recomand să nu o utilizați
+
+------
 ### role_selector 
 **add_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
 
@@ -237,6 +291,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
     This command is useful for pinning selectors on channels.
 
+**rebuild_selectors**: No documentation provided.
+
 ------
 ### tag 
 **tag_del**: &lt;tag&gt; - delete a tag
@@ -257,6 +313,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 **delete_temp_role_cmd**: &lt;command_name&gt; - delete a temporary role command
 
+**export_cases**: No documentation provided.
+
 **get_mod_log_chan**: Return the moderator actions channel
 
 **kick**: &lt;user [reason]&gt; - Kick someone with an optional reason
@@ -264,6 +322,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **list_temp_role_cmds**: list temporary role commands
 
 **set_mod_log_chan**: &lt;channel&gt; - Set channel for moderator actions. When a moderator action will be done through the bot, details about the action will be logged to this channel.
+
+**set_temp_role_cmd_type**: No documentation provided.
 
 **show_user_case**: &lt;id&gt; - show details for a given user case
 
