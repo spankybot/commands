@@ -59,6 +59,8 @@ Bot commands:
 
 **ss**: &lt;regex replacement&gt; - replace regex with replacement
 
+**toggle_correction_msg_del**: enable/disable automatic deletion of command when running .s/.ss
+
 ------
 ### cryptocurrency 
 **btc**: - Returns the current btc value
@@ -131,7 +133,7 @@ Bot commands:
 
 ------
 ### grab 
-**grab**: &lt;user&gt; - grab user&#x27;s last message
+**grab**: &lt;user&gt; - grab user&#x27;s last message. If &lt;user&gt; is empty, it will try to grab the message you&#x27;re replying to
 
 **grabl**: &lt;user&gt; - List quotes for user. If no user is specified, it lists everything on the server.
 
@@ -221,7 +223,7 @@ Bot commands:
 
 ------
 ### log 
-**asdasdasda**: No documentation provided.
+**rip3ws**: No documentation provided.
 
 **seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
 
@@ -266,6 +268,10 @@ Bot commands:
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
+### roddit_dex 
+**dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
+
+------
 ### roddit_family 
 **accept_adoption**: &lt;id&gt; - Acceptă o ofertă de adopție
 
@@ -288,6 +294,10 @@ Bot commands:
 **list_selectors**: list selector commands
 
 **predictii**: selector command as defined by server ops.
+
+**vreau_acces**: selector command as defined by server ops.
+
+**vreau_adult**: selector command as defined by server ops.
 
 **vreau_bac**: selector command as defined by server ops.
 
