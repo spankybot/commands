@@ -281,6 +281,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 ### say 
 **say**: &lt;channel message&gt; - Send a message to a channel
 
+**say_pm**: &lt;user message&gt; - Send a message to an user.
+
 ------
 ### selector 
 **del_permanent_selector**: Remove a permanent selector.
