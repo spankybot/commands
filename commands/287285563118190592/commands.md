@@ -397,6 +397,8 @@ Bot commands:
 
 **injur**: No documentation provided.
 
+**iubestemafa**: Vezi compatiblitatea ta cu o persoana. Sau o chestie.
+
 **jupi**: No documentation provided.
 
 **manea**: No documentation provided.
