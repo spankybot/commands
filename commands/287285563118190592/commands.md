@@ -148,66 +148,6 @@ Bot commands:
 **help**: Get help for a command or the help document
 
 ------
-### image_generator 
-**amateur**: No documentation provided.
-
-**anal**: No documentation provided.
-
-**asians**: No documentation provided.
-
-**aww**: No documentation provided.
-
-**blep**: No documentation provided.
-
-**blonde**: blonde
-
-**buci**: No documentation provided.
-
-**capre**: No documentation provided.
-
-**craci**: No documentation provided.
-
-**cutu**: No documentation provided.
-
-**femboy**: femboy
-
-**fetch_image**: No documentation provided.
-
-**fetish**: No documentation provided.
-
-**force_refresh_porn**: No documentation provided.
-
-**lesbiene**: No documentation provided.
-
-**milf**: No documentation provided.
-
-**nsfwfunny**: No documentation provided.
-
-**pisi**: No documentation provided.
-
-**plsgayporn**: pls gib porn
-
-**plsporn**: pls gib porn
-
-**raton**: No documentation provided.
-
-**roscate**: No documentation provided.
-
-**skinny**: No documentation provided.
-
-**sloboz**: No documentation provided.
-
-**tatuate**: No documentation provided.
-
-**teen**: No documentation provided.
-
-**thicc**: No documentation provided.
-
-**traps**: No documentation provided.
-
-**tzatze**: No documentation provided.
-
-------
 ### imdb 
 **imdb**: &lt;movie&gt; - gets information about &lt;movie&gt; from IMDb
 
@@ -379,6 +319,8 @@ Bot commands:
 ### roddit_fun 
 **aplauze**: No documentation provided.
 
+**aram**: No documentation provided.
+
 **ayy**: No documentation provided.
 
 **bitter**: No documentation provided.
@@ -480,18 +422,6 @@ Bot commands:
 **vreau_joc**: Roluri pentru jocuri
 
 **vreau_rol**: Roluri random
-
-------
-### roddit_vara 
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează plaja. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează plaja. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează plaja. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare / ornate / ornamentare / ornament**: ornare &lt;ornament&gt; - Ornează plaja. Dacă încerci să ornezi de mai multe ori, doar cel pus acum va fi păstrat.
-
-**ornare_snoo**: Finalul evenimentului. Doar un user special poate face asta!
 
 ------
 ### role_selector 
@@ -654,6 +584,10 @@ Bot commands:
 **w3c**: &lt;url&gt; - Runs url through the W3C Markup Validator.
 
 ------
+### vicky 
+**vicky**: &lt;hot&gt; &lt;crazy&gt; - Returns the zone from the universal hot crazy matrix
+
+------
 ### wandbox 
 **wb**: wandbox interface
 
@@ -666,6 +600,10 @@ Bot commands:
 **weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
 
 **weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
+
+------
+### whois 
+**whois**: &lt;domain&gt; - Does a whois query on &lt;domain&gt;.
 
 ------
 ### xkcd 

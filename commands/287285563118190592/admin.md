@@ -244,44 +244,6 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **save_server_cfg**: No documentation provided.
 
 ------
-### roddit_vara 
-**add_emoji**: Adaugă ornamentele de vară ale botului. NOTE: Este o operație lentă, emoji-urile fiind puse unul după altul
-
-**add_unlimited_adder**: Adaugă user care poate adăuga oricâte ornamente vrea el. Comandă făcută pentru testare
-
-**assign_special_user**: Selectați un utilizator special care să încheie evenimentul!
-
-**ban_user_ornation**: No documentation provided.
-
-**clear_ornaments**: Șterge toate ornamentele de pe copac. Dacă a fost pusă steaua, evenimentul reîncepe
-
-**end_summer**: Oprește vara. Ornamentele rămân salvate pentru când începeți din nou.
-
-**get_beach**: Primește imaginea plajei. Fiindcă e operație intensivă, e limitată doar adminilor
-
-**remove_emoji**: Curățenie de primăvară a emoji-urilor botului.
-
-**remove_unlimited_adder**: Șterge user care poate adăuga oricâte ornamente vrea el. Comandă făcută pentru testare
-
-**remove_user_ornaments**: No documentation provided.
-
-**restrict_ornaments**: Restrânge lista de ornamente permise la cele adăugate de bot pentru eveniment.
-
-**start_summer**: Începe vara. Activează toate comenzile din roddit_christmas.
-
-**summer_info**: Informații utile despre cum merge evenimentul. Nu utilizați într-un canal public
-
-**test_ornaments**: No documentation provided.
-
-**toggle_unlimited_adding**: Comută dacă toți userii pot avea mai multe ornamente aplicate pe brad
-
-**toggle_update_summer_banner**: Comută starea actualizării banner-ului
-
-**unban_user_ornation**: No documentation provided.
-
-**unrestrict_ornaments**: Elimină limitarea de ornamente. Recomand să nu o utilizați
-
-------
 ### role_selector 
 **add_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
 
