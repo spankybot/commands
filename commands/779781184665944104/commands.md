@@ -282,6 +282,52 @@ Bot commands:
 **deny_marry**: &lt;id&gt; - Refuză o ofertă de căsătorie
 
 ------
+### roddit_fun 
+**aplauze**: No documentation provided.
+
+**aram**: No documentation provided.
+
+**ayy**: No documentation provided.
+
+**bitter**: No documentation provided.
+
+**bluntlee**: No documentation provided.
+
+**brutalistu**: No documentation provided.
+
+**cacat**: No documentation provided.
+
+**cola**: No documentation provided.
+
+**dance**: No documentation provided.
+
+**iazo**: No documentation provided.
+
+**injur**: No documentation provided.
+
+**iubestemafa**: Vezi compatiblitatea ta cu o persoana. Sau o chestie.
+
+**jupi**: No documentation provided.
+
+**manea**: No documentation provided.
+
+**mcioran**: No documentation provided.
+
+**mpuric**: No documentation provided.
+
+**mtutea**: No documentation provided.
+
+**muie**: No documentation provided.
+
+**murmuz**: No documentation provided.
+
+**puti**: No documentation provided.
+
+**shrug**: No documentation provided.
+
+**vasile**: No documentation provided.
+
+------
 ### roddit_irc_mode 
 **accept_invite**: No documentation provided.
 
@@ -462,6 +508,10 @@ Bot commands:
 **w3c**: &lt;url&gt; - Runs url through the W3C Markup Validator.
 
 ------
+### vicky 
+**vicky**: &lt;hot&gt; &lt;crazy&gt; - Returns the zone from the universal hot crazy matrix
+
+------
 ### wandbox 
 **wb**: wandbox interface
 
@@ -474,6 +524,10 @@ Bot commands:
 **weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
 
 **weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
+
+------
+### whois 
+**whois**: &lt;domain&gt; - Does a whois query on &lt;domain&gt;.
 
 ------
 ### xkcd 
