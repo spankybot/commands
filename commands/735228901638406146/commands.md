@@ -448,6 +448,10 @@ Bot commands:
 **w3c**: &lt;url&gt; - Runs url through the W3C Markup Validator.
 
 ------
+### vicky 
+**vicky**: &lt;hot&gt; &lt;crazy&gt; - Returns the zone from the universal hot crazy matrix
+
+------
 ### wandbox 
 **wb**: wandbox interface
 
@@ -460,6 +464,10 @@ Bot commands:
 **weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
 
 **weather / we**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
+
+------
+### whois 
+**whois**: &lt;domain&gt; - Does a whois query on &lt;domain&gt;.
 
 ------
 ### xkcd 
