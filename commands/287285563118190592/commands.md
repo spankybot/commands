@@ -148,6 +148,66 @@ Bot commands:
 **help**: Get help for a command or the help document
 
 ------
+### image_generator 
+**amateur**: No documentation provided.
+
+**anal**: No documentation provided.
+
+**asians**: No documentation provided.
+
+**aww**: No documentation provided.
+
+**blep**: No documentation provided.
+
+**blonde**: blonde
+
+**buci**: No documentation provided.
+
+**capre**: No documentation provided.
+
+**craci**: No documentation provided.
+
+**cutu**: No documentation provided.
+
+**femboy**: femboy
+
+**fetch_image**: No documentation provided.
+
+**fetish**: No documentation provided.
+
+**force_refresh_porn**: No documentation provided.
+
+**lesbiene**: No documentation provided.
+
+**milf**: No documentation provided.
+
+**nsfwfunny**: No documentation provided.
+
+**pisi**: No documentation provided.
+
+**plsgayporn**: pls gib porn
+
+**plsporn**: pls gib porn
+
+**raton**: No documentation provided.
+
+**roscate**: No documentation provided.
+
+**skinny**: No documentation provided.
+
+**sloboz**: No documentation provided.
+
+**tatuate**: No documentation provided.
+
+**teen**: No documentation provided.
+
+**thicc**: No documentation provided.
+
+**traps**: No documentation provided.
+
+**tzatze**: No documentation provided.
+
+------
 ### imdb 
 **imdb**: &lt;movie&gt; - gets information about &lt;movie&gt; from IMDb
 
@@ -272,6 +332,10 @@ Bot commands:
 **votat**: No documentation provided.
 
 ------
+### roddit_curs 
+**curs**: &lt;currency&gt; - Returns current value of a currency in RON
+
+------
 ### roddit_dex 
 **dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
 
@@ -330,6 +394,8 @@ Bot commands:
 **brutalistu**: No documentation provided.
 
 **cacat**: No documentation provided.
+
+**cancel**: No documentation provided.
 
 **cola**: No documentation provided.
 
