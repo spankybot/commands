@@ -268,6 +268,10 @@ Bot commands:
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
+### roddit_curs 
+**curs**: &lt;currency&gt; - Returns current value of a currency in RON
+
+------
 ### roddit_family 
 **accept_adoption**: &lt;id&gt; - Acceptă o ofertă de adopție
 
