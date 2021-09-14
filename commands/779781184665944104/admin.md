@@ -172,6 +172,12 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **list_polls**: Lists active polls
 
 ------
+### robac_custom_roles 
+**list_custom_roles**: No documentation provided.
+
+**sync_custom_roles**: No documentation provided.
+
+------
 ### role_selector 
 **add_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
 

@@ -268,6 +268,16 @@ Bot commands:
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
+### robac_custom_roles 
+**sterge_rol_nitro**: Șterge rolul nitro creat
+
+**vreau_rol_nitro**: &lt;nume&gt; #&lt;culoare în hex&gt; - Crează un rol, dacă ai nitro, și ți-l dă ca să te poți lăuda cu el.
+
+------
+### roddit_curs 
+**curs**: &lt;currency&gt; - Returns current value of a currency in RON
+
+------
 ### roddit_dex 
 **dex**: &lt;cuvant&gt; - Cauta definitia pentru un cuvant in DEX
 
@@ -296,6 +306,8 @@ Bot commands:
 **brutalistu**: No documentation provided.
 
 **cacat**: No documentation provided.
+
+**cancel**: No documentation provided.
 
 **cola**: No documentation provided.
 
@@ -338,8 +350,6 @@ Bot commands:
 **facultati**: selector command as defined by server ops.
 
 **list_selectors**: list selector commands
-
-**predictii**: selector command as defined by server ops.
 
 **vreau_acces**: selector command as defined by server ops.
 
