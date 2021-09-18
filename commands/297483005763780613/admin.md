@@ -173,6 +173,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### roddit_irc_mode 
+**add_access_role**: No documentation provided.
+
 **add_chan_category**: &lt;category name or ID, type, privacy&gt; - Add an existing channel category to the bot
 
     Types:
@@ -201,6 +203,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 **delete_channel**: &lt;channel&gt; - delete a channel
 
+**get_access_roles**: No documentation provided.
+
 **get_orphan_chans**: Get channels without ops
 
 **list_chan_categories**: List channel categories
@@ -214,6 +218,8 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **make_sfw**: &lt;topic&gt; - make channel SFW (only channel OPs can do it)
 
 **move_to_category**: Move a channel to a category
+
+**remove_access_role**: No documentation provided.
 
 **save_server_cfg**: No documentation provided.
 
