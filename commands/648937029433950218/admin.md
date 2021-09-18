@@ -172,6 +172,14 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **list_polls**: Lists active polls
 
 ------
+### roddit_irc_mode 
+**add_access_role**: No documentation provided.
+
+**get_access_roles**: No documentation provided.
+
+**remove_access_role**: No documentation provided.
+
+------
 ### role_selector 
 **add_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
 
