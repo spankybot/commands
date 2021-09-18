@@ -247,7 +247,7 @@ Bot commands:
 
 ------
 ### log 
-**rip3ws**: No documentation provided.
+**asdasdasda**: No documentation provided.
 
 **seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
 
