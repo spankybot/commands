@@ -223,7 +223,7 @@ Bot commands:
 
 ------
 ### log 
-**rip3ws**: No documentation provided.
+**asdasdasda**: No documentation provided.
 
 **seen_user**: Get the last time when a user was seen saying something on a server where the bot is also present
 
@@ -342,6 +342,50 @@ Bot commands:
 ------
 ### roddit_irc_mode 
 **accept_invite**: No documentation provided.
+
+**add_op**: &lt;name&gt; - Add an operator
+
+**advertise**: &lt;channel [description]&gt; - advertise a channel by optionally specifying a channel description
+
+**ban_member**: &lt;name/ID&gt; - ban a member
+
+**get_associated_role**: Get the role name associated to the channel
+
+**iclear**: Clear a channel property.
+
+**iget**: Get a channel property.
+
+**ilist**: List properties.
+
+**invite_member**: &lt;user&gt; Invite someone to an invite-only channel
+
+**irc_help**: No documentation provided.
+
+**iset**: Set a channel property.
+
+**join**: &lt;chname&gt; - join a channel
+
+**kick_member**: &lt;name/ID&gt; - kick a member
+
+**list_bans**: List channel bans
+
+**list_members**: List members
+
+**list_ops**: List operators
+
+**part**: &lt;chname&gt; - leave a channel
+
+**remove_op**: &lt;name&gt; - Remove an operator
+
+**request_channel**: &lt;name&gt; - request a channel by specifying a name
+
+**set_associated_role_name**: Set the role name associated to the channel
+
+**set_topic**: &lt;topic&gt; - set channel topic
+
+**unban_member**: &lt;name/ID&gt; - unban a member
+
+**vreau_canal**: Generate channel selector
 
 ------
 ### role_selector 
