@@ -1,27 +1,27 @@
 Bot commands:
 ------
 ### attacks 
-**compliment**: &amp;lt;user&amp;gt; -- Makes the bot compliment &amp;lt;user&amp;gt;.
+**compliment**: &lt;user&gt; -- Makes the bot compliment &lt;user&gt;.
 
-**gift**: &amp;lt;user&amp;gt; - gives gift to &amp;lt;user&amp;gt;
+**gift**: &lt;user&gt; - gives gift to &lt;user&gt;
 
-**insult**: &amp;lt;user&amp;gt; - insults &amp;lt;user&amp;gt;
+**insult**: &lt;user&gt; - insults &lt;user&gt;
 
-**kill**: &amp;lt;user&amp;gt; - kills &amp;lt;user&amp;gt;
+**kill**: &lt;user&gt; - kills &lt;user&gt;
 
-**lart**: &amp;lt;user&amp;gt; - LARTs &amp;lt;user&amp;gt;
+**lart**: &lt;user&gt; - LARTs &lt;user&gt;
 
 **nk**: outputs a random North Korea propoganda slogan
 
-**sexup**: &amp;lt;user&amp;gt; - flirts with &amp;lt;user&amp;gt;
+**sexup**: &lt;user&gt; - flirts with &lt;user&gt;
 
-**slap**: &amp;lt;user&amp;gt; -- Makes the bot slap &amp;lt;user&amp;gt;.
+**slap**: &lt;user&gt; -- Makes the bot slap &lt;user&gt;.
 
 **strax**: Strax quote.
 
 ------
 ### avatar 
-**avatar**: &amp;lt;user or user-id&amp;gt; - Get someones avatar
+**avatar**: &lt;user or user-id&gt; - Get someones avatar
 
 **e**: Expand an emoji
 
@@ -29,7 +29,7 @@ Bot commands:
 
 ------
 ### bible 
-**bible**: &amp;lt;passage&amp;gt; - Prints the specified passage from the Bible
+**bible**: &lt;passage&gt; - Prints the specified passage from the Bible
 
 ------
 ### bot_admin_system 
@@ -41,7 +41,7 @@ Bot commands:
 
 ------
 ### brainfuck 
-**brainfuck**: &amp;lt;prog&amp;gt; - executes &amp;lt;prog&amp;gt; as Brainfuck code
+**brainfuck**: &lt;prog&gt; - executes &lt;prog&gt; as Brainfuck code
 
     :type text: str
 
@@ -53,7 +53,7 @@ Bot commands:
 
 ------
 ### cb 
-**coa**: &amp;lt;text&amp;gt; - talk to CleverBot
+**coa**: &lt;text&gt; - talk to CleverBot
 
 ------
 ### cheer 
@@ -61,15 +61,15 @@ Bot commands:
 
 ------
 ### corona 
-**corona**: &amp;lt;option&amp;gt; - available options: [all, &amp;lt;country name&amp;gt;]. If option is &amp;lt;country name&amp;gt;, you must specify a country from &amp;lt;https://worldometers.info/coronavirus#countries&amp;gt;.
+**corona**: &lt;option&gt; - available options: [all, &lt;country name&gt;]. If option is &lt;country name&gt;, you must specify a country from &lt;https://worldometers.info/coronavirus#countries&gt;.
 
-**corona_format**: &amp;lt;format&amp;gt; - formats the .corona command for you. Every keyword in [&amp;#x27;Cases&amp;#x27;, &amp;#x27;Deaths&amp;#x27;, &amp;#x27;Tests&amp;#x27;, &amp;#x27;CToday&amp;#x27;, &amp;#x27;DToday&amp;#x27;, &amp;#x27;C/M&amp;#x27;, &amp;#x27;D/M&amp;#x27;, &amp;#x27;T/M&amp;#x27;, &amp;#x27;Recovered&amp;#x27;, &amp;#x27;Active&amp;#x27;, &amp;#x27;Critical&amp;#x27;, &amp;#x27;Country&amp;#x27;, &amp;#x27;Continent&amp;#x27;, &amp;#x27;Vaccines&amp;#x27;, &amp;#x27;LUpdated&amp;#x27;] will be replaced with the appropriate data. Use `clear` if you want to clear your format and use the default one
+**corona_format**: &lt;format&gt; - formats the .corona command for you. Every keyword in [&#x27;Cases&#x27;, &#x27;Deaths&#x27;, &#x27;Tests&#x27;, &#x27;CToday&#x27;, &#x27;DToday&#x27;, &#x27;C/M&#x27;, &#x27;D/M&#x27;, &#x27;T/M&#x27;, &#x27;Recovered&#x27;, &#x27;Active&#x27;, &#x27;Critical&#x27;, &#x27;Country&#x27;, &#x27;Continent&#x27;, &#x27;Vaccines&#x27;, &#x27;LUpdated&#x27;] will be replaced with the appropriate data. Use `clear` if you want to clear your format and use the default one
 
 ------
 ### correction 
-**s**: &amp;lt;word replacement&amp;gt; - replace &amp;#x27;word&amp;#x27; with replacement
+**s**: &lt;word replacement&gt; - replace &#x27;word&#x27; with replacement
 
-**ss**: &amp;lt;regex replacement&amp;gt; - replace regex with replacement
+**ss**: &lt;regex replacement&gt; - replace regex with replacement
 
 **toggle_correction_msg_del**: enable/disable automatic deletion of command when running .s/.ss
 
@@ -77,7 +77,7 @@ Bot commands:
 ### crypto 
 **btc**: - Returns the current btc value
 
-**crypto**: &amp;lt;ticker&amp;gt; [currency] - Returns current value of a cryptocurrency
+**crypto**: &lt;ticker&gt; [currency] - Returns current value of a cryptocurrency
 
 **eth**: - Returns the current eth value
 
@@ -87,17 +87,17 @@ Bot commands:
 
 ------
 ### cypher 
-**cypher**: &amp;lt;pass&amp;gt; &amp;lt;string&amp;gt; -- cyphers &amp;lt;string&amp;gt; with &amp;lt;password&amp;gt;
+**cypher**: &lt;pass&gt; &lt;string&gt; -- cyphers &lt;string&gt; with &lt;password&gt;
 
-**decypher**: &amp;lt;pass&amp;gt; &amp;lt;string&amp;gt; - decyphers &amp;lt;string&amp;gt; with &amp;lt;password&amp;gt;
+**decypher**: &lt;pass&gt; &lt;string&gt; - decyphers &lt;string&gt; with &lt;password&gt;
 
 ------
 ### dogpile 
-**g**: &amp;lt;query&amp;gt; - Search for a link.
+**g**: &lt;query&gt; - Search for a link.
 
-**gis**: &amp;lt;query&amp;gt; - Search for a image.
+**gis**: &lt;query&gt; - Search for a image.
 
-**nsfwgis**: &amp;lt;query&amp;gt; - Search for a image.
+**nsfwgis**: &lt;query&gt; - Search for a image.
 
 ------
 ### face 
@@ -115,15 +115,15 @@ Bot commands:
 
 ------
 ### flip 
-**fix**: &amp;lt;text&amp;gt; - fixes a flipped over table. ┬─┬ノ(ಠ_ಠノ)
+**fix**: &lt;text&gt; - fixes a flipped over table. ┬─┬ノ(ಠ_ಠノ)
 
-**flip_text**: &amp;lt;text&amp;gt; - Flips &amp;lt;text&amp;gt; over.
+**flip_text**: &lt;text&gt; - Flips &lt;text&gt; over.
 
-**table**: &amp;lt;text&amp;gt; - (╯°□°）╯︵ &amp;lt;ʇxǝʇ&amp;gt;
+**table**: &lt;text&gt; - (╯°□°）╯︵ &lt;ʇxǝʇ&gt;
 
 ------
 ### gaming 
-**choose**: &amp;lt;choice1&amp;gt;, [choice2], [choice3], etc. - randomly picks one of the given choices
+**choose**: &lt;choice1&gt;, [choice2], [choice3], etc. - randomly picks one of the given choices
 
     :type text: str
 
@@ -131,29 +131,29 @@ Bot commands:
 
     :type text: str
 
-**dice**: &amp;lt;dice roll&amp;gt; - simulates dice rolls. Example: &amp;#x27;dice 2d20-d5+4 roll 2&amp;#x27;: D20s, subtract 1D5, add 4
+**dice**: &lt;dice roll&gt; - simulates dice rolls. Example: &#x27;dice 2d20-d5+4 roll 2&#x27;: D20s, subtract 1D5, add 4
 
     :type text: str
 
 ------
 ### giphy 
-**gif**: &amp;lt;query&amp;gt; - Searches giphy.com for a gif using the provided search term.
+**gif**: &lt;query&gt; - Searches giphy.com for a gif using the provided search term.
 
 ------
 ### github 
-**ghissue**: &amp;lt;username|repo&amp;gt; [number] - gets issue [number]&amp;#x27;s summary, or the open issue count if no issue is specified
+**ghissue**: &lt;username|repo&gt; [number] - gets issue [number]&#x27;s summary, or the open issue count if no issue is specified
 
 ------
 ### grab 
-**grab**: &amp;lt;user&amp;gt; - grab user&amp;#x27;s last message. If &amp;lt;user&amp;gt; is empty, it will try to grab the message you&amp;#x27;re replying to
+**grab**: &lt;user&gt; - grab user&#x27;s last message. If &lt;user&gt; is empty, it will try to grab the message you&#x27;re replying to
 
-**grabl**: &amp;lt;user&amp;gt; - List quotes for user. If no user is specified, it lists everything on the server.
+**grabl**: &lt;user&gt; - List quotes for user. If no user is specified, it lists everything on the server.
 
 **grabr**: Grab random quote
 
-**grabs**: &amp;lt;expression&amp;gt; - Search for &amp;#x27;expression&amp;#x27; in grab texts.
+**grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.
 
-**grabu**: &amp;lt;user&amp;gt; - Grab random quote from user
+**grabu**: &lt;user&gt; - Grab random quote from user
 
 ------
 ### help 
@@ -221,7 +221,7 @@ Bot commands:
 
 ------
 ### imdb 
-**imdb**: &amp;lt;movie&amp;gt; - gets information about &amp;lt;movie&amp;gt; from IMDb
+**imdb**: &lt;movie&gt; - gets information about &lt;movie&gt; from IMDb
 
 ------
 ### img_manip 
@@ -275,7 +275,7 @@ Bot commands:
 
 ------
 ### jokes 
-**awesome**: - Prints a webpage to show &amp;lt;nick&amp;gt; how awesome they are.
+**awesome**: - Prints a webpage to show &lt;nick&gt; how awesome they are.
 
 **boobs**: - prints boobies!
 
@@ -295,11 +295,11 @@ Bot commands:
 
 **wisdom**: - words of wisdom from various bathroom stalls.
 
-**yomomma**: &amp;lt;nick&amp;gt; - tells a yo momma joke to &amp;lt;nick&amp;gt;
+**yomomma**: &lt;nick&gt; - tells a yo momma joke to &lt;nick&gt;
 
 ------
 ### lurve 
-**lurve**: lurves all over &amp;lt;user&amp;gt;
+**lurve**: lurves all over &lt;user&gt;
 
 ------
 ### magik 
@@ -309,49 +309,49 @@ Bot commands:
 
 ------
 ### markov 
-**markov**: &amp;lt;user channel&amp;gt; - Generate sentence using a markov chain for a user using data from the given channel.
+**markov**: &lt;user channel&gt; - Generate sentence using a markov chain for a user using data from the given channel.
 
     If no user is specified, a sentence will be generated using all user messages.
 
 ------
 ### name_generator 
-**namegen**: [generator|list] - generates some names using the chosen generator, or lists all generators if &amp;#x27;list&amp;#x27; is specified
+**namegen**: [generator|list] - generates some names using the chosen generator, or lists all generators if &#x27;list&#x27; is specified
 
     :type bot: cloudbot.bot.CloudBot
 
 ------
 ### qalc 
-**calc**: &amp;lt;expression&amp;gt; - qalc interface
+**calc**: &lt;expression&gt; - qalc interface
 
 ------
 ### quran 
-**quran**: &amp;lt;verse&amp;gt; - Prints the specified Qur&amp;#x27;anic verse(s) and its/their translation(s)
+**quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
 
 ------
 ### remind 
-**remind**: &amp;lt;period message&amp;gt; - ask the bot to remind you about something in given period (e.g. &amp;#x27;.remind 1h bleh bleh&amp;#x27; sends you &amp;#x27;bleh bleh&amp;#x27; in one hour
+**remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
 ### roddit_curs 
-**curs**: &amp;lt;currency&amp;gt; - Returns current value of a currency in RON
+**curs**: &lt;currency&gt; - Returns current value of a currency in RON
 
 ------
 ### roddit_family 
-**accept_adoption**: &amp;lt;id&amp;gt; - Acceptă o ofertă de adopție
+**accept_adoption**: &lt;id&gt; - Acceptă o ofertă de adopție
 
-**accept_marry**: &amp;lt;id&amp;gt; - Acceptă o ofertă de căsătorie.
+**accept_marry**: &lt;id&gt; - Acceptă o ofertă de căsătorie.
 
-**adopt**: &amp;lt;user&amp;gt; - Inițiază o cerere de adopție cu user-ul menționat
+**adopt**: &lt;user&gt; - Inițiază o cerere de adopție cu user-ul menționat
 
-**bug_report**: &amp;lt;text&amp;gt; - raportează un bug către cel care se ocupă cu această funcționalitate a botului.
+**bug_report**: &lt;text&gt; - raportează un bug către cel care se ocupă cu această funcționalitate a botului.
 
-**choose_parent**: &amp;lt;părinte&amp;gt; - Alege părintele cu care vrei să rămâi după divorț.
+**choose_parent**: &lt;părinte&gt; - Alege părintele cu care vrei să rămâi după divorț.
 
-**deny_adoption**: &amp;lt;id&amp;gt; - Refuză o ofertă de adopție
+**deny_adoption**: &lt;id&gt; - Refuză o ofertă de adopție
 
-**deny_marry**: &amp;lt;id&amp;gt; - Refuză o ofertă de căsătorie
+**deny_marry**: &lt;id&gt; - Refuză o ofertă de căsătorie
 
-**disown**: &amp;lt;user&amp;gt; - Dezmoștenește unul din copii
+**disown**: &lt;user&gt; - Dezmoștenește unul din copii
 
 **divorce**: Divorțează cu partenerul tău.
 
@@ -359,11 +359,11 @@ Bot commands:
 
 **family_support**: Afișează toate comenzile pe care le poate face cineva. Lista se poate schimba după mulți factori. `.family_support full` dezactivează dinamicitatea
 
-**family_tree**: &amp;lt;user&amp;gt; - Afișează arborele genealogic al unei persoane. Dacă nu este menționat cineva, va afișa arborele tău genealogic
+**family_tree**: &lt;user&gt; - Afișează arborele genealogic al unei persoane. Dacă nu este menționat cineva, va afișa arborele tău genealogic
 
 **leave_parents**: Nu alege niciun părinte cu care să rămâi. Nu vei mai putea alege un părinte după.
 
-**marry**: &amp;lt;user&amp;gt; - Inițiază o cerere în căsătorie cu persoana menționată
+**marry**: &lt;user&gt; - Inițiază o cerere în căsătorie cu persoana menționată
 
 **offer_inbox**: Afișează toate cererile disponibile pe care le-ai primit.
 
@@ -425,7 +425,7 @@ Bot commands:
 
 ------
 ### roddit_horoscop 
-**horoscop**: horoscop &amp;lt;zodie&amp;gt; - Afișează horoscopul unei zodii
+**horoscop**: horoscop &lt;zodie&gt; - Afișează horoscopul unei zodii
 
 ------
 ### role_selector 
@@ -433,19 +433,19 @@ Bot commands:
 
 ------
 ### shorten 
-**expand**: &amp;lt;url&amp;gt; - unshortens &amp;lt;url&amp;gt;
+**expand**: &lt;url&gt; - unshortens &lt;url&gt;
 
-**isgd**: &amp;lt;url&amp;gt; [custom] - shortens a url using is.gd with [custom] as an optional custom shortlink,
+**isgd**: &lt;url&gt; [custom] - shortens a url using is.gd with [custom] as an optional custom shortlink,
 
-    or unshortens &amp;lt;url&amp;gt; if already short
+    or unshortens &lt;url&gt; if already short
 
-**shorten**: &amp;lt;url&amp;gt; [custom] - shortens a url with [custom] as an optional custom shortlink
+**shorten**: &lt;url&gt; [custom] - shortens a url with [custom] as an optional custom shortlink
 
 ------
 ### spank 
 **bdsm**: Just a little bit of kinky fun.
 
-**spank**: &amp;lt;user&amp;gt; - Spanks a  &amp;lt;user&amp;gt;
+**spank**: &lt;user&gt; - Spanks a  &lt;user&gt;
 
 ------
 ### stock 
@@ -457,49 +457,49 @@ Bot commands:
 
 ------
 ### suggest 
-**suggest**: &amp;lt;phrase&amp;gt; - Gets suggested phrases for a google search
+**suggest**: &lt;phrase&gt; - Gets suggested phrases for a google search
 
 ------
 ### tag 
-**tag**: &amp;lt;tag&amp;gt; - Return a tag. &amp;#x27;.tag list&amp;#x27; lists tags, &amp;#x27;.tag random&amp;#x27; returns random tag
+**tag**: &lt;tag&gt; - Return a tag. &#x27;.tag list&#x27; lists tags, &#x27;.tag random&#x27; returns random tag
 
-**tag_add**: &amp;lt;identifier content&amp;gt; - add tag content as indentifier
+**tag_add**: &lt;identifier content&gt; - add tag content as indentifier
 
 ------
 ### text 
-**letters**: &amp;lt;text&amp;gt; - text to emoji letters
+**letters**: &lt;text&gt; - text to emoji letters
 
 ------
 ### time_plugin 
 **beats**: - Gets the current time in .beats (Swatch Internet Time).
 
-**time**: &amp;lt;location&amp;gt; - Gets the current time in &amp;lt;location&amp;gt;.
+**time**: &lt;location&gt; - Gets the current time in &lt;location&gt;.
 
 ------
 ### txt2img 
 **txt2img**: Generate a image using sent text
 
-    &amp;quot;&amp;lt;option&amp;gt; - available input for custom fonts:
+    &quot;&lt;option&gt; - available input for custom fonts:
 
-    .image &amp;lt;font name&amp;gt;-&amp;lt;size&amp;gt;-&amp;lt;text color&amp;gt;-&amp;lt;bg color&amp;gt;
+    .image &lt;font name&gt;-&lt;size&gt;-&lt;text color&gt;-&lt;bg color&gt;
 
     VALID_FONTS=
 
-    &amp;#x27;sofia&amp;#x27;,
+    &#x27;sofia&#x27;,
 
-    &amp;#x27;ostirch&amp;#x27;,
+    &#x27;ostirch&#x27;,
 
-    &amp;#x27;diso&amp;#x27;,
+    &#x27;diso&#x27;,
 
-    &amp;#x27;learning&amp;#x27;,
+    &#x27;learning&#x27;,
 
-    &amp;#x27;hotel&amp;#x27;,
+    &#x27;hotel&#x27;,
 
-    &amp;#x27;plp&amp;#x27;,
+    &#x27;plp&#x27;,
 
-    &amp;#x27;default&amp;#x27;
+    &#x27;default&#x27;
 
-    &amp;#x27;symbols&amp;#x27;
+    &#x27;symbols&#x27;
 
     Example usage of this command :
 
@@ -507,63 +507,63 @@ Bot commands:
 
 ------
 ### urban 
-**urban**: urban &amp;lt;phrase&amp;gt; [id] -- Looks up &amp;lt;phrase&amp;gt; on urbandictionary.com.
+**urban**: urban &lt;phrase&gt; [id] -- Looks up &lt;phrase&gt; on urbandictionary.com.
 
 ------
 ### userinfo 
 **inrole**: [role name] List how many members each role has. Calling it with no role name will list all roles
 
-**userinfo**: &amp;lt;mention&amp;gt; - gets various data about the mentioned user
+**userinfo**: &lt;mention&gt; - gets various data about the mentioned user
 
 ------
 ### utility 
-**base64**: &amp;lt;string&amp;gt; -- Encode &amp;lt;string&amp;gt; with base64.
+**base64**: &lt;string&gt; -- Encode &lt;string&gt; with base64.
 
-**capitalize**: &amp;lt;string&amp;gt; -- Capitalizes &amp;lt;string&amp;gt;.
+**capitalize**: &lt;string&gt; -- Capitalizes &lt;string&gt;.
 
     :type text: str
 
-**debase64**: &amp;lt;string&amp;gt; -- Decode &amp;lt;string&amp;gt; with base64.
+**debase64**: &lt;string&gt; -- Decode &lt;string&gt; with base64.
 
-**derpify**: &amp;lt;text&amp;gt; - returns some amusing responses from your input.
+**derpify**: &lt;text&gt; - returns some amusing responses from your input.
 
-**escape**: &amp;lt;string&amp;gt; -- Unicode escapes &amp;lt;string&amp;gt;.
+**escape**: &lt;string&gt; -- Unicode escapes &lt;string&gt;.
 
-**hash**: &amp;lt;string&amp;gt; -- Returns hashes of &amp;lt;string&amp;gt;.
+**hash**: &lt;string&gt; -- Returns hashes of &lt;string&gt;.
 
-**isbase64**: &amp;lt;string&amp;gt; -- Checks if &amp;lt;string&amp;gt; is a valid base64 encoded string
+**isbase64**: &lt;string&gt; -- Checks if &lt;string&gt; is a valid base64 encoded string
 
-**leet**: &amp;lt;text&amp;gt; -- Makes &amp;lt;text&amp;gt; more 1337h4x0rz.
+**leet**: &lt;text&gt; -- Makes &lt;text&gt; more 1337h4x0rz.
 
-**length**: &amp;lt;string&amp;gt; -- Gets the length of &amp;lt;string&amp;gt;
+**length**: &lt;string&gt; -- Gets the length of &lt;string&gt;
 
-**lower**: &amp;lt;string&amp;gt; -- Convert string to lowercase.
+**lower**: &lt;string&gt; -- Convert string to lowercase.
 
-**qrcode**: &amp;lt;link&amp;gt; - returns a link to a QR code image for &amp;lt;link&amp;gt;
+**qrcode**: &lt;link&gt; - returns a link to a QR code image for &lt;link&gt;
 
-**reverse**: &amp;lt;string&amp;gt; -- Reverses &amp;lt;string&amp;gt;.
+**reverse**: &lt;string&gt; -- Reverses &lt;string&gt;.
 
-**rot13**: &amp;lt;string&amp;gt; -- Encode &amp;lt;string&amp;gt; with rot13.
+**rot13**: &lt;string&gt; -- Encode &lt;string&gt; with rot13.
 
-**superscript**: &amp;lt;text&amp;gt; -- Makes &amp;lt;text&amp;gt; superscript.
+**superscript**: &lt;text&gt; -- Makes &lt;text&gt; superscript.
 
-**swapcase**: &amp;lt;string&amp;gt; -- Swaps the capitalization of &amp;lt;string&amp;gt;.
+**swapcase**: &lt;string&gt; -- Swaps the capitalization of &lt;string&gt;.
 
-**titlecase**: &amp;lt;string&amp;gt; -- Convert string to title case.
+**titlecase**: &lt;string&gt; -- Convert string to title case.
 
-**unescape**: &amp;lt;string&amp;gt; -- Unicode unescapes &amp;lt;string&amp;gt;.
+**unescape**: &lt;string&gt; -- Unicode unescapes &lt;string&gt;.
 
-**upper**: &amp;lt;string&amp;gt; -- Convert string to uppercase.
+**upper**: &lt;string&gt; -- Convert string to uppercase.
 
-**vapor**: &amp;lt;string&amp;gt; -- Converts &amp;lt;string&amp;gt; to full width characters.
+**vapor**: &lt;string&gt; -- Converts &lt;string&gt; to full width characters.
 
 ------
 ### uwu 
-**uwu**: &amp;lt;text&amp;gt; - translate text to UwU
+**uwu**: &lt;text&gt; - translate text to UwU
 
 ------
 ### vicky 
-**vicky**: &amp;lt;hot&amp;gt; &amp;lt;crazy&amp;gt; - Returns the zone from the universal hot crazy matrix
+**vicky**: &lt;hot&gt; &lt;crazy&gt; - Returns the zone from the universal hot crazy matrix
 
 ------
 ### wandbox 
@@ -575,13 +575,13 @@ Bot commands:
 
 ------
 ### weather 
-**weather**: &amp;lt;location&amp;gt; - Gets weather data for &amp;lt;location&amp;gt;.
+**weather**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
 
 ------
 ### whois 
-**whois**: &amp;lt;domain&amp;gt; - Does a whois query on &amp;lt;domain&amp;gt;.
+**whois**: &lt;domain&gt; - Does a whois query on &lt;domain&gt;.
 
 ------
 ### youtube 
-**youtube**: &amp;lt;query&amp;gt; - Returns the first YouTube search result for &amp;lt;query&amp;gt;.
+**youtube**: &lt;query&gt; - Returns the first YouTube search result for &lt;query&gt;.
 
