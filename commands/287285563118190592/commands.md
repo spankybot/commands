@@ -169,8 +169,6 @@ Bot commands:
 
 **capre**: No documentation provided.
 
-**count_subs**: No documentation provided.
-
 **craci**: No documentation provided.
 
 **cutu**: No documentation provided.
