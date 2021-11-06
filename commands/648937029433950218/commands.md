@@ -181,6 +181,8 @@ Bot commands:
 
 **lesbiene**: No documentation provided.
 
+**meme**: No documentation provided.
+
 **milf**: No documentation provided.
 
 **nsfwfunny**: No documentation provided.
