@@ -160,10 +160,6 @@ Bot commands:
 **help**: No documentation provided.
 
 ------
-### image_generator 
-**count_subs**: No documentation provided.
-
-------
 ### imdb 
 **imdb**: No documentation provided.
 
