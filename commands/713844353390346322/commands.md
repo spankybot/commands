@@ -1,405 +1,447 @@
 Bot commands:
 ------
 ### attacks 
-**compliment**: No documentation provided.
+**compliment**: &lt;user&gt; -- Makes the bot compliment &lt;user&gt;.
 
-**gift**: No documentation provided.
+**gift**: &lt;user&gt; - gives gift to &lt;user&gt;
 
-**insult**: No documentation provided.
+**insult**: &lt;user&gt; - insults &lt;user&gt;
 
-**kill**: No documentation provided.
+**kill**: &lt;user&gt; - kills &lt;user&gt;
 
-**lart**: No documentation provided.
+**lart**: &lt;user&gt; - LARTs &lt;user&gt;
 
-**nk**: No documentation provided.
+**nk**: outputs a random North Korea propoganda slogan
 
-**sexup**: No documentation provided.
+**sexup**: &lt;user&gt; - flirts with &lt;user&gt;
 
-**slap**: No documentation provided.
+**slap**: &lt;user&gt; -- Makes the bot slap &lt;user&gt;.
 
-**strax**: No documentation provided.
+**strax**: Strax quote.
 
 ------
 ### avatar 
-**avatar**: No documentation provided.
+**avatar**: &lt;user or user-id&gt; - Get someones avatar
 
-**e**: No documentation provided.
+**e**: Expand an emoji
 
-**get_server_banner**: No documentation provided.
+**get_server_banner**: Return a link to the server banner
 
 ------
 ### bible 
-**bible**: No documentation provided.
+**bible**: &lt;passage&gt; - Prints the specified passage from the Bible
 
 ------
 ### bot_admin_system 
-**about**: No documentation provided.
+**about**: Get about.
 
-**invite_me**: No documentation provided.
+**invite_me**: Get invitation for bot
 
-**system**: No documentation provided.
+**system**: -- Retrieves information about the host system.
 
 ------
 ### brainfuck 
-**brainfuck**: No documentation provided.
+**brainfuck**: &lt;prog&gt; - executes &lt;prog&gt; as Brainfuck code
+
+    :type text: str
 
 ------
 ### cats 
-**catgifs**: No documentation provided.
+**catgifs**: - gets a fucking cat gif.
 
-**cats**: No documentation provided.
+**cats**: - gets a fucking fact about cats.
 
 ------
 ### cb 
-**coa**: No documentation provided.
+**coa**: &lt;text&gt; - talk to CleverBot
 
 ------
 ### cheer 
-**cheer**: No documentation provided.
+**cheer**: :type chan: str
 
 ------
 ### corona 
-**corona**: No documentation provided.
+**corona**: &lt;option&gt; - available options: [all, &lt;country name&gt;]. If option is &lt;country name&gt;, you must specify a country from &lt;https://worldometers.info/coronavirus#countries&gt;.
 
-**corona_format**: No documentation provided.
+**corona_format**: &lt;format&gt; - formats the .corona command for you. Every keyword in [&#x27;Cases&#x27;, &#x27;Deaths&#x27;, &#x27;Tests&#x27;, &#x27;CToday&#x27;, &#x27;DToday&#x27;, &#x27;C/M&#x27;, &#x27;D/M&#x27;, &#x27;T/M&#x27;, &#x27;Recovered&#x27;, &#x27;Active&#x27;, &#x27;Critical&#x27;, &#x27;Country&#x27;, &#x27;Continent&#x27;, &#x27;Vaccines&#x27;, &#x27;LUpdated&#x27;] will be replaced with the appropriate data. Use `clear` if you want to clear your format and use the default one
 
 ------
 ### correction 
-**s**: No documentation provided.
+**s**: &lt;word replacement&gt; - replace &#x27;word&#x27; with replacement
 
-**ss**: No documentation provided.
+**ss**: &lt;regex replacement&gt; - replace regex with replacement
 
-**toggle_correction_msg_del**: No documentation provided.
+**toggle_correction_msg_del**: enable/disable automatic deletion of command when running .s/.ss
 
 ------
 ### crypto 
-**btc**: No documentation provided.
+**btc**: - Returns the current btc value
 
-**crypto**: No documentation provided.
+**crypto**: &lt;ticker&gt; [currency] - Returns current value of a cryptocurrency
 
-**eth**: No documentation provided.
+**eth**: - Returns the current eth value
 
-**ltc**: No documentation provided.
+**ltc**: - Returns the current ltc value
 
-**serak**: No documentation provided.
+**serak**: No description provided.
 
 ------
 ### cypher 
-**cypher**: No documentation provided.
+**cypher**: &lt;pass&gt; &lt;string&gt; -- cyphers &lt;string&gt; with &lt;password&gt;
 
-**decypher**: No documentation provided.
+**decypher**: &lt;pass&gt; &lt;string&gt; - decyphers &lt;string&gt; with &lt;password&gt;
 
 ------
 ### dogpile 
-**g**: No documentation provided.
+**g**: &lt;query&gt; - Search for a link.
 
-**gis**: No documentation provided.
+**gis**: &lt;query&gt; - Search for a image.
 
-**nsfwgis**: No documentation provided.
+**nsfwgis**: &lt;query&gt; - Search for a image.
 
 ------
 ### face 
-**eyes**: No documentation provided.
+**eyes**: No description provided.
 
-**glasses**: No documentation provided.
+**glasses**: No description provided.
 
-**hat**: No documentation provided.
+**hat**: No description provided.
 
-**moustache**: No documentation provided.
+**moustache**: No description provided.
 
 ------
 ### fact 
-**fact**: No documentation provided.
+**fact**: - Gets a random fact about numbers or dates.
 
 ------
 ### flip 
-**fix**: No documentation provided.
+**fix**: &lt;text&gt; - fixes a flipped over table. ┬─┬ノ(ಠ_ಠノ)
 
-**flip_text**: No documentation provided.
+**flip_text**: &lt;text&gt; - Flips &lt;text&gt; over.
 
-**table**: No documentation provided.
+**table**: &lt;text&gt; - (╯°□°）╯︵ &lt;ʇxǝʇ&gt;
 
 ------
 ### gaming 
-**choose**: No documentation provided.
+**choose**: &lt;choice1&gt;, [choice2], [choice3], etc. - randomly picks one of the given choices
 
-**coin**: No documentation provided.
+    :type text: str
 
-**dice**: No documentation provided.
+**coin**: [amount] - flips [amount] coins
+
+    :type text: str
+
+**dice**: &lt;dice roll&gt; - simulates dice rolls. Example: &#x27;dice 2d20-d5+4 roll 2&#x27;: D20s, subtract 1D5, add 4
+
+    :type text: str
 
 ------
 ### giphy 
-**gif**: No documentation provided.
+**gif**: &lt;query&gt; - Searches giphy.com for a gif using the provided search term.
 
 ------
 ### github 
-**ghissue**: No documentation provided.
+**ghissue**: &lt;username|repo&gt; [number] - gets issue [number]&#x27;s summary, or the open issue count if no issue is specified
 
 ------
 ### grab 
-**grab**: No documentation provided.
+**grab**: &lt;user&gt; - grab user&#x27;s last message. If &lt;user&gt; is empty, it will try to grab the message you&#x27;re replying to
 
-**grabl**: No documentation provided.
+**grabl**: &lt;user&gt; - List quotes for user. If no user is specified, it lists everything on the server.
 
-**grabr**: No documentation provided.
+**grabr**: Grab random quote
 
-**grabs**: No documentation provided.
+**grabs**: &lt;expression&gt; - Search for &#x27;expression&#x27; in grab texts.
 
-**grabu**: No documentation provided.
+**grabu**: &lt;user&gt; - Grab random quote from user
 
 ------
 ### help 
-**help**: No documentation provided.
+**help**: Get help for a command or the help document
 
 ------
 ### imdb 
-**imdb**: No documentation provided.
+**imdb**: &lt;movie&gt; - gets information about &lt;movie&gt; from IMDb
 
 ------
 ### img_manip 
-**cat**: No documentation provided.
+**cat**: No description provided.
 
-**crowd**: No documentation provided.
+**crowd**: No description provided.
 
-**df**: No documentation provided.
+**df**: Deepfry image
 
-**flip**: No documentation provided.
+**flip**: Flip image horizontally
 
-**flop**: No documentation provided.
+**flop**: Flip image vertically
 
-**fried**: No documentation provided.
+**fried**: No description provided.
 
-**hue**: No documentation provided.
+**hue**: No description provided.
 
-**img_text**: No documentation provided.
+**img_text**: Add text to image
 
-**implode**: No documentation provided.
+**implode**: Implode image
 
-**negate**: No documentation provided.
+**negate**: Invert colors
 
-**noise**: No documentation provided.
+**noise**: No description provided.
 
-**npc**: No documentation provided.
+**npc**: No description provided.
 
-**pulse**: No documentation provided.
+**pulse**: No description provided.
 
-**rain**: No documentation provided.
+**rain**: No description provided.
 
-**resize**: No documentation provided.
+**resize**: Resize image
 
-**roll**: No documentation provided.
+**roll**: No description provided.
 
-**scan**: No documentation provided.
+**scan**: No description provided.
 
-**shake**: No documentation provided.
+**shake**: No description provided.
 
-**tint**: No documentation provided.
+**tint**: No description provided.
 
-**wobble**: No documentation provided.
+**wobble**: No description provided.
 
-**woke**: No documentation provided.
+**woke**: No description provided.
 
-**zoom**: No documentation provided.
+**zoom**: No description provided.
 
 ------
 ### irc_mode 
-**accept_invite**: No documentation provided.
+**accept_invite**: No description provided.
 
 ------
 ### jokes 
-**awesome**: No documentation provided.
+**awesome**: - Prints a webpage to show &lt;nick&gt; how awesome they are.
 
-**boobs**: No documentation provided.
+**boobs**: - prints boobies!
 
-**bookpun**: No documentation provided.
+**bookpun**: - Suggests a pun of a book title/author.
 
-**confucious**: No documentation provided.
+**confucious**: - confucious say man standing on toilet is high on pot.
 
-**dadjoke**: No documentation provided.
+**dadjoke**: - love em or hate em, bring on the dad jokes.
 
-**doit**: No documentation provided.
+**doit**: - prints a do it line, example: mathmaticians do with a pencil
 
-**lawyerjoke**: No documentation provided.
+**lawyerjoke**: - returns a lawyer joke, so lawyers know how much we hate them
 
-**pun**: No documentation provided.
+**pun**: - Come on everyone loves puns right?
 
-**triforce**: No documentation provided.
+**triforce**: - returns a triforce!
 
-**wisdom**: No documentation provided.
+**wisdom**: - words of wisdom from various bathroom stalls.
 
 ------
 ### lurve 
-**lurve**: No documentation provided.
+**lurve**: lurves all over &lt;user&gt;
 
 ------
 ### magik 
-**gmagik**: No documentation provided.
+**gmagik**: No description provided.
 
-**magik**: No documentation provided.
+**magik**: No description provided.
 
 ------
 ### markov 
-**markov**: No documentation provided.
+**markov**: &lt;user channel&gt; - Generate sentence using a markov chain for a user using data from the given channel.
+
+    If no user is specified, a sentence will be generated using all user messages.
 
 ------
 ### name_generator 
-**namegen**: No documentation provided.
+**namegen**: [generator|list] - generates some names using the chosen generator, or lists all generators if &#x27;list&#x27; is specified
+
+    :type bot: cloudbot.bot.CloudBot
 
 ------
 ### qalc 
-**calc**: No documentation provided.
+**calc**: &lt;expression&gt; - qalc interface
 
 ------
 ### quran 
-**quran**: No documentation provided.
+**quran**: &lt;verse&gt; - Prints the specified Qur&#x27;anic verse(s) and its/their translation(s)
 
 ------
 ### remind 
-**remind**: No documentation provided.
+**remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
 ### roddit_curs 
-**curs**: No documentation provided.
+**curs**: &lt;currency&gt; - Returns current value of a currency in RON
 
 ------
 ### roddit_family 
-**accept_adoption**: No documentation provided.
+**accept_adoption**: &lt;id&gt; - Acceptă o ofertă de adopție
 
-**accept_marry**: No documentation provided.
+**accept_marry**: &lt;id&gt; - Acceptă o ofertă de căsătorie.
 
-**deny_adoption**: No documentation provided.
+**deny_adoption**: &lt;id&gt; - Refuză o ofertă de adopție
 
-**deny_marry**: No documentation provided.
+**deny_marry**: &lt;id&gt; - Refuză o ofertă de căsătorie
 
 ------
 ### role_selector 
-**clase**: No documentation provided.
+**clase**: selector command as defined by server ops.
 
-**judete**: No documentation provided.
+**judete**: selector command as defined by server ops.
 
-**list_selectors**: No documentation provided.
+**list_selectors**: list selector commands
 
 ------
 ### shorten 
-**expand**: No documentation provided.
+**expand**: &lt;url&gt; - unshortens &lt;url&gt;
 
-**isgd**: No documentation provided.
+**isgd**: &lt;url&gt; [custom] - shortens a url using is.gd with [custom] as an optional custom shortlink,
 
-**shorten**: No documentation provided.
+    or unshortens &lt;url&gt; if already short
+
+**shorten**: &lt;url&gt; [custom] - shortens a url with [custom] as an optional custom shortlink
 
 ------
 ### spank 
-**bdsm**: No documentation provided.
+**bdsm**: Just a little bit of kinky fun.
 
-**spank**: No documentation provided.
+**spank**: &lt;user&gt; - Spanks a  &lt;user&gt;
 
 ------
 ### stock 
-**dquote**: No documentation provided.
+**dquote**: No description provided.
 
-**quote**: No documentation provided.
+**quote**: No description provided.
 
-**stock**: No documentation provided.
+**stock**: No description provided.
 
 ------
 ### suggest 
-**suggest**: No documentation provided.
+**suggest**: &lt;phrase&gt; - Gets suggested phrases for a google search
 
 ------
 ### tag 
-**tag**: No documentation provided.
+**tag**: &lt;tag&gt; - Return a tag. &#x27;.tag list&#x27; lists tags, &#x27;.tag random&#x27; returns random tag
 
-**tag_add**: No documentation provided.
+**tag_add**: &lt;identifier content&gt; - add tag content as indentifier
 
 ------
 ### text 
-**letters**: No documentation provided.
+**letters**: &lt;text&gt; - text to emoji letters
 
 ------
 ### time_plugin 
-**beats**: No documentation provided.
+**beats**: - Gets the current time in .beats (Swatch Internet Time).
 
-**time**: No documentation provided.
+**time**: &lt;location&gt; - Gets the current time in &lt;location&gt;.
 
 ------
 ### txt2img 
-**txt2img**: No documentation provided.
+**txt2img**: Generate a image using sent text
+
+    &quot;&lt;option&gt; - available input for custom fonts:
+
+    .image &lt;font name&gt;-&lt;size&gt;-&lt;text color&gt;-&lt;bg color&gt;
+
+    VALID_FONTS=
+
+    &#x27;sofia&#x27;,
+
+    &#x27;ostirch&#x27;,
+
+    &#x27;diso&#x27;,
+
+    &#x27;learning&#x27;,
+
+    &#x27;hotel&#x27;,
+
+    &#x27;plp&#x27;,
+
+    &#x27;default&#x27;
+
+    &#x27;symbols&#x27;
+
+    Example usage of this command :
+
+    .text2img sofia-30-red-yellow the quick brown fox jumps over the lazy dog
 
 ------
 ### urban 
-**urban**: No documentation provided.
+**urban**: urban &lt;phrase&gt; [id] -- Looks up &lt;phrase&gt; on urbandictionary.com.
 
 ------
 ### userinfo 
-**inrole**: No documentation provided.
+**inrole**: [role name] List how many members each role has. Calling it with no role name will list all roles
 
-**userinfo**: No documentation provided.
+**userinfo**: &lt;mention&gt; - gets various data about the mentioned user
 
 ------
 ### utility 
-**base64**: No documentation provided.
+**base64**: &lt;string&gt; -- Encode &lt;string&gt; with base64.
 
-**capitalize**: No documentation provided.
+**capitalize**: &lt;string&gt; -- Capitalizes &lt;string&gt;.
 
-**debase64**: No documentation provided.
+    :type text: str
 
-**derpify**: No documentation provided.
+**debase64**: &lt;string&gt; -- Decode &lt;string&gt; with base64.
 
-**escape**: No documentation provided.
+**derpify**: &lt;text&gt; - returns some amusing responses from your input.
 
-**hash**: No documentation provided.
+**escape**: &lt;string&gt; -- Unicode escapes &lt;string&gt;.
 
-**isbase64**: No documentation provided.
+**hash**: &lt;string&gt; -- Returns hashes of &lt;string&gt;.
 
-**leet**: No documentation provided.
+**isbase64**: &lt;string&gt; -- Checks if &lt;string&gt; is a valid base64 encoded string
 
-**length**: No documentation provided.
+**leet**: &lt;text&gt; -- Makes &lt;text&gt; more 1337h4x0rz.
 
-**lower**: No documentation provided.
+**length**: &lt;string&gt; -- Gets the length of &lt;string&gt;
 
-**qrcode**: No documentation provided.
+**lower**: &lt;string&gt; -- Convert string to lowercase.
 
-**reverse**: No documentation provided.
+**qrcode**: &lt;link&gt; - returns a link to a QR code image for &lt;link&gt;
 
-**rot13**: No documentation provided.
+**reverse**: &lt;string&gt; -- Reverses &lt;string&gt;.
 
-**superscript**: No documentation provided.
+**rot13**: &lt;string&gt; -- Encode &lt;string&gt; with rot13.
 
-**swapcase**: No documentation provided.
+**superscript**: &lt;text&gt; -- Makes &lt;text&gt; superscript.
 
-**titlecase**: No documentation provided.
+**swapcase**: &lt;string&gt; -- Swaps the capitalization of &lt;string&gt;.
 
-**unescape**: No documentation provided.
+**titlecase**: &lt;string&gt; -- Convert string to title case.
 
-**upper**: No documentation provided.
+**unescape**: &lt;string&gt; -- Unicode unescapes &lt;string&gt;.
 
-**vapor**: No documentation provided.
+**upper**: &lt;string&gt; -- Convert string to uppercase.
+
+**vapor**: &lt;string&gt; -- Converts &lt;string&gt; to full width characters.
 
 ------
 ### uwu 
-**uwu**: No documentation provided.
+**uwu**: &lt;text&gt; - translate text to UwU
 
 ------
 ### vicky 
-**vicky**: No documentation provided.
+**vicky**: &lt;hot&gt; &lt;crazy&gt; - Returns the zone from the universal hot crazy matrix
 
 ------
 ### wandbox 
-**wb**: No documentation provided.
+**wb**: wandbox interface
 
 ------
 ### watcher 
-**subwatch_list**: No documentation provided.
+**subwatch_list**: List watched subreddits.
 
 ------
 ### weather 
-**weather**: No documentation provided.
+**weather**: &lt;location&gt; - Gets weather data for &lt;location&gt;.
 
 ------
 ### whois 
-**whois**: No documentation provided.
+**whois**: &lt;domain&gt; - Does a whois query on &lt;domain&gt;.
 
 ------
 ### youtube 
-**youtube**: No documentation provided.
+**youtube**: &lt;query&gt; - Returns the first YouTube search result for &lt;query&gt;.
 
