@@ -55,9 +55,9 @@ Admin commands:
 
 ------
 ### log_events 
-**add_bad_word**: No documentation provided.
-
 **add_filter_out_channel**: No documentation provided.
+
+**bad_word**: No documentation provided.
 
 **clear_event_log_chan**: No documentation provided.
 
@@ -65,11 +65,7 @@ Admin commands:
 
 **get_event_log_chan**: No documentation provided.
 
-**list_bad_words**: No documentation provided.
-
 **list_filtered_out_channels**: No documentation provided.
-
-**remove_bad_word**: No documentation provided.
 
 **set_event_log_chan**: No documentation provided.
 
