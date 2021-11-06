@@ -1,13 +1,13 @@
 Admin commands:
 ------
 ### admin_utils 
-**add_join_event**: &lt;&#x27;type&#x27; &#x27;option&#x27;&gt; - Add action to be triggered on user join.
+**add_join_event**: <'type' 'option'> - Add action to be triggered on user join.
 
 Possible actions:
 
- * message #channel blahblah -&gt; send blahblah to #channel
+ * message #channel blahblah -> send blahblah to #channel
 
- * role @role -&gt; set @role on join).
+ * role @role -> set @role on join).
 
 The scripted message can contain special words that are replaced when the event is triggered:
 
@@ -21,15 +21,15 @@ The scripted message can contain special words that are replaced when the event 
 
 
 
-e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x27;John / 12345678910 just joined!&#x27;
+e.g. 'message #general {USER} / {USER_ID} just joined!' will send 'John / 12345678910 just joined!'
 
-**del_join_event**: &lt;event id&gt; - delete a join event
+**del_join_event**: <event id> - delete a join event
 
 **get_timeout_for**: Get timeout for a join event
 
 **list_join_events**: List on-join events
 
-**set_timeout_for**: &lt;join event id, timeout&gt; - Set timeout for a join event. Use &#x27;5s&#x27; for timeout to set it to 5s or 1m to set it to one minute.
+**set_timeout_for**: <join event id, timeout> - Set timeout for a join event. Use '5s' for timeout to set it to 5s or 1m to set it to one minute.
 
 ------
 ### avatar 
@@ -51,49 +51,73 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 
 ------
 ### cmd_owner_hook 
-**admin_config**: Command usage: `.admin_config &lt;subcommand&gt;`
+**admin_config**: Command usage: `.admin_config <subcommand>`
 
 Available subcommands:
 
-- `admin_roles &lt;subcommand&gt;`: Available subcommands:
-> - `add`: &lt;role&gt; - Add a new admin role.
+- `admin_roles <subcommand>`: Available subcommands:
+
+> - `add`: <role> - Add a new admin role.
+
 > - `list`: List currently set admin roles.
-> - `remove`: &lt;role&gt; - Remove admin role from list.
 
-- `chgroup &lt;subcommand&gt;`: Available subcommands:
-> - `create`: &lt;chgroup&gt; - Creates a new channel group with the specified name.
+> - `remove`: <role> - Remove admin role from list.
+
+- `chgroup <subcommand>`: Available subcommands:
+
+> - `create`: <chgroup> - Creates a new channel group with the specified name.
+
 > - `list`: List all channel groups.
-> - `remove`: &lt;chgroup&gt; - Delete channel group.
 
-- `chgroup_chans &lt;subcommand&gt;`: Available subcommands:
-> - `add`: &lt;chgroup&gt; &lt;channel&gt; - Add specified channel to given channel group.
-> - `list`: &lt;chgroup&gt; - List associated channels of specified channel group.
-> - `remove`: &lt;chgroup&gt; &lt;channel&gt; - Remove specified channel from given channel group.
+> - `remove`: <chgroup> - Delete channel group.
 
-- `cmd_chgroups &lt;subcommand&gt;`: Available subcommands:
-> - `add`: &lt;command&gt; &lt;chgroup&gt; - Add the given channel group to command with that name.
-> - `list`: &lt;command&gt; - List channel groups associated with command.
-> - `remove`: &lt;command&gt; &lt;chgroup&gt; - Remove channel group from command.
+- `chgroup_chans <subcommand>`: Available subcommands:
 
-- `fchgroup &lt;subcommand&gt;`: Available subcommands:
-> - `add`: &lt;command&gt; &lt;fchgroup&gt; - Forbid channel group to access command with that name.
-> - `list`: &lt;command&gt; - List forbidden channel groups for command.
-> - `remove`: &lt;command&gt; &lt;fchgroup&gt; - Remove the channel group&#x27;s restriction for the command.
+> - `add`: <chgroup> <channel> - Add specified channel to given channel group.
 
-- `cmd_owner &lt;subcommand&gt;`: Available subcommands:
-> - `add`: &lt;command&gt; &lt;role&gt; - Allow role to execute command, without any restrictions.
-> - `list`: &lt;command&gt; - List roles that can execute command without any restrictions.
-> - `remove`: &lt;command&gt; &lt;role&gt; - Remove role&#x27;s permissions to execute command without any restrictions.
+> - `list`: <chgroup> - List associated channels of specified channel group.
 
-- `bot_channel &lt;subcommand&gt;`: Available subcommands:
-> - `set`: &lt;channel&gt; - Set the default bot command channel.
+> - `remove`: <chgroup> <channel> - Remove specified channel from given channel group.
+
+- `cmd_chgroups <subcommand>`: Available subcommands:
+
+> - `add`: <command> <chgroup> - Add the given channel group to command with that name.
+
+> - `list`: <command> - List channel groups associated with command.
+
+> - `remove`: <command> <chgroup> - Remove channel group from command.
+
+- `fchgroup <subcommand>`: Available subcommands:
+
+> - `add`: <command> <fchgroup> - Forbid channel group to access command with that name.
+
+> - `list`: <command> - List forbidden channel groups for command.
+
+> - `remove`: <command> <fchgroup> - Remove the channel group's restriction for the command.
+
+- `cmd_owner <subcommand>`: Available subcommands:
+
+> - `add`: <command> <role> - Allow role to execute command, without any restrictions.
+
+> - `list`: <command> - List roles that can execute command without any restrictions.
+
+> - `remove`: <command> <role> - Remove role's permissions to execute command without any restrictions.
+
+- `bot_channel <subcommand>`: Available subcommands:
+
+> - `set`: <channel> - Set the default bot command channel.
+
 > - `get`: Get the default bot command channel, if it exists.
+
 > - `clear`: Clear the default bot command channel.
 
-- `unrestricted_cmd &lt;subcommand&gt;`: Available subcommands:
-> - `make`: &lt;command&gt; - Unrestrict command, all channel group and default bot channel restrictions are lifted.
-> - `check`: &lt;command&gt; - Check command restriction status.
-> - `restore`: &lt;command&gt; - Restrict command, re-instate channel group and default bot channel restrictions.
+- `unrestricted_cmd <subcommand>`: Available subcommands:
+
+> - `make`: <command> - Unrestrict command, all channel group and default bot channel restrictions are lifted.
+
+> - `check`: <command> - Check command restriction status.
+
+> - `restore`: <command> - Restrict command, re-instate channel group and default bot channel restrictions.
 
 - `updated_commands`: Display which subcommand matches the old administration command
 
@@ -105,7 +129,7 @@ Available subcommands:
 
 ------
 ### del_messages 
-**delete**: &lt;number&gt; - delete a given number of messages from the channel where the command is executed
+**delete**: <number> - delete a given number of messages from the channel where the command is executed
 
 ------
 ### firewall 
@@ -127,15 +151,15 @@ Available subcommands:
 
     Examples:
 
-        .firewall up -&gt; will raise the firewall indefinitely
+        .firewall up -> will raise the firewall indefinitely
 
-        .firewall up 10s -&gt; will raise the firewall for 10 seconds
+        .firewall up 10s -> will raise the firewall for 10 seconds
 
-        .firewall up 1h -&gt; will raise the firewall for one hour
+        .firewall up 1h -> will raise the firewall for one hour
 
 
 
-        .firewall mode autokick -&gt; enables autokick for the firewall.
+        .firewall mode autokick -> enables autokick for the firewall.
 
 ------
 ### grab 
@@ -143,31 +167,31 @@ Available subcommands:
 
 ------
 ### irc_mode 
-**add_chan_category**: &lt;category name or ID, type, privacy&gt; - Add an existing channel category to the bot
+**add_chan_category**: <category name or ID, type, privacy> - Add an existing channel category to the bot
 
     Types:
 
-    - &#x27;managed&#x27; category will have the permissions managed automatically by inheriting them from the parent category.
+    - 'managed' category will have the permissions managed automatically by inheriting them from the parent category.
 
-    - &#x27;unmanaged&#x27; category will NOT have the permissions managed automatically.
+    - 'unmanaged' category will NOT have the permissions managed automatically.
 
-    - &#x27;archive&#x27; holds archived channels
+    - 'archive' holds archived channels
 
 
 
     Privacy (only needed for managed and unmanaged types):
 
-    - &#x27;public&#x27; channels are joined/parted through the channel access list
+    - 'public' channels are joined/parted through the channel access list
 
-    - &#x27;private&#x27; channels are joined/parted through a channel specific role
+    - 'private' channels are joined/parted through a channel specific role
 
-    - &#x27;invite&#x27; channels are joined through invite codes
+    - 'invite' channels are joined through invite codes
 
-**create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type and who is the channel founder
+**create_channel**: <name type founder> - create a channel by specifying a 'name', type and who is the channel founder
 
-**del_chan_category**: &lt;category name or ID&gt; - Delete an existing channel category
+**del_chan_category**: <category name or ID> - Delete an existing channel category
 
-**delete_channel**: &lt;channel&gt; - delete a channel
+**delete_channel**: <channel> - delete a channel
 
 **list_chan_categories**: List channel categories
 
@@ -175,35 +199,35 @@ Available subcommands:
 
 ------
 ### log_events 
-**add_filter_out_channel**: &lt;channel&gt; - Don&#x27;t log events on a certain channel.
+**add_filter_out_channel**: <channel> - Don't log events on a certain channel.
 
-**bad_word**: Command usage: `.bad_word &lt;subcommand&gt;`
+**bad_word**: Command usage: `.bad_word <subcommand>`
 
 Available subcommands:
 
-- `add`: &lt;word&gt; - remove a message it contains &#x27;word&#x27;
+- `add`: <word> - remove a message it contains 'word'
 
 - `list`: List bad words
 
-- `remove`: &lt;word&gt; - Remove a bad word
+- `remove`: <word> - Remove a bad word
 
-**clear_event_log_chan**: &lt;channel&gt; - Clear logging channel and deactivate logging.
+**clear_event_log_chan**: <channel> - Clear logging channel and deactivate logging.
 
-**clear_filter_out_channel**: &lt;channel&gt; - Remove channel event filtering.
+**clear_filter_out_channel**: <channel> - Remove channel event filtering.
 
-**get_event_log_chan**: &lt;channel&gt; - Get the event log channel.
+**get_event_log_chan**: <channel> - Get the event log channel.
 
-**list_filtered_out_channels**: &lt;channel&gt; - List filtered channels.
+**list_filtered_out_channels**: <channel> - List filtered channels.
 
-**set_event_log_chan**: &lt;channel&gt; - Activate event logging and log to channel.
+**set_event_log_chan**: <channel> - Activate event logging and log to channel.
 
 Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
 ### poll 
-**close_poll**: &lt;message link&gt; - Closes poll give in message link
+**close_poll**: <message link> - Closes poll give in message link
 
-**create_poll**: &lt;title %% option1 %% option2 %% ...&gt; - create a poll with a title and multiple options
+**create_poll**: <title %% option1 %% option2 %% ...> - create a poll with a title and multiple options
 
 **list_polls**: Lists active polls
 
@@ -215,31 +239,31 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### role_selector 
-**add_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
+**add_selector_role_interval**: <selector> <role start> <role end> - adds the roles in the specified interval to the selector
 
-**add_selector_roles**: &lt;selector&gt; &lt;roles&gt; - adds the specified roles to the selector
+**add_selector_roles**: <selector> <roles> - adds the specified roles to the selector
 
-**create_selector**: &lt;selector name&gt; - create a selector that assigns a role
+**create_selector**: <selector name> - create a selector that assigns a role
 
-**delete_selector**: &lt;command_name&gt; - delete a temporary selector command
+**delete_selector**: <command_name> - delete a temporary selector command
 
-**remove_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - removes the roles in the specified interval from the selector.
+**remove_selector_role_interval**: <selector> <role start> <role end> - removes the roles in the specified interval from the selector.
 
     NOTE: THIS REMOVES THE ROLE INTERVAL FROM THE ROLE LIST, NOT FROM THE SELECTOR LIST.
 
-**remove_selector_roles**: &lt;selector&gt; &lt;roles&gt; - removes the specified roles from the selector
+**remove_selector_roles**: <selector> <roles> - removes the specified roles from the selector
 
-**set_selector_description**: &lt;selector&gt; &lt;description&gt; - sets a description for the selector documentation
+**set_selector_description**: <selector> <description> - sets a description for the selector documentation
 
-**set_selector_max_selectable**: &lt;selector&gt; &lt;maxSelectable (int)&gt; - sets the number of max selectable options for the selector. If maxSelectable &lt;= 0, then the number of max selectable options is unlimited
+**set_selector_max_selectable**: <selector> <maxSelectable (int)> - sets the number of max selectable options for the selector. If maxSelectable <= 0, then the number of max selectable options is unlimited
 
-**set_selector_title**: &lt;selector&gt; &lt;title&gt; - sets a title for the selector
+**set_selector_title**: <selector> <title> - sets a title for the selector
 
 ------
 ### say 
-**say**: &lt;channel message&gt; - Send a message to a channel
+**say**: <channel message> - Send a message to a channel
 
-**say_pm**: &lt;user message&gt; - Send a message to an user.
+**say_pm**: <user message> - Send a message to an user.
 
 ------
 ### selector 
@@ -247,7 +271,7 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 **list_permanent_selectors**: No description provided.
 
-**permanent_selector**: &lt;message link/ID&gt; - makes a generated selector permanent (e.g. the bot will always listen for reacts on the given message).
+**permanent_selector**: <message link/ID> - makes a generated selector permanent (e.g. the bot will always listen for reacts on the given message).
 
     This command is useful for pinning selectors on channels.
 
@@ -255,41 +279,41 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### tag 
-**tag_del**: &lt;tag&gt; - delete a tag
+**tag_del**: <tag> - delete a tag
 
 ------
 ### temp_role 
-**ban**: &lt;user [,time], reason&gt; - ban someone permanently or for a given amount of time (e.g. `.ban @plp 5m` bans plp for 5 minutes).
+**ban**: <user [,time], reason> - ban someone permanently or for a given amount of time (e.g. `.ban @plp 5m` bans plp for 5 minutes).
 
 **bataie**: Temporary role assignment command as defined by server ops.
 
 **clear_mod_log_chan**: Clear the moderator actions channel. No moderator actions messages will be sent.
 
-**close_user_case**: &lt;id&gt; - mark user case as closed
+**close_user_case**: <id> - mark user case as closed
 
-**create_temp_role_cmd**: &lt;command name, role&gt; - create a command that assigns a temporary role by specifying `command_name role`
+**create_temp_role_cmd**: <command name, role> - create a command that assigns a temporary role by specifying `command_name role`
 
-**delete_temp_role_cmd**: &lt;command_name&gt; - delete a temporary role command
+**delete_temp_role_cmd**: <command_name> - delete a temporary role command
 
 **export_cases**: No description provided.
 
 **get_mod_log_chan**: Return the moderator actions channel
 
-**kick**: &lt;user [reason]&gt; - Kick someone with an optional reason
+**kick**: <user [reason]> - Kick someone with an optional reason
 
 **list_temp_role_cmds**: list temporary role commands
 
-**set_mod_log_chan**: &lt;channel&gt; - Set channel for moderator actions. When a moderator action will be done through the bot, details about the action will be logged to this channel.
+**set_mod_log_chan**: <channel> - Set channel for moderator actions. When a moderator action will be done through the bot, details about the action will be logged to this channel.
 
 **set_temp_role_cmd_type**: No description provided.
 
-**show_user_case**: &lt;id&gt; - show details for a given user case
+**show_user_case**: <id> - show details for a given user case
 
 **simped**: Temporary role assignment command as defined by server ops.
 
-**userhistory**: &lt;user&gt; - List confinement reasons for user
+**userhistory**: <user> - List confinement reasons for user
 
-**warn**: &lt;user reason&gt; - Warn a user
+**warn**: <user reason> - Warn a user
 
 ------
 ### watcher 
@@ -297,7 +321,7 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 **get_rupdates_channel**: List reddit updates annoucement channel.
 
-**set_rupdates_channel**: &lt;channel&gt; - Send reddit updates on channel.
+**set_rupdates_channel**: <channel> - Send reddit updates on channel.
 
 **startwatch**: Start watching subreddits.
 
