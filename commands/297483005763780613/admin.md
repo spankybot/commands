@@ -56,67 +56,43 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 Available subcommands:
 
 - `admin_roles &lt;subcommand&gt;`: Available subcommands:
-
 > - `add`: &lt;role&gt; - Add a new admin role.
-
 > - `list`: List currently set admin roles.
-
 > - `remove`: &lt;role&gt; - Remove admin role from list.
 
 - `chgroup &lt;subcommand&gt;`: Available subcommands:
-
 > - `create`: &lt;chgroup&gt; - Creates a new channel group with the specified name.
-
 > - `list`: List all channel groups.
-
 > - `remove`: &lt;chgroup&gt; - Delete channel group.
 
 - `chgroup_chans &lt;subcommand&gt;`: Available subcommands:
-
 > - `add`: &lt;chgroup&gt; &lt;channel&gt; - Add specified channel to given channel group.
-
 > - `list`: &lt;chgroup&gt; - List associated channels of specified channel group.
-
 > - `remove`: &lt;chgroup&gt; &lt;channel&gt; - Remove specified channel from given channel group.
 
 - `cmd_chgroups &lt;subcommand&gt;`: Available subcommands:
-
 > - `add`: &lt;command&gt; &lt;chgroup&gt; - Add the given channel group to command with that name.
-
 > - `list`: &lt;command&gt; - List channel groups associated with command.
-
 > - `remove`: &lt;command&gt; &lt;chgroup&gt; - Remove channel group from command.
 
 - `fchgroup &lt;subcommand&gt;`: Available subcommands:
-
 > - `add`: &lt;command&gt; &lt;fchgroup&gt; - Forbid channel group to access command with that name.
-
 > - `list`: &lt;command&gt; - List forbidden channel groups for command.
-
 > - `remove`: &lt;command&gt; &lt;fchgroup&gt; - Remove the channel group&#x27;s restriction for the command.
 
 - `cmd_owner &lt;subcommand&gt;`: Available subcommands:
-
 > - `add`: &lt;command&gt; &lt;role&gt; - Allow role to execute command, without any restrictions.
-
 > - `list`: &lt;command&gt; - List roles that can execute command without any restrictions.
-
 > - `remove`: &lt;command&gt; &lt;role&gt; - Remove role&#x27;s permissions to execute command without any restrictions.
 
 - `bot_channel &lt;subcommand&gt;`: Available subcommands:
-
 > - `set`: &lt;channel&gt; - Set the default bot command channel.
-
 > - `get`: Get the default bot command channel, if it exists.
-
 > - `clear`: Clear the default bot command channel.
 
 - `unrestricted_cmd &lt;subcommand&gt;`: Available subcommands:
-
 > - `make`: &lt;command&gt; - Unrestrict command, all channel group and default bot channel restrictions are lifted.
-
 > - `check`: &lt;command&gt; - Check command restriction status.
-
 > - `restore`: &lt;command&gt; - Restrict command, re-instate channel group and default bot channel restrictions.
 
 - `updated_commands`: Display which subcommand matches the old administration command
