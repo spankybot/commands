@@ -154,6 +154,12 @@ Bot commands:
 **ghissue**: &lt;username|repo&gt; [number] - gets issue [number]&#x27;s summary, or the open issue count if no issue is specified
 
 ------
+### goodreads 
+**goodreads**: &lt;text&gt; - List first goodreads result.
+
+**goodreads_search**: &lt;text&gt; - Search for books on Goodreads.
+
+------
 ### grab 
 **grab**: &lt;user&gt; - grab user&#x27;s last message. If &lt;user&gt; is empty, it will try to grab the message you&#x27;re replying to
 
@@ -303,8 +309,6 @@ Bot commands:
 
 **Colors**: selector command as defined by server ops.
 
-**list_selectors**: list selector commands
-
 ------
 ### shorten 
 **expand**: &lt;url&gt; - unshortens &lt;url&gt;
@@ -320,6 +324,12 @@ Bot commands:
 **bdsm**: Just a little bit of kinky fun.
 
 **spank**: &lt;user&gt; - Spanks a  &lt;user&gt;
+
+------
+### steam 
+**steam**: &lt;text or ID&gt; - Search for a Steam game by name or ID.
+
+**steamsearch**: &lt;text&gt; - Search steam for games.
 
 ------
 ### stock 

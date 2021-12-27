@@ -38,6 +38,26 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
 **set_server_banner**: Sets the server banner to a given URL
 
 ------
+### christmas_admin_hook 
+**xadmin**: Command usage: `.xadmin <subcommand>`
+
+Available subcommands:
+
+- `emoji_ban <subcommand>`: Available subcommands:
+> - `add`: No description provided.
+> - `list`: No description provided.
+> - `remove`: No description provided.
+
+- `user_ban <subcommand>`: Available subcommands:
+> - `add`: No description provided.
+> - `list`: No description provided.
+> - `remove`: No description provided.
+
+- `nuke <subcommand>`: Available subcommands:
+> - `user_emojis`: No description provided.
+> - `emoji`: No description provided.
+
+------
 ### cmd_owner_hook 
 **admin_config**: Command usage: `.admin_config <subcommand>`
 
@@ -126,6 +146,16 @@ Available subcommands:
         .firewall mode autokick -&gt; enables autokick for the firewall.
 
 ------
+### giveaway 
+**end_giveaway**: No description provided.
+
+**giveaway_choose**: No description provided.
+
+**giveaway_info**: No description provided.
+
+**run_giveaway**: No description provided.
+
+------
 ### grab 
 **del_grab**: Delete a grab entry. Specify what the grab message contains or the message ID
 
@@ -171,25 +201,31 @@ Logged events: user join, user leave, message edit, message delete, member updat
 
 ------
 ### role_selector 
-**add_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
+**selectors**: Command usage: `.selectors <subcommand>`
 
-**add_selector_roles**: &lt;selector&gt; &lt;roles&gt; - adds the specified roles to the selector
+Available subcommands:
 
-**create_selector**: &lt;selector name&gt; - create a selector that assigns a role
+- `description`: &lt;selector&gt; &lt;description&gt; - sets a description for the selector documentation. If the description is &quot;get&quot;, it will instead display the current description
 
-**delete_selector**: &lt;command_name&gt; - delete a temporary selector command
+- `max_selectable`: &lt;selector&gt; &lt;maxSelectable (int)&gt; - sets the number of max selectable options for the selector. If maxSelectable &lt;= 0, then the number of max selectable options is unlimited. Ommiting maxSelectable will, instead, display the current set value
 
-**remove_selector_role_interval**: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - removes the roles in the specified interval from the selector.
+- `title`: &lt;selector&gt; &lt;title&gt; - sets a title for the selector. If the title is &quot;get&quot;, it will instead display the current title.
+
+- `add_roles`: &lt;selector&gt; &lt;roles&gt; - adds the specified roles to the selector
+
+- `add_role_interval`: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - adds the roles in the specified interval to the selector
+
+- `del_role_interval`: &lt;selector&gt; &lt;role start&gt; &lt;role end&gt; - removes the roles in the specified interval from the selector.
 
     NOTE: THIS REMOVES THE ROLE INTERVAL FROM THE ROLE LIST, NOT FROM THE SELECTOR LIST.
 
-**remove_selector_roles**: &lt;selector&gt; &lt;roles&gt; - removes the specified roles from the selector
+- `del_roles`: &lt;selector&gt; &lt;roles&gt; - removes the specified roles from the selector
 
-**set_selector_description**: &lt;selector&gt; &lt;description&gt; - sets a description for the selector documentation
+- `create`: &lt;selector name&gt; - create a selector that assigns a role
 
-**set_selector_max_selectable**: &lt;selector&gt; &lt;maxSelectable (int)&gt; - sets the number of max selectable options for the selector. If maxSelectable &lt;= 0, then the number of max selectable options is unlimited
+- `list`: list selector commands
 
-**set_selector_title**: &lt;selector&gt; &lt;title&gt; - sets a title for the selector
+- `remove`: &lt;selector&gt; - delete a selector command
 
 ------
 ### say 
@@ -238,6 +274,14 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **set_temp_role_cmd_type**: No description provided.
 
 **show_user_case**: &lt;id&gt; - show details for a given user case
+
+**timeout**: Timeout an user:
+
+    timeout @plp 1m - timeouts plp for one minute
+
+    timeout @plp - displays timeout for plp
+
+    If the user is timeouted, the timeout can be modified by issuing the timeout command again.
 
 **userhistory**: &lt;user&gt; - List confinement reasons for user
 

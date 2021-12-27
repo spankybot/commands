@@ -60,6 +60,10 @@ Bot commands:
 **cheer**: :type chan: str
 
 ------
+### christmas_admin_hook 
+**xornare**: Add emoji
+
+------
 ### corona 
 **corona**: &lt;option&gt; - available options: [all, &lt;country name&gt;]. If option is &lt;country name&gt;, you must specify a country from &lt;https://worldometers.info/coronavirus#countries&gt;.
 
@@ -142,6 +146,12 @@ Bot commands:
 ------
 ### github 
 **ghissue**: &lt;username|repo&gt; [number] - gets issue [number]&#x27;s summary, or the open issue count if no issue is specified
+
+------
+### goodreads 
+**goodreads**: &lt;text&gt; - List first goodreads result.
+
+**goodreads_search**: &lt;text&gt; - Search for books on Goodreads.
 
 ------
 ### grab 
@@ -500,10 +510,6 @@ Bot commands:
 **vreau_rol**: Roluri random
 
 ------
-### role_selector 
-**list_selectors**: list selector commands
-
-------
 ### shorten 
 **expand**: &lt;url&gt; - unshortens &lt;url&gt;
 
@@ -518,6 +524,12 @@ Bot commands:
 **bdsm**: Just a little bit of kinky fun.
 
 **spank**: &lt;user&gt; - Spanks a  &lt;user&gt;
+
+------
+### steam 
+**steam**: &lt;text or ID&gt; - Search for a Steam game by name or ID.
+
+**steamsearch**: &lt;text&gt; - Search steam for games.
 
 ------
 ### stock 
