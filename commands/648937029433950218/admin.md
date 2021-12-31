@@ -171,6 +171,8 @@ Available subcommands:
 ### grab 
 **del_grab**: Delete a grab entry. Specify what the grab message contains or the message ID
 
+**export_grabs**: No description provided.
+
 ------
 ### image_generator 
 **force_refresh_porn**: No description provided.
@@ -210,6 +212,42 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **create_poll**: &lt;title %% option1 %% option2 %% ...&gt; - create a poll with a title and multiple options
 
 **list_polls**: Lists active polls
+
+------
+### robac_new_year 
+**clear_current_message**: No description provided.
+
+**disable_countdown**: No description provided.
+
+**enable_countdown**: No description provided.
+
+**show_funne**: No description provided.
+
+**show_hours**: No description provided.
+
+**toggle_banner**: No description provided.
+
+------
+### roddit_admin_hook 
+**radmin**: Command usage: `.radmin <subcommand>`
+
+Available subcommands:
+
+- `set_text`: No description provided.
+
+- `emoji_ban <subcommand>`: Available subcommands:
+> - `add`: No description provided.
+> - `list`: No description provided.
+> - `remove`: No description provided.
+
+- `user_ban <subcommand>`: Available subcommands:
+> - `add`: No description provided.
+> - `list`: No description provided.
+> - `remove`: No description provided.
+
+- `nuke <subcommand>`: Available subcommands:
+> - `user_emojis`: No description provided.
+> - `emoji`: No description provided.
 
 ------
 ### role_selector 
@@ -256,10 +294,6 @@ Available subcommands:
     This command is useful for pinning selectors on channels.
 
 **rebuild_selectors**: No description provided.
-
-------
-### tag 
-**tag_del**: &lt;tag&gt; - delete a tag
 
 ------
 ### temp_role 

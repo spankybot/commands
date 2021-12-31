@@ -440,12 +440,6 @@ Bot commands:
 **suggest**: &lt;phrase&gt; - Gets suggested phrases for a google search
 
 ------
-### tag 
-**tag**: &lt;tag&gt; - Return a tag. &#x27;.tag list&#x27; lists tags, &#x27;.tag random&#x27; returns random tag
-
-**tag_add**: &lt;identifier content&gt; - add tag content as indentifier
-
-------
 ### text 
 **letters**: &lt;text&gt; - text to emoji letters
 

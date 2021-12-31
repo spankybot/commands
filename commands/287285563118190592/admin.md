@@ -175,6 +175,8 @@ Available subcommands:
 ### grab 
 **del_grab**: Delete a grab entry. Specify what the grab message contains or the message ID
 
+**export_grabs**: No description provided.
+
 ------
 ### image_generator 
 **force_refresh_porn**: No description provided.
@@ -268,6 +270,32 @@ Logged events: user join, user leave, message edit, message delete, member updat
 **set_auto_valoare**: Set auto valoare to a timeout value (e.g. 10h - 10 hours, 100d - 100 days, etc.).
 
 ------
+### roddit_admin_hook 
+**gen_rev**: No description provided.
+
+**radmin**: Command usage: `.radmin <subcommand>`
+
+Available subcommands:
+
+- `set_text`: No description provided.
+
+- `emoji_ban <subcommand>`: Available subcommands:
+> - `add`: No description provided.
+> - `list`: No description provided.
+> - `remove`: No description provided.
+
+- `user_ban <subcommand>`: Available subcommands:
+> - `add`: No description provided.
+> - `list`: No description provided.
+> - `remove`: No description provided.
+
+- `nuke <subcommand>`: Available subcommands:
+> - `user_emojis`: No description provided.
+> - `emoji`: No description provided.
+
+**rstats**: No description provided.
+
+------
 ### roddit_intrebati_orice 
 **clear_roddit_channel**: Remove &#x27;intrebati orice&#x27; announcement channel.
 
@@ -320,10 +348,6 @@ Available subcommands:
     This command is useful for pinning selectors on channels.
 
 **rebuild_selectors**: No description provided.
-
-------
-### tag 
-**tag_del**: &lt;tag&gt; - delete a tag
 
 ------
 ### temp_role 

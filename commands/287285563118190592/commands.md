@@ -321,7 +321,7 @@ Bot commands:
 
 **make_sfw**: &lt;topic&gt; - make channel SFW
 
-**part**: &lt;chname&gt; - leave a channel
+**part**: &lt;[chname]&gt; - leave one or multiple channels
 
 **remove_op**: &lt;name&gt; - Remove an operator
 
@@ -392,6 +392,10 @@ Bot commands:
 ------
 ### roddit_admin 
 **votat**: No description provided.
+
+------
+### roddit_admin_hook 
+**artifica**: Add emoji
 
 ------
 ### roddit_curs 
@@ -542,12 +546,6 @@ Bot commands:
 ------
 ### suggest 
 **suggest**: &lt;phrase&gt; - Gets suggested phrases for a google search
-
-------
-### tag 
-**tag**: &lt;tag&gt; - Return a tag. &#x27;.tag list&#x27; lists tags, &#x27;.tag random&#x27; returns random tag
-
-**tag_add**: &lt;identifier content&gt; - add tag content as indentifier
 
 ------
 ### text 
