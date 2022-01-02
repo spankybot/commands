@@ -290,6 +290,10 @@ Available subcommands:
 **rebuild_selectors**: No description provided.
 
 ------
+### tag 
+**tag_del**: &lt;tag&gt; - delete a tag
+
+------
 ### temp_role 
 **aaaaa**: Temporary role assignment command as defined by server ops.
 

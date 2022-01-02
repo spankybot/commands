@@ -244,6 +244,10 @@ Available subcommands:
 **rebuild_selectors**: No description provided.
 
 ------
+### tag 
+**tag_del**: &lt;tag&gt; - delete a tag
+
+------
 ### temp_role 
 **ban**: &lt;user [,time], reason&gt; - ban someone permanently or for a given amount of time (e.g. `.ban @plp 5m` bans plp for 5 minutes).
 
