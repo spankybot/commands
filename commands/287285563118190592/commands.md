@@ -60,10 +60,6 @@ Bot commands:
 **cheer**: :type chan: str
 
 ------
-### christmas_admin_hook 
-**xornare**: Add emoji
-
-------
 ### corona 
 **corona**: &lt;option&gt; - available options: [all, &lt;country name&gt;]. If option is &lt;country name&gt;, you must specify a country from &lt;https://worldometers.info/coronavirus#countries&gt;.
 
@@ -280,16 +276,10 @@ Bot commands:
 **zoom**: No description provided.
 
 ------
-### irc_mode 
+### irc 
 **accept_invite**: No description provided.
 
-**add_op**: &lt;name&gt; - Add an operator
-
 **advertise**: &lt;channel [description]&gt; - advertise a channel by optionally specifying a channel description
-
-**ban_member**: &lt;name/ID&gt; - ban a member
-
-**get_associated_role**: Get the role name associated to the channel
 
 **iclear**: Clear a channel property.
 
@@ -299,39 +289,45 @@ Bot commands:
 
 **invite_member**: &lt;user&gt; Invite someone to an invite-only channel
 
+**irc**: Command usage: `.irc <subcommand>`
+
+Available subcommands:
+
+- `member <subcommand>`: Available subcommands:
+> - `list`: List members
+
+- `op <subcommand>`: Available subcommands:
+> - `add`: &lt;name&gt; - Add an operator
+> - `list`: List operators
+> - `remove`: &lt;name&gt; - Remove an operator
+
+- `set <subcommand>`: Available subcommands:
+> - `topic`: &lt;topic&gt; - set channel topic
+> - `nsfw`: &lt;topic&gt; - make channel NSFW
+> - `sfw`: &lt;topic&gt; - make channel SFW
+> - `permission_based`: Instead of managing access through roles, it uses channel permissions
+> - `role_based`: Instead of managing access through permissions, it uses role access
+> - `associated_role`: Set the role name associated to the channel
+
+- `get <subcommand>`: Available subcommands:
+> - `associated_role`: Get the role name associated to the channel
+
+- `ban <subcommand>`: Available subcommands:
+> - `list`: List channel bans
+> - `member`: &lt;name/ID&gt; - ban a member
+> - `unban`: &lt;name/ID&gt; - unban a member
+
+- `kick`: &lt;name/ID&gt; - kick a member
+
 **irc_help**: No description provided.
 
 **iset**: Set a channel property.
 
 **join**: &lt;chname&gt; - join a channel
 
-**kick_member**: &lt;name/ID&gt; - kick a member
-
-**list_bans**: List channel bans
-
-**list_members**: List members
-
-**list_ops**: List operators
-
-**make_nsfw**: &lt;topic&gt; - make channel NSFW
-
-**make_permission_based**: Instead of managing access through roles, it uses channel permissions
-
-**make_role_based**: Instead of managing access through permissions, it uses role access
-
-**make_sfw**: &lt;topic&gt; - make channel SFW
-
 **part**: &lt;[chname]&gt; - leave one or multiple channels
 
-**remove_op**: &lt;name&gt; - Remove an operator
-
 **request_channel**: &lt;name&gt; - request a channel by specifying a name
-
-**set_associated_role_name**: Set the role name associated to the channel
-
-**set_topic**: &lt;topic&gt; - set channel topic
-
-**unban_member**: &lt;name/ID&gt; - unban a member
 
 ------
 ### jokes 

@@ -3,25 +3,25 @@ Admin commands:
 ### admin_utils 
 **add_join_event**: &lt;&#x27;type&#x27; &#x27;option&#x27;&gt; - Add action to be triggered on user join.
 
-Possible actions:
+    Possible actions:
 
- * message #channel blahblah -&gt; send blahblah to #channel
+     * message #channel blahblah -&gt; send blahblah to #channel
 
- * role @role -&gt; set @role on join).
+     * role @role -&gt; set @role on join).
 
-The scripted message can contain special words that are replaced when the event is triggered:
+    The scripted message can contain special words that are replaced when the event is triggered:
 
- * {AGE} - Account age
+     * {AGE} - Account age
 
- * {USER} - User that just joined
+     * {USER} - User that just joined
 
- * {USER_ID} - User ID
+     * {USER_ID} - User ID
 
- * {SEEN_CNT} - How many times this user has been seen in servers shared with the bot
+     * {SEEN_CNT} - How many times this user has been seen in servers shared with the bot
 
 
 
-e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x27;John / 12345678910 just joined!&#x27;
+    e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x27;John / 12345678910 just joined!&#x27;
 
 **del_join_event**: &lt;event id&gt; - delete a join event
 
@@ -48,26 +48,6 @@ e.g. &#x27;message #general {USER} / {USER_ID} just joined!&#x27; will send &#x2
     See `.birthday help` for more info
 
 **trigger_check**: No description provided.
-
-------
-### christmas_admin_hook 
-**xadmin**: Command usage: `.xadmin <subcommand>`
-
-Available subcommands:
-
-- `emoji_ban <subcommand>`: Available subcommands:
-> - `add`: No description provided.
-> - `list`: No description provided.
-> - `remove`: No description provided.
-
-- `user_ban <subcommand>`: Available subcommands:
-> - `add`: No description provided.
-> - `list`: No description provided.
-> - `remove`: No description provided.
-
-- `nuke <subcommand>`: Available subcommands:
-> - `user_emojis`: No description provided.
-> - `emoji`: No description provided.
 
 ------
 ### cmd_owner_hook 
@@ -174,7 +154,7 @@ Available subcommands:
 **export_grabs**: No description provided.
 
 ------
-### irc_mode 
+### irc 
 **add_chan_category**: &lt;category name or ID, type, privacy&gt; - Add an existing channel category to the bot
 
     Types:
@@ -231,7 +211,7 @@ Available subcommands:
 
 **set_event_log_chan**: &lt;channel&gt; - Activate event logging and log to channel.
 
-Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
+    Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
 ### poll 

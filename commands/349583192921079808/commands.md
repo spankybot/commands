@@ -224,8 +224,38 @@ Bot commands:
 **zoom**: No description provided.
 
 ------
-### irc_mode 
+### irc 
 **accept_invite**: No description provided.
+
+**irc**: Command usage: `.irc <subcommand>`
+
+Available subcommands:
+
+- `member <subcommand>`: Available subcommands:
+> - `list`: List members
+
+- `op <subcommand>`: Available subcommands:
+> - `add`: &lt;name&gt; - Add an operator
+> - `list`: List operators
+> - `remove`: &lt;name&gt; - Remove an operator
+
+- `set <subcommand>`: Available subcommands:
+> - `topic`: &lt;topic&gt; - set channel topic
+> - `nsfw`: &lt;topic&gt; - make channel NSFW
+> - `sfw`: &lt;topic&gt; - make channel SFW
+> - `permission_based`: Instead of managing access through roles, it uses channel permissions
+> - `role_based`: Instead of managing access through permissions, it uses role access
+> - `associated_role`: Set the role name associated to the channel
+
+- `get <subcommand>`: Available subcommands:
+> - `associated_role`: Get the role name associated to the channel
+
+- `ban <subcommand>`: Available subcommands:
+> - `list`: List channel bans
+> - `member`: &lt;name/ID&gt; - ban a member
+> - `unban`: &lt;name/ID&gt; - unban a member
+
+- `kick`: &lt;name/ID&gt; - kick a member
 
 ------
 ### jokes 
