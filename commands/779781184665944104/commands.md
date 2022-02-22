@@ -35,8 +35,6 @@ Bot commands:
 ### bot_admin_system 
 **about**: Get about.
 
-**invite_me**: Get invitation for bot
-
 **system**: -- Retrieves information about the host system.
 
 ------
@@ -332,6 +330,10 @@ Available subcommands:
 **vreau_rol_nitro**: &lt;nume&gt; #&lt;culoare în hex&gt; - Crează un rol, dacă ai nitro, și ți-l dă ca să te poți lăuda cu el.
 
 ------
+### robac_simulare 
+**particip**: No description provided.
+
+------
 ### roddit_curs 
 **curs**: &lt;currency&gt; - Returns current value of a currency in RON
 
@@ -458,6 +460,10 @@ Available subcommands:
 ------
 ### suggest 
 **suggest**: &lt;phrase&gt; - Gets suggested phrases for a google search
+
+------
+### system 
+**invite_me**: Get invitation for bot
 
 ------
 ### tag 

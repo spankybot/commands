@@ -228,6 +228,16 @@ Available subcommands:
 **list_polls**: Lists active polls
 
 ------
+### robac_simulare 
+**admin_participant_simulare**: &lt;code&gt; - Code to search for
+
+**admin_useri_simulare**: No description provided.
+
+**gradare**: &lt;cod&gt; &lt;materie&gt; &lt;nota&gt; - Gradare submisie cu cod specific
+
+**list_note**: &lt;materie&gt; - Cautare toate notele la o materie
+
+------
 ### roddit_admin 
 **get_auto_bulau**: No description provided.
 
@@ -244,32 +254,6 @@ Available subcommands:
 **set_auto_bulau**: Set auto bulau to a timeout value (e.g. 10h - 10 hours, 100d - 100 days, etc.).
 
 **set_auto_valoare**: Set auto valoare to a timeout value (e.g. 10h - 10 hours, 100d - 100 days, etc.).
-
-------
-### roddit_admin_hook 
-**gen_rev**: No description provided.
-
-**radmin**: Command usage: `.radmin <subcommand>`
-
-Available subcommands:
-
-- `set_text`: No description provided.
-
-- `emoji_ban <subcommand>`: Available subcommands:
-> - `add`: No description provided.
-> - `list`: No description provided.
-> - `remove`: No description provided.
-
-- `user_ban <subcommand>`: Available subcommands:
-> - `add`: No description provided.
-> - `list`: No description provided.
-> - `remove`: No description provided.
-
-- `nuke <subcommand>`: Available subcommands:
-> - `user_emojis`: No description provided.
-> - `emoji`: No description provided.
-
-**rstats**: No description provided.
 
 ------
 ### roddit_intrebati_orice 

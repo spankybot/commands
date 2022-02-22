@@ -242,26 +242,14 @@ Available subcommands:
 **toggle_banner**: No description provided.
 
 ------
-### roddit_admin_hook 
-**radmin**: Command usage: `.radmin <subcommand>`
+### robac_simulare 
+**admin_participant_simulare**: &lt;code&gt; - Code to search for
 
-Available subcommands:
+**admin_useri_simulare**: No description provided.
 
-- `set_text`: No description provided.
+**gradare**: &lt;cod&gt; &lt;materie&gt; &lt;nota&gt; - Gradare submisie cu cod specific
 
-- `emoji_ban <subcommand>`: Available subcommands:
-> - `add`: No description provided.
-> - `list`: No description provided.
-> - `remove`: No description provided.
-
-- `user_ban <subcommand>`: Available subcommands:
-> - `add`: No description provided.
-> - `list`: No description provided.
-> - `remove`: No description provided.
-
-- `nuke <subcommand>`: Available subcommands:
-> - `user_emojis`: No description provided.
-> - `emoji`: No description provided.
+**list_note**: &lt;materie&gt; - Cautare toate notele la o materie
 
 ------
 ### role_selector 

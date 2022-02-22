@@ -45,8 +45,6 @@ Bot commands:
 ### bot_admin_system 
 **about**: Get about.
 
-**invite_me**: Get invitation for bot
-
 **system**: -- Retrieves information about the host system.
 
 ------
@@ -316,6 +314,10 @@ Available subcommands:
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
+### robac_simulare 
+**particip**: No description provided.
+
+------
 ### roddit_curs 
 **curs**: &lt;currency&gt; - Returns current value of a currency in RON
 
@@ -372,6 +374,10 @@ Available subcommands:
 ------
 ### suggest 
 **suggest**: &lt;phrase&gt; - Gets suggested phrases for a google search
+
+------
+### system 
+**invite_me**: Get invitation for bot
 
 ------
 ### tag 
