@@ -28,6 +28,10 @@ Bot commands:
 **get_server_banner**: Return a link to the server banner
 
 ------
+### backup 
+**force_backup_data**: No description provided.
+
+------
 ### bible 
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
 
@@ -88,14 +92,6 @@ Bot commands:
 **cypher**: &lt;pass&gt; &lt;string&gt; -- cyphers &lt;string&gt; with &lt;password&gt;
 
 **decypher**: &lt;pass&gt; &lt;string&gt; - decyphers &lt;string&gt; with &lt;password&gt;
-
-------
-### dogpile 
-**g**: &lt;query&gt; - Search for a link.
-
-**gis**: &lt;query&gt; - Search for a image.
-
-**nsfwgis**: &lt;query&gt; - Search for a image.
 
 ------
 ### face 
@@ -277,6 +273,16 @@ Bot commands:
 ### irc 
 **accept_invite**: No description provided.
 
+**advertise**: &lt;channel [description]&gt; - advertise a channel by optionally specifying a channel description
+
+**iclear**: Clear a channel property.
+
+**iget**: Get a channel property.
+
+**ilist**: List properties.
+
+**invite_member**: &lt;user&gt; Invite someone to an invite-only channel
+
 **irc**: Command usage: `.irc <subcommand>`
 
 Available subcommands:
@@ -306,6 +312,16 @@ Available subcommands:
 > - `unban`: &lt;name/ID&gt; - unban a member
 
 - `kick`: &lt;name/ID&gt; - kick a member
+
+**irc_help**: No description provided.
+
+**iset**: Set a channel property.
+
+**join**: &lt;chname&gt; - join a channel
+
+**part**: &lt;[chname]&gt; - leave one or multiple channels
+
+**request_channel**: &lt;name&gt; - request a channel by specifying a name
 
 ------
 ### jokes 
@@ -348,10 +364,12 @@ Available subcommands:
     If no user is specified, a sentence will be generated using all user messages.
 
 ------
-### name_generator 
-**namegen**: [generator|list] - generates some names using the chosen generator, or lists all generators if &#x27;list&#x27; is specified
+### plugin_dogpile 
+**g**: &lt;query&gt; - Search for a link.
 
-    :type bot: cloudbot.bot.CloudBot
+**gis**: &lt;query&gt; - Search for a image.
+
+**nsfwgis**: &lt;query&gt; - Search for a image.
 
 ------
 ### qalc 
@@ -364,6 +382,14 @@ Available subcommands:
 ------
 ### remind 
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
+
+------
+### robac_custom_roles 
+**sterge_rol_nitro**: Șterge rolul nitro creat
+
+**vreau_rol_nitro**: &lt;nume&gt; #&lt;culoare în hex&gt; - Crează un rol, dacă ai nitro, și ți-l dă ca să te poți lăuda cu el.
+
+**zilepanalabac**: No description provided.
 
 ------
 ### robac_simulare 

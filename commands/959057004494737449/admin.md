@@ -38,18 +38,6 @@ Admin commands:
 **set_server_banner**: Sets the server banner to a given URL
 
 ------
-### birthday 
-**bday_dbg**: No description provided.
-
-**birthday**: Manage birthday announcements.
-
-
-
-    See `.birthday help` for more info
-
-**trigger_check**: No description provided.
-
-------
 ### cmd_owner_hook 
 **admin_config**: Command usage: `.admin_config <subcommand>`
 
@@ -154,41 +142,7 @@ Available subcommands:
 **export_grabs**: No description provided.
 
 ------
-### image_generator 
-**force_refresh_porn**: No description provided.
-
-**nuke_porn**: No description provided.
-
-------
 ### irc 
-**add_chan_category**: &lt;category name or ID, type, privacy&gt; - Add an existing channel category to the bot
-
-    Types:
-
-    - &#x27;managed&#x27; category will have the permissions managed automatically by inheriting them from the parent category.
-
-    - &#x27;unmanaged&#x27; category will NOT have the permissions managed automatically.
-
-    - &#x27;archive&#x27; holds archived channels
-
-
-
-    Privacy (only needed for managed and unmanaged types):
-
-    - &#x27;public&#x27; channels are joined/parted through the channel access list
-
-    - &#x27;private&#x27; channels are joined/parted through a channel specific role
-
-    - &#x27;invite&#x27; channels are joined through invite codes
-
-**create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type and who is the channel founder
-
-**del_chan_category**: &lt;category name or ID&gt; - Delete an existing channel category
-
-**delete_channel**: &lt;channel&gt; - delete a channel
-
-**fixup_channel**: No description provided.
-
 **irc_settings**: Command usage: `.irc_settings <subcommand>`
 
 Available subcommands:
@@ -206,18 +160,6 @@ Available subcommands:
 - `list_nsfw_forbid_roles`: No description provided.
 
 - `del_nsfw_forbid_role`: No description provided.
-
-**list_chan_categories**: List channel categories
-
-**move_to_category**: Move a channel to a category
-
-**reset_perms_for_category**: No description provided.
-
-**sort_chans**: Sort channels in category
-
-------
-### irc_mode_selectors 
-**gib_valoare**: Generate channel selector
 
 ------
 ### log_events 
@@ -264,36 +206,6 @@ Available subcommands:
 **gradare**: &lt;cod&gt; &lt;materie&gt; &lt;nota&gt; - Gradare submisie cu cod specific
 
 **list_note**: &lt;materie&gt; - Cautare toate notele la o materie
-
-------
-### roddit_admin 
-**assign_role_to_joins_between**: No description provided.
-
-**get_auto_bulau**: No description provided.
-
-**get_auto_valoare**: No description provided.
-
-**kick_noobs**: No description provided.
-
-**list_joins_between**: No description provided.
-
-**list_noobs**: No description provided.
-
-**ok**: No description provided.
-
-**remove_role_from_joins_between**: No description provided.
-
-**set_auto_bulau**: Set auto bulau to a timeout value (e.g. 10h - 10 hours, 100d - 100 days, etc.).
-
-**set_auto_valoare**: Set auto valoare to a timeout value (e.g. 10h - 10 hours, 100d - 100 days, etc.).
-
-------
-### roddit_intrebati_orice 
-**clear_roddit_channel**: Remove &#x27;intrebati orice&#x27; announcement channel.
-
-**get_roddit_channel**: List &#x27;intrebati orice&#x27; annoucement channel.
-
-**set_roddit_channel**: &lt;channel&gt; - Send &#x27;intrebati orice&#x27; on channel.
 
 ------
 ### role_selector 
@@ -349,8 +261,6 @@ Available subcommands:
 ### temp_role 
 **ban**: &lt;user [,time], reason&gt; - ban someone permanently or for a given amount of time (e.g. `.ban @plp 5m` bans plp for 5 minutes).
 
-**bulau**: Temporary role assignment command as defined by server ops.
-
 **clear_mod_log_chan**: Clear the moderator actions channel. No moderator actions messages will be sent.
 
 **close_user_case**: &lt;id&gt; - mark user case as closed
@@ -372,6 +282,8 @@ Available subcommands:
 **set_temp_role_cmd_type**: No description provided.
 
 **show_user_case**: &lt;id&gt; - show details for a given user case
+
+**temnita**: Temporary role assignment command as defined by server ops.
 
 **timeout**: Timeout an user:
 

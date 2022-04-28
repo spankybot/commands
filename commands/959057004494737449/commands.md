@@ -160,66 +160,6 @@ Bot commands:
 **help**: Get help for a command or the help document
 
 ------
-### image_generator 
-**amateur**: No description provided.
-
-**anal**: No description provided.
-
-**asians**: No description provided.
-
-**aww**: No description provided.
-
-**blep**: No description provided.
-
-**blonde**: No description provided.
-
-**buci**: No description provided.
-
-**capre**: No description provided.
-
-**craci**: No description provided.
-
-**cutu**: No description provided.
-
-**femboy**: No description provided.
-
-**fetch_image**: No description provided.
-
-**fetish**: No description provided.
-
-**lesbiene**: No description provided.
-
-**milf**: No description provided.
-
-**nsfwfunny**: No description provided.
-
-**pisi**: No description provided.
-
-**plsgayporn**: No description provided.
-
-**plsporn**: No description provided.
-
-**raton**: No description provided.
-
-**roscate**: No description provided.
-
-**skinny**: No description provided.
-
-**sloboz**: No description provided.
-
-**tatuate**: No description provided.
-
-**teen**: No description provided.
-
-**thicc**: No description provided.
-
-**thot**: No description provided.
-
-**traps**: No description provided.
-
-**tzatze**: No description provided.
-
-------
 ### imdb 
 **imdb**: &lt;movie&gt; - gets information about &lt;movie&gt; from IMDb
 
@@ -388,56 +328,8 @@ Available subcommands:
 **deny_marry**: &lt;id&gt; - Refuză o ofertă de căsătorie
 
 ------
-### roddit_fun 
-**aplauze**: No description provided.
-
-**aram**: No description provided.
-
-**ayy**: No description provided.
-
-**bitter**: No description provided.
-
-**bluntlee**: No description provided.
-
-**brutalistu**: No description provided.
-
-**cacat**: No description provided.
-
-**cancel**: No description provided.
-
-**cola**: No description provided.
-
-**dance**: No description provided.
-
-**iazo**: No description provided.
-
-**injur**: No description provided.
-
-**iubestemafa**: Vezi compatiblitatea ta cu o persoana. Sau o chestie.
-
-**jupi**: No description provided.
-
-**manea**: No description provided.
-
-**mcioran**: No description provided.
-
-**mpuric**: No description provided.
-
-**mtutea**: No description provided.
-
-**muie**: No description provided.
-
-**murmuz**: No description provided.
-
-**puti**: No description provided.
-
-**shrug**: No description provided.
-
-**vasile**: No description provided.
-
-------
 ### role_selector 
-**iapula**: selector command as defined by server ops.
+**plebeu**: selector command as defined by server ops.
 
 ------
 ### shorten 

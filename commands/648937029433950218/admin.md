@@ -160,6 +160,62 @@ Available subcommands:
 **nuke_porn**: No description provided.
 
 ------
+### irc 
+**add_chan_category**: &lt;category name or ID, type, privacy&gt; - Add an existing channel category to the bot
+
+    Types:
+
+    - &#x27;managed&#x27; category will have the permissions managed automatically by inheriting them from the parent category.
+
+    - &#x27;unmanaged&#x27; category will NOT have the permissions managed automatically.
+
+    - &#x27;archive&#x27; holds archived channels
+
+
+
+    Privacy (only needed for managed and unmanaged types):
+
+    - &#x27;public&#x27; channels are joined/parted through the channel access list
+
+    - &#x27;private&#x27; channels are joined/parted through a channel specific role
+
+    - &#x27;invite&#x27; channels are joined through invite codes
+
+**create_channel**: &lt;name type founder&gt; - create a channel by specifying a &#x27;name&#x27;, type and who is the channel founder
+
+**del_chan_category**: &lt;category name or ID&gt; - Delete an existing channel category
+
+**delete_channel**: &lt;channel&gt; - delete a channel
+
+**fixup_channel**: No description provided.
+
+**irc_settings**: Command usage: `.irc_settings <subcommand>`
+
+Available subcommands:
+
+- `request_chan`: No description provided.
+
+- `add_access_role`: No description provided.
+
+- `list_access_roles`: No description provided.
+
+- `del_access_role`: No description provided.
+
+- `add_nsfw_forbid_role`: No description provided.
+
+- `list_nsfw_forbid_roles`: No description provided.
+
+- `del_nsfw_forbid_role`: No description provided.
+
+**list_chan_categories**: List channel categories
+
+**move_to_category**: Move a channel to a category
+
+**reset_perms_for_category**: No description provided.
+
+**sort_chans**: Sort channels in category
+
+------
 ### log_events 
 **add_filter_out_channel**: &lt;channel&gt; - Don&#x27;t log events on a certain channel.
 
@@ -186,26 +242,20 @@ Available subcommands:
     Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
-### poll 
+### plugin_poll 
 **close_poll**: &lt;message link&gt; - Closes poll give in message link
 
 **create_poll**: &lt;title %% option1 %% option2 %% ...&gt; - create a poll with a title and multiple options
 
 **list_polls**: Lists active polls
 
+**sanitize_polls**: TODO: clean up polls, fetch unregistered votes
+
 ------
-### robac_new_year 
-**clear_current_message**: No description provided.
+### robac_custom_roles 
+**list_custom_roles**: No description provided.
 
-**disable_countdown**: No description provided.
-
-**enable_countdown**: No description provided.
-
-**show_funne**: No description provided.
-
-**show_hours**: No description provided.
-
-**toggle_banner**: No description provided.
+**sync_custom_roles**: No description provided.
 
 ------
 ### robac_simulare 

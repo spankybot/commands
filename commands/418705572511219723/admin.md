@@ -148,6 +148,26 @@ Available subcommands:
 **nuke_porn**: No description provided.
 
 ------
+### irc 
+**irc_settings**: Command usage: `.irc_settings <subcommand>`
+
+Available subcommands:
+
+- `request_chan`: No description provided.
+
+- `add_access_role`: No description provided.
+
+- `list_access_roles`: No description provided.
+
+- `del_access_role`: No description provided.
+
+- `add_nsfw_forbid_role`: No description provided.
+
+- `list_nsfw_forbid_roles`: No description provided.
+
+- `del_nsfw_forbid_role`: No description provided.
+
+------
 ### log_events 
 **add_filter_out_channel**: &lt;channel&gt; - Don&#x27;t log events on a certain channel.
 
@@ -174,12 +194,14 @@ Available subcommands:
     Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
-### poll 
+### plugin_poll 
 **close_poll**: &lt;message link&gt; - Closes poll give in message link
 
 **create_poll**: &lt;title %% option1 %% option2 %% ...&gt; - create a poll with a title and multiple options
 
 **list_polls**: Lists active polls
+
+**sanitize_polls**: TODO: clean up polls, fetch unregistered votes
 
 ------
 ### robac_simulare 

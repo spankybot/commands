@@ -181,9 +181,31 @@ Available subcommands:
 
 **delete_channel**: &lt;channel&gt; - delete a channel
 
+**fixup_channel**: No description provided.
+
+**irc_settings**: Command usage: `.irc_settings <subcommand>`
+
+Available subcommands:
+
+- `request_chan`: No description provided.
+
+- `add_access_role`: No description provided.
+
+- `list_access_roles`: No description provided.
+
+- `del_access_role`: No description provided.
+
+- `add_nsfw_forbid_role`: No description provided.
+
+- `list_nsfw_forbid_roles`: No description provided.
+
+- `del_nsfw_forbid_role`: No description provided.
+
 **list_chan_categories**: List channel categories
 
 **move_to_category**: Move a channel to a category
+
+**reset_perms_for_category**: No description provided.
 
 **sort_chans**: Sort channels in category
 
@@ -214,12 +236,14 @@ Available subcommands:
     Logged events: user join, user leave, message edit, message delete, member update, member ban, member unban.
 
 ------
-### poll 
+### plugin_poll 
 **close_poll**: &lt;message link&gt; - Closes poll give in message link
 
 **create_poll**: &lt;title %% option1 %% option2 %% ...&gt; - create a poll with a title and multiple options
 
 **list_polls**: Lists active polls
+
+**sanitize_polls**: TODO: clean up polls, fetch unregistered votes
 
 ------
 ### robac_simulare 

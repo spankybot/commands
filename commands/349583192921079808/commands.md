@@ -28,6 +28,10 @@ Bot commands:
 **get_server_banner**: Return a link to the server banner
 
 ------
+### backup 
+**force_backup_data**: No description provided.
+
+------
 ### bible 
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
 
@@ -96,14 +100,6 @@ Bot commands:
 **cypher**: &lt;pass&gt; &lt;string&gt; -- cyphers &lt;string&gt; with &lt;password&gt;
 
 **decypher**: &lt;pass&gt; &lt;string&gt; - decyphers &lt;string&gt; with &lt;password&gt;
-
-------
-### dogpile 
-**g**: &lt;query&gt; - Search for a link.
-
-**gis**: &lt;query&gt; - Search for a image.
-
-**nsfwgis**: &lt;query&gt; - Search for a image.
 
 ------
 ### face 
@@ -294,10 +290,12 @@ Available subcommands:
     If no user is specified, a sentence will be generated using all user messages.
 
 ------
-### name_generator 
-**namegen**: [generator|list] - generates some names using the chosen generator, or lists all generators if &#x27;list&#x27; is specified
+### plugin_dogpile 
+**g**: &lt;query&gt; - Search for a link.
 
-    :type bot: cloudbot.bot.CloudBot
+**gis**: &lt;query&gt; - Search for a image.
+
+**nsfwgis**: &lt;query&gt; - Search for a image.
 
 ------
 ### qalc 
@@ -310,6 +308,10 @@ Available subcommands:
 ------
 ### remind 
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
+
+------
+### robac_custom_roles 
+**zilepanalabac**: No description provided.
 
 ------
 ### robac_simulare 
