@@ -58,8 +58,20 @@ Bot commands:
 **coa**: &lt;text&gt; - talk to CleverBot
 
 ------
+### chatgpt 
+**cbot**: No description provided.
+
+**cbot_refresh**: No description provided.
+
+**cbot_reset**: No description provided.
+
+------
 ### cheer 
 **cheer**: :type chan: str
+
+------
+### cmd_owner_hook 
+**uresc**: No description provided.
 
 ------
 ### corona 
@@ -372,6 +384,14 @@ Available subcommands:
 **nsfwgis**: &lt;query&gt; - Search for a image.
 
 ------
+### plugin_poll 
+**close_poll**: No description provided.
+
+**create_poll**: No description provided.
+
+**list_polls**: No description provided.
+
+------
 ### qalc 
 **calc**: &lt;expression&gt; - qalc interface
 
@@ -494,6 +514,10 @@ Available subcommands:
 ------
 ### roddit_horoscop 
 **horoscop**: horoscop &lt;zodie&gt; - Afișează horoscopul unei zodii
+
+------
+### roddit_inactive 
+**asd**: No description provided.
 
 ------
 ### shorten 
