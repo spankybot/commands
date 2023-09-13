@@ -32,16 +32,6 @@ Bot commands:
 **force_backup_data**: No description provided.
 
 ------
-### bacultate_roles 
-**am_luat**: Selecteaza bac luat
-
-**culoare**: Selecteaza culoare
-
-**facultate**: Selecteaza facultate
-
-**tara**: Selecteaza tara
-
-------
 ### bible 
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
 
@@ -332,12 +322,10 @@ Available subcommands:
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
-### robac_custom_roles 
-**zilepanalabac**: No description provided.
+### remote_plugins 
+**igram**: No description provided.
 
-------
-### robac_simulare 
-**particip**: No description provided.
+**tt**: No description provided.
 
 ------
 ### roddit_curs 

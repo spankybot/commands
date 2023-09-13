@@ -257,8 +257,6 @@ Available subcommands:
 
 **delete_temp_role_cmd**: &lt;command_name&gt; - delete a temporary role command
 
-**democratie**: Temporary role assignment command as defined by server ops.
-
 **export_cases**: No description provided.
 
 **get_mod_log_chan**: Return the moderator actions channel
@@ -300,4 +298,10 @@ Available subcommands:
 **subwatch_add**: Add a subreddit to the watch list.
 
 **subwatch_del**: Remove a subreddit from the watch list
+
+------
+### womenro_admin 
+**get_auto_member**: No description provided.
+
+**set_auto_member**: Set auto valoare to a timeout value (e.g. 10h - 10 hours, 100d - 100 days, etc.).
 

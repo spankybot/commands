@@ -404,16 +404,10 @@ Available subcommands:
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
-### robac_custom_roles 
-**sterge_rol_nitro**: Șterge rolul nitro creat
+### remote_plugins 
+**igram**: No description provided.
 
-**vreau_rol_nitro**: &lt;nume&gt; #&lt;culoare în hex&gt; - Crează un rol, dacă ai nitro, și ți-l dă ca să te poți lăuda cu el.
-
-**zilepanalabac**: No description provided.
-
-------
-### robac_simulare 
-**particip**: No description provided.
+**tt**: No description provided.
 
 ------
 ### roddit_curs 

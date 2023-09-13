@@ -142,16 +142,6 @@ Available subcommands:
         .firewall mode autokick -&gt; enables autokick for the firewall.
 
 ------
-### giveaway 
-**end_giveaway**: No description provided.
-
-**giveaway_choose**: No description provided.
-
-**giveaway_info**: No description provided.
-
-**run_giveaway**: No description provided.
-
-------
 ### grab 
 **del_grab**: Delete a grab entry. Specify what the grab message contains or the message ID
 
@@ -262,16 +252,6 @@ Available subcommands:
 - `close`: &lt;message link&gt; - Closes poll give in message link
 
 **sanitize_polls**: TODO: clean up polls, fetch unregistered votes
-
-------
-### robac_simulare 
-**admin_participant_simulare**: &lt;code&gt; - Code to search for
-
-**admin_useri_simulare**: No description provided.
-
-**gradare**: &lt;cod&gt; &lt;materie&gt; &lt;nota&gt; - Gradare submisie cu cod specific
-
-**list_note**: &lt;materie&gt; - Cautare toate notele la o materie
 
 ------
 ### roddit_admin 
@@ -396,6 +376,24 @@ Available subcommands:
 **userhistory**: &lt;user&gt; - List confinement reasons for user
 
 **warn**: &lt;user reason&gt; - Warn a user
+
+------
+### twitter 
+**twitter**: Command usage: `.twitter <subcommand>`
+
+Available subcommands:
+
+- `fetch`: Fetch tweets for an account
+
+- `add`: Add a twitter account to the list:
+
+    &lt;account&gt; &lt;channel&gt;
+
+- `remove`: Remove a twitter account from the list:
+
+    &lt;account&gt; &lt;channel&gt;
+
+- `list`: List all accounts
 
 ------
 ### watcher 

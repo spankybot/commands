@@ -408,12 +408,10 @@ Available subcommands:
 **remind**: &lt;period message&gt; - ask the bot to remind you about something in given period (e.g. &#x27;.remind 1h bleh bleh&#x27; sends you &#x27;bleh bleh&#x27; in one hour
 
 ------
-### robac_custom_roles 
-**zilepanalabac**: No description provided.
+### remote_plugins 
+**igram**: No description provided.
 
-------
-### robac_simulare 
-**particip**: No description provided.
+**tt**: No description provided.
 
 ------
 ### roddit_admin 
@@ -524,6 +522,10 @@ Available subcommands:
 **asd**: No description provided.
 
 ------
+### roddit_ramon 
+**ramonify**: No description provided.
+
+------
 ### roddit_roles 
 **vreau_culoare**: Culori
 
@@ -576,6 +578,16 @@ Available subcommands:
 **tag**: &lt;tag&gt; - Return a tag. &#x27;.tag list&#x27; lists tags, &#x27;.tag random&#x27; returns random tag
 
 **tag_add**: &lt;identifier content&gt; - add tag content as indentifier
+
+------
+### temp_role 
+**gatanentule**: Timeout an user:
+
+    timeout @plp 1m - timeouts plp for one minute
+
+    timeout @plp - displays timeout for plp
+
+    If the user is timeouted, the timeout can be modified by issuing the timeout command again.
 
 ------
 ### text 

@@ -142,16 +142,6 @@ Available subcommands:
         .firewall mode autokick -&gt; enables autokick for the firewall.
 
 ------
-### giveaway 
-**end_giveaway**: No description provided.
-
-**giveaway_choose**: No description provided.
-
-**giveaway_info**: No description provided.
-
-**run_giveaway**: No description provided.
-
-------
 ### grab 
 **del_grab**: Delete a grab entry. Specify what the grab message contains or the message ID
 
@@ -258,22 +248,6 @@ Available subcommands:
 - `close`: &lt;message link&gt; - Closes poll give in message link
 
 **sanitize_polls**: TODO: clean up polls, fetch unregistered votes
-
-------
-### robac_custom_roles 
-**list_custom_roles**: No description provided.
-
-**sync_custom_roles**: No description provided.
-
-------
-### robac_simulare 
-**admin_participant_simulare**: &lt;code&gt; - Code to search for
-
-**admin_useri_simulare**: No description provided.
-
-**gradare**: &lt;cod&gt; &lt;materie&gt; &lt;nota&gt; - Gradare submisie cu cod specific
-
-**list_note**: &lt;materie&gt; - Cautare toate notele la o materie
 
 ------
 ### role_selector 
