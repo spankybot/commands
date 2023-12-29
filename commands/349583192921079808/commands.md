@@ -302,6 +302,24 @@ Available subcommands:
     If no user is specified, a sentence will be generated using all user messages.
 
 ------
+### pipe 
+**pipe**: Command usage: `.pipe <subcommand>`
+
+Available subcommands:
+
+- `create`: &lt;name&gt; &lt;description&gt;: Create a new pipe
+
+- `list`: List all pipes
+
+- `delete`: &lt;name&gt;: Delete a pipe
+
+- `trigger <subcommand>`: Available subcommands:
+> - `list`: List all triggers
+
+- `action <subcommand>`: Available subcommands:
+> - `list`: List all actions
+
+------
 ### plugin_dogpile 
 **g**: &lt;query&gt; - Search for a link.
 
@@ -355,7 +373,47 @@ Available subcommands:
 
 ------
 ### roddit_inactive 
-**asd**: No description provided.
+**inactive**: Command usage: `.inactive <subcommand>`
+
+Available subcommands:
+
+- `manual_run`: Run the inactive check manually.
+
+- `force_user`: Force a user to be marked as inactive.
+
+- `tutorial`: No description provided.
+
+- `timeout <subcommand>`: Available subcommands:
+> - `set`: Set the timeout for inactive users: 1d, 1h, 1m, 1s or a combination of those.
+> - `remove`: Remove the timeout for inactive users.
+> - `list`: List the timeout for inactive users.
+
+- `notify_chan <subcommand>`: Available subcommands:
+> - `set`: Set the channel where notifications are sent when a user is marked as inactive or active.
+> - `remove`: Remove the channel where notifications are sent when a user is marked as inactive or active.
+> - `list`: List the channel where notifications are sent when a user is marked as inactive or active.
+
+- `addable <subcommand>`: Available subcommands:
+> - `add`: Add a role to the list of roles to be added when a user is marked as inactive.
+> - `remove`: Remove a role from the list of roles to be added when a user is marked as inactive.
+> - `list`: List all roles that are added when a user is marked as inactive.
+
+- `removable <subcommand>`: Available subcommands:
+> - `add`: Add a role to the list of roles to be removed when a user is marked as inactive.
+> - `remove`: Remove a role from the list of roles to be removed when a user is marked as inactive.
+> - `list`: List all roles that are removed when a user is marked as inactive.
+
+- `user_notify_chan <subcommand>`: Available subcommands:
+> - `set`: Set the channel where the user is pinged when marked as active.
+> - `remove`: Remove the channel where the user is pinged.
+> - `list`: List the channel where the user is pinged.
+
+- `explain`: Explain the settings.
+
+- `activity <subcommand>`: Available subcommands:
+> - `breakdown`: Produces a report of the activity of users.
+> - `users`: Produces a report of the activity of users.
+> - `users_kick`: No description provided.
 
 ------
 ### shorten 
@@ -366,6 +424,32 @@ Available subcommands:
     or unshortens &lt;url&gt; if already short
 
 **shorten**: &lt;url&gt; [custom] - shortens a url with [custom] as an optional custom shortlink
+
+------
+### spamfun 
+**bang**: Bang bang.
+
+**spamfun**: Command usage: `.spamfun <subcommand>`
+
+Available subcommands:
+
+- `chan_set`: Set the channel to spam in.
+
+- `chan_unset`: Unset the channel to spam in.
+
+- `chan_get`: Get the channel to spam in.
+
+- `start_trivia`: Start trivia.
+
+- `duckhunt_start`: Start duck hunt.
+
+- `duckhunt_stop`: Stop duck hunt.
+
+- `duckhunt_get`: Get duck hunt.
+
+- `emit_duck`: Emit a duck.
+
+- `duck_score`: Get duck score.
 
 ------
 ### spank 

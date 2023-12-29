@@ -244,6 +244,10 @@ Available subcommands:
 **sanitize_polls**: TODO: clean up polls, fetch unregistered votes
 
 ------
+### roddit_inactive 
+**inactive_selector**: Generate channel selector
+
+------
 ### role_selector 
 **selectors**: Command usage: `.selectors <subcommand>`
 
@@ -274,8 +278,6 @@ Available subcommands:
 ------
 ### say 
 **say**: &lt;channel message&gt; - Send a message to a channel
-
-**say_pm**: &lt;user message&gt; - Send a message to an user.
 
 ------
 ### selector 

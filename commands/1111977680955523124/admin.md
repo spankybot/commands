@@ -196,6 +196,10 @@ Available subcommands:
 **sanitize_polls**: TODO: clean up polls, fetch unregistered votes
 
 ------
+### roddit_inactive 
+**inactive_selector**: Generate channel selector
+
+------
 ### role_selector 
 **selectors**: Command usage: `.selectors <subcommand>`
 
@@ -226,8 +230,6 @@ Available subcommands:
 ------
 ### say 
 **say**: &lt;channel message&gt; - Send a message to a channel
-
-**say_pm**: &lt;user message&gt; - Send a message to an user.
 
 ------
 ### selector 
@@ -302,6 +304,8 @@ Available subcommands:
 ------
 ### womenro_admin 
 **get_auto_member**: No description provided.
+
+**mb**: No description provided.
 
 **set_auto_member**: Set auto valoare to a timeout value (e.g. 10h - 10 hours, 100d - 100 days, etc.).
 
