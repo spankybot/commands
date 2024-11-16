@@ -379,8 +379,6 @@ Available subcommands:
 
 **horoscop3_set**: No description provided.
 
-**testmod**: No description provided.
-
 ------
 ### roddit_inactive 
 **inactive**: Command usage: `.inactive <subcommand>`
