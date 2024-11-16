@@ -50,10 +50,6 @@ Admin commands:
 **trigger_check**: No description provided.
 
 ------
-### chatgpt 
-**cbot_refresh_all**: No description provided.
-
-------
 ### cmd_owner_hook 
 **admin_config**: Command usage: `.admin_config <subcommand>`
 

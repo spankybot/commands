@@ -38,10 +38,6 @@ Admin commands:
 **set_server_banner**: Sets the server banner to a given URL
 
 ------
-### chatgpt 
-**cbot_refresh_all**: No description provided.
-
-------
 ### cmd_owner_hook 
 **admin_config**: Command usage: `.admin_config <subcommand>`
 
@@ -196,6 +192,10 @@ Available subcommands:
 **sanitize_polls**: TODO: clean up polls, fetch unregistered votes
 
 ------
+### roddit_inactive 
+**inactive_selector**: Generate channel selector
+
+------
 ### role_selector 
 **selectors**: Command usage: `.selectors <subcommand>`
 
@@ -226,8 +226,6 @@ Available subcommands:
 ------
 ### say 
 **say**: &lt;channel message&gt; - Send a message to a channel
-
-**say_pm**: &lt;user message&gt; - Send a message to an user.
 
 ------
 ### selector 

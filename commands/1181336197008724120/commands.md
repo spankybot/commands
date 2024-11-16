@@ -36,14 +36,6 @@ Bot commands:
 **bible**: &lt;passage&gt; - Prints the specified passage from the Bible
 
 ------
-### blackmirror_roles 
-**charlie**: Assign a role
-
-**nocharlie**: Unassign a role
-
-**verified**: Get server access rights
-
-------
 ### bot_admin_system 
 **about**: Get about.
 
@@ -432,6 +424,18 @@ Available subcommands:
 > - `breakdown`: Produces a report of the activity of users.
 > - `users`: Produces a report of the activity of users.
 > - `users_kick`: No description provided.
+
+------
+### role_selector 
+**Emoji**: selector command as defined by server ops.
+
+**Gender**: selector command as defined by server ops.
+
+**Orașe**: selector command as defined by server ops.
+
+**Roluri**: selector command as defined by server ops.
+
+**Zodie**: selector command as defined by server ops.
 
 ------
 ### shorten 

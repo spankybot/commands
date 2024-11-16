@@ -38,10 +38,6 @@ Admin commands:
 **set_server_banner**: Sets the server banner to a given URL
 
 ------
-### chatgpt 
-**cbot_refresh_all**: No description provided.
-
-------
 ### cmd_owner_hook 
 **admin_config**: Command usage: `.admin_config <subcommand>`
 

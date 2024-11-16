@@ -58,20 +58,8 @@ Bot commands:
 **coa**: &lt;text&gt; - talk to CleverBot
 
 ------
-### chatgpt 
-**cbot**: No description provided.
-
-**cbot_refresh**: No description provided.
-
-**cbot_reset**: No description provided.
-
-------
 ### cheer 
 **cheer**: :type chan: str
-
-------
-### cmd_owner_hook 
-**uresc**: No description provided.
 
 ------
 ### corona 
@@ -170,6 +158,14 @@ Bot commands:
 ------
 ### help 
 **help**: Get help for a command or the help document
+
+------
+### igen 
+**igen**: Command usage: `.igen <subcommand>`
+
+Available subcommands:
+
+- `t2i`: &lt;prompt&gt; &lt;negative_prompt&gt; - Generate an image from text. Use quotes if you want to use spaces in the prompt.
 
 ------
 ### imdb 
@@ -304,6 +300,12 @@ Available subcommands:
 **wisdom**: - words of wisdom from various bathroom stalls.
 
 ------
+### llm 
+**llm**: No description provided.
+
+**llm_reset**: Reset the chat history
+
+------
 ### lurve 
 **lurve**: lurves all over &lt;user&gt;
 
@@ -393,6 +395,18 @@ Available subcommands:
 ### roddit_horoscop 
 **horoscop**: horoscop &lt;zodie&gt; - Afișează horoscopul unei zodii
 
+**horoscop2**: horoscop2 &lt;zodie&gt; - Afișează horoscopul unei zodii
+
+**horoscop3**: &lt;zodie&gt;
+
+**horoscop3_get**: No description provided.
+
+**horoscop3_reset**: No description provided.
+
+**horoscop3_set**: No description provided.
+
+**testmod**: No description provided.
+
 ------
 ### roddit_inactive 
 **inactive**: Command usage: `.inactive <subcommand>`
@@ -460,8 +474,6 @@ Available subcommands:
 - `chan_unset`: Unset the channel to spam in.
 
 - `chan_get`: Get the channel to spam in.
-
-- `start_trivia`: Start trivia.
 
 - `duckhunt_start`: Start duck hunt.
 
